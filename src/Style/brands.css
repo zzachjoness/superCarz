@@ -1,7 +1,15 @@
+#brand-title {
+	display: flex;
+	margin: 2rem;
+	font-family: "Kaisei HarunoUmi", serif;
+	font-weight: 500; /* 700,500,400 */
+}
 #brand-list {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 2rem;
 }
 #brand-list-child {
 	color: seagreen;

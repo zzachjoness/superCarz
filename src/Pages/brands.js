@@ -2,7 +2,7 @@ import React from "react";
 import brands from "../Data/brands";
 import "../Style/brands.css";
 
-const Home = () => {
+const Brands = () => {
 	console.log(brands[0]);
 	const brandsList = brands.map((brand, index) => (
 		<div id="brand-list-child" key={index}>
@@ -11,10 +11,10 @@ const Home = () => {
 	));
 	return (
 		<div>
-			<h2>Brandz</h2>
+			<h2 id="brand-title">Brandz</h2>
 			<div id="brand-list">{brandsList}</div>
 		</div>
 	);
 };
 
-export default Home;
+export default Brands;
