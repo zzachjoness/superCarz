@@ -12,8 +12,10 @@ const NavigationBar = () => {
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="me-auto">
+						<Nav.Link href="#gasoline">Gasoline</Nav.Link>
+						<Nav.Link href="#electric">Electric</Nav.Link>
+						<Nav.Link href="#hybrid">Hybrid</Nav.Link>
 						<Nav.Link href="#brands">Brandz</Nav.Link>
-						<Nav.Link href="#cars">Carz</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
 			</Container>

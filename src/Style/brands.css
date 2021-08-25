@@ -1,0 +1,10 @@
+#brand-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#brand-list-child {
+	color: blue;
+	width: 20rem;
+	height: 10rem;
+}
