@@ -1,7 +1,7 @@
 #navbar-brand {
 	font-family: "Kaisei HarunoUmi", serif;
 	font-weight: 500; /* 700,500,400 */
-	font-size: 2.5rem;
+	font-size: 2rem;
 	align-self: center;
 	padding: 0px 10px;
 	height: 65px;
@@ -9,13 +9,11 @@
 #navbar-links {
 	font-family: "Kaisei HarunoUmi", serif;
 	font-weight: 400; /* 700,500,400 */
-	font-size: 1.5rem;
-	align-self: center;
-	flex-direction: column;
+	font-size: 1.2rem;
 }
 
 #navbar-link {
-	padding: 0px 10px;
+	padding: 15px 10px;
 	height: 65px;
 	align-self: center;
 }

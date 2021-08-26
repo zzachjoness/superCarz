@@ -1,8 +1,14 @@
+#brand-background {
+	height: 100%;
+}
+
 #brand-title {
 	display: flex;
-	margin: 2rem;
+	padding: 2rem;
+	font-size: 1.5rem;
 	font-family: "Kaisei HarunoUmi", serif;
 	font-weight: 500; /* 700,500,400 */
+	color: rgb(6, 68, 0);
 }
 #brand-list {
 	display: flex;
@@ -12,7 +18,7 @@
 	margin: 2rem;
 }
 #brand-list-child {
-	color: seagreen;
+	color: rgb(6, 68, 0);
 	width: 20rem;
 	height: 10rem;
 }

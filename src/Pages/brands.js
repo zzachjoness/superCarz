@@ -10,7 +10,7 @@ const Brands = () => {
 		</div>
 	));
 	return (
-		<div>
+		<div id="brand-background">
 			<h2 id="brand-title">Brandz</h2>
 			<div id="brand-list">{brandsList}</div>
 		</div>
