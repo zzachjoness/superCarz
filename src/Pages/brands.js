@@ -1,12 +1,12 @@
 import React from "react";
-import brands from "../Data/brands";
+import brandPhotos from "../Data/brandPhotos";
 import "../Style/brands.css";
 
 const Brands = () => {
-	console.log(brands[0]);
-	const brandsList = brands.map((brand, index) => (
+	const brandsList = brandPhotos.map((brand, index) => (
 		<div id="brand-list-child" key={index}>
-			{brand}
+			<div id="brand-list-child-title">{brand.name}</div>
+			<img id="brand-list-child-image" src={brand.image} alt={brand.name} />
 		</div>
 	));
 	return (
