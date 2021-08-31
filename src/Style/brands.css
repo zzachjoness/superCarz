@@ -4,7 +4,7 @@
 
 #brand-title {
 	display: flex;
-	padding: 2rem;
+	padding: 2rem 2rem 1rem 2rem;
 	font-size: 1.5rem;
 	font-family: "Kaisei HarunoUmi", serif;
 	font-weight: 500; /* 700,500,400 */
@@ -15,7 +15,7 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: flex-start;
-	margin: 2rem;
+	margin: 0rem 2rem;
 	border: black 1rem;
 }
 
@@ -24,12 +24,14 @@
 	flex-direction: column;
 	width: 20rem;
 	height: 12rem;
+	margin: 2rem 1rem;
 }
 #brand-list-child-title {
 	color: rgb(6, 68, 0);
 }
 
 #brand-list-child-image {
+	max-width: 14rem;
 	max-height: 10rem;
 	align-self: flex-start;
 }
