@@ -23,6 +23,7 @@ import Renault from "../Images/brands/renault.png";
 import RR from "../Images/brands/RR.png";
 import Tesla from "../Images/brands/tesla.png";
 import Toyota from "../Images/brands/toyota.png";
+//update
 
 const brandsWithPhotos = [
 	{ name: "Acura", image: acura },
