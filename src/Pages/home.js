@@ -1,10 +1,12 @@
 import React from "react";
+import BackgroundImage from "../Images/background.jpg";
 import "../Style/home.css";
 
 const Home = () => {
 	return (
-		<div>
-			<h1>Home...</h1>
+		<div id="background-container">
+			<img src={BackgroundImage} id="background-image" alt="background" />
+			<h1 id="background-text">The Galaxy's Fastest Carz.</h1>
 		</div>
 	);
 };

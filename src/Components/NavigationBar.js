@@ -9,7 +9,7 @@ import "../Style/navbar.css";
 
 const NavigationBar = () => {
 	const Navi = () => (
-		<Navbar bg="light" expand="lg">
+		<Navbar id="navbar-container" expand="lg">
 			<Container>
 				<LinkContainer to="/">
 					<Navbar.Brand id="navbar-brand">SuperCarz</Navbar.Brand>

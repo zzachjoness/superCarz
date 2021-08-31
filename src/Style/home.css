@@ -1,0 +1,22 @@
+#background-container {
+	height: 100%;
+	top: 5rem;
+	position: relative;
+}
+#background-image {
+	max-width: 100%;
+}
+
+#background-text {
+	font-family: "Work Sans", sans-serif;
+	font-weight: 800;
+	position: absolute;
+	box-sizing: content-box;
+	color: black;
+	letter-spacing: 0.1rem;
+	line-height: 6.5rem;
+	width: 52rem;
+	font-size: 8rem;
+	top: 2rem;
+	left: 4rem;
+}

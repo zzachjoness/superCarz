@@ -1,8 +1,8 @@
-import acura from "../Images/brands/acura.png";
-import AM from "../Images/brands/AM.png";
+import Acura from "../Images/brands/acura.png";
+import Am from "../Images/brands/AM.png";
 import Audi from "../Images/brands/Audi.png";
 import Bently from "../Images/brands/bently.png";
-import BMW from "../Images/brands/bmw.png";
+import Bmw from "../Images/brands/bmw.png";
 import Bugatti from "../Images/brands/bugatti.png";
 import Ferrari from "../Images/brands/ferrari.png";
 import Ford from "../Images/brands/ford.png";
@@ -14,23 +14,22 @@ import Lancia from "../Images/brands/lancia.png";
 import Lexus from "../Images/brands/lexus.png";
 import Lotus from "../Images/brands/lotus.png";
 import Maserati from "../Images/brands/maserati.png";
-import MB from "../Images/brands/mb.png";
+import Mb from "../Images/brands/mb.png";
 import Mclaren from "../Images/brands/mclaren.png";
 import Nissan from "../Images/brands/nissan.png";
 import Pagani from "../Images/brands/pagani.png";
 import Porsche from "../Images/brands/porsche.png";
 import Renault from "../Images/brands/renault.png";
-import RR from "../Images/brands/RR.png";
+import Rr from "../Images/brands/RR.png";
 import Tesla from "../Images/brands/tesla.png";
 import Toyota from "../Images/brands/toyota.png";
-//update
 
 const brandsWithPhotos = [
-	{ name: "Acura", image: acura },
-	{ name: "Aston Martin", image: AM },
+	{ name: "Acura", image: Acura },
+	{ name: "Aston Martin", image: Am },
 	{ name: "Audi", image: Audi },
 	{ name: "Bently", image: Bently },
-	{ name: "BMW", image: BMW },
+	{ name: "BMW", image: Bmw },
 	{ name: "Bugatti", image: Bugatti },
 	{ name: "Ferrari", image: Ferrari },
 	{ name: "Ford", image: Ford },
@@ -43,14 +42,14 @@ const brandsWithPhotos = [
 	{ name: "Lotus", image: Lotus },
 	{ name: "Maserati", image: Maserati },
 	{ name: "Mclaren", image: Mclaren },
-	{ name: "Merceds Benz", image: MB },
+	{ name: "Merceds Benz", image: Mb },
 	{ name: "Mclaren", image: Mclaren },
 	{ name: "Mclaren", image: Mclaren },
 	{ name: "Nissan", image: Nissan },
 	{ name: "Pagani", image: Pagani },
 	{ name: "Porsche", image: Porsche },
 	{ name: "Renautl", image: Renault },
-	{ name: "Rolls-Royce", image: RR },
+	{ name: "Rolls-Royce", image: Rr },
 	{ name: "Tesla", image: Tesla },
 	{ name: "Toyota", image: Toyota },
 ];
