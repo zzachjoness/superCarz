@@ -8,15 +8,28 @@
 }
 
 #background-text {
-	font-family: "Work Sans", sans-serif;
-	font-weight: 800;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 700;
 	position: absolute;
 	box-sizing: content-box;
 	color: black;
 	letter-spacing: 0.1rem;
-	line-height: 6.5rem;
-	width: 52rem;
+	line-height: 7rem;
+	width: 51rem;
 	font-size: 8rem;
 	top: 2rem;
 	left: 4rem;
+	user-select: none;
+}
+
+#home-button {
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 600;
+	font-size: 2rem;
+	letter-spacing: 0.1rem;
+	position: absolute;
+	height: 4rem;
+	width: 12rem;
+	top: 25rem;
+	left: 7rem;
 }

@@ -6,7 +6,7 @@
 	z-index: 999;
 }
 #navbar-brand {
-	font-family: "Work Sans", sans-serif;
+	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 600; /* 700,500,400 */
 	font-size: 3rem;
 	/*color: rgba(101, 25, 4, 1); */
@@ -15,7 +15,7 @@
 	padding: 0px 10px;
 }
 #navbar-links {
-	font-family: "Work Sans", sans-serif;
+	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 400; /* 700,500,400 */
 	font-size: 1.5rem;
 }

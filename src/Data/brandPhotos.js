@@ -43,8 +43,6 @@ const brandsWithPhotos = [
 	{ name: "Maserati", image: Maserati },
 	{ name: "Mclaren", image: Mclaren },
 	{ name: "Merceds Benz", image: Mb },
-	{ name: "Mclaren", image: Mclaren },
-	{ name: "Mclaren", image: Mclaren },
 	{ name: "Nissan", image: Nissan },
 	{ name: "Pagani", image: Pagani },
 	{ name: "Porsche", image: Porsche },
