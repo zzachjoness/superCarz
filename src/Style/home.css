@@ -5,6 +5,7 @@
 }
 #background-image {
 	max-width: 100%;
+	z-index: -2;
 }
 
 #background-text {
@@ -12,10 +13,11 @@
 	font-weight: 700;
 	position: absolute;
 	box-sizing: content-box;
-	color: black;
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.966);
 	letter-spacing: 0.1rem;
-	line-height: 7rem;
-	width: 51rem;
+	line-height: 7.5rem;
+	width: 75rem;
 	font-size: 8rem;
 	top: 2rem;
 	left: 4rem;
@@ -23,13 +25,33 @@
 }
 
 #home-button {
+	display: block;
 	font-family: "Helvetica", "Arial", sans-serif;
-	font-weight: 600;
-	font-size: 2rem;
+	font-weight: 700;
+	font-size: 2.5rem;
+	text-decoration: none;
 	letter-spacing: 0.1rem;
+	color: rgba(0, 0, 0, 1);
+	text-align: center;
 	position: absolute;
-	height: 4rem;
-	width: 12rem;
-	top: 25rem;
-	left: 7rem;
+	line-height: 5rem;
+	height: 6rem;
+	width: 18rem;
+	border: 0.4rem solid rgba(0, 0, 0, 1);
+	top: 19.5rem;
+	left: 5rem;
+	border-radius: 9rem;
+	background: rgba(255, 23, 6, 0.35);
+	backdrop-filter: blur(0.5rem);
+}
+
+#home-button:active {
+	position: absolute;
+	top: 19.8rem;
+	left: 5rem;
+}
+
+*/ :active,
+:focus {
+	outline: 0;
 }
