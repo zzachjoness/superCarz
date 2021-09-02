@@ -4,13 +4,14 @@
 
 #brand-title {
 	display: flex;
-	padding: 2rem 2rem 1rem 2rem;
+	padding: 6rem 2rem 0rem 2rem;
 	font-size: 1.5rem;
-	font-family: "Kaisei HarunoUmi", serif;
+	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 500; /* 700,500,400 */
 	color: rgb(6, 68, 0);
 }
 #brand-list {
+	font-family: "Helvetica", "Arial", sans-serif;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -29,9 +30,9 @@
 #brand-list-child-title {
 	color: rgb(6, 68, 0);
 }
-
+#brand-list-child-image-container {
+}
 #brand-list-child-image {
 	max-width: 14rem;
 	max-height: 10rem;
-	align-self: flex-start;
 }

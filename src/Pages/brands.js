@@ -6,7 +6,9 @@ const Brands = () => {
 	const brandsList = brandPhotos.map((brand, index) => (
 		<div id="brand-list-child" key={index}>
 			<div id="brand-list-child-title">{brand.name}</div>
-			<img id="brand-list-child-image" src={brand.image} alt={brand.name} />
+			<div id="brand-list-child-image-container">
+				<img id="brand-list-child-image" src={brand.image} alt={brand.name} />
+			</div>
 		</div>
 	));
 	return (
