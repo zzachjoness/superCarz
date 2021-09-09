@@ -55,13 +55,13 @@
 @keyframes extend {
 	100% {
 		width: 10rem;
-		background: rgba(183, 52, 8, 1);
+		background: rgba(183, 52, 8, 0.8);
 	}
 }
 @keyframes retract {
 	0% {
 		width: 10rem;
-		background: rgba(183, 52, 8, 1);
+		background: rgba(183, 52, 8, 0.8);
 	}
 	100% {
 		width: 5rem;
