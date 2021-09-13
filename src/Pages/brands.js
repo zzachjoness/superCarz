@@ -7,11 +7,6 @@ const Brands = () => {
 	const [spinner, setSpinner] = useState(true);
 	const [test, setTest] = useState([]);
 
-	useEffect(() => {
-		setTimeout(() => setSpinner(false), 10000);
-		setTest(brandsList);
-	}, []);
-
 	const printSelection = () => {
 		console.log("clicked: ", selectedBrand);
 	};
@@ -34,12 +29,17 @@ const Brands = () => {
 		</div>
 	));
 
-	const displaySpinner = <div>hi</div>;
-
+	const displaySpinner = <div>spinny</div>;
+	useEffect(() => {
+		setTest(brandsList);
+		setTimeout(() => setSpinner(false), 4000);
+	}, []);
 	return (
 		<div>
 			{spinner ? (
-				<div>{displaySpinner}</div>
+				<div id="brand-background">
+					<h2 id="brand-spinner">{displaySpinner}</h2>
+				</div>
 			) : (
 				<div id="brand-background">
 					<h2 id="brand-title">Brandz</h2>

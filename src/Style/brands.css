@@ -11,6 +11,11 @@
 	color: rgb(6, 68, 0);
 	user-select: none;
 }
+#brand-spinner {
+	display: flex;
+	padding: 6rem 2rem 0rem 2rem;
+	margin: 0rem 2rem;
+}
 #brand-list {
 	font-family: "Helvetica", "Arial", sans-serif;
 	display: flex;
