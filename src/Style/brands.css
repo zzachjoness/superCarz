@@ -11,13 +11,24 @@
 	color: rgb(6, 68, 0);
 	user-select: none;
 }
-#brand-spinner {
+#brand-spinner-container {
 	display: flex;
-	padding: 6rem 2rem 0rem 2rem;
-	margin: 0rem 2rem;
+	position: fixed;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	z-index: 99;
+	background-color: rgb(0, 0, 0);
 }
+#brand-spinner {
+	color: white;
+	position: absolute;
+	margin: 5rem;
+}
+
 #brand-list {
 	font-family: "Helvetica", "Arial", sans-serif;
+	position: absolute;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;

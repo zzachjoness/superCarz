@@ -1,22 +1,21 @@
 import React, { useState, useEffect } from "react";
 import brandPhotos from "../Data/brandPhotos";
 import "../Style/brands.css";
+import Spinner from "../Components/Spinner";
 
 const Brands = () => {
-	const [selectedBrand, setSelectedBrands] = useState(null);
-	const [spinner, setSpinner] = useState(true);
-	const [test, setTest] = useState([]);
+	//const [selectedBrand, setSelectedBrands] = useState(null);
 
-	const printSelection = () => {
-		console.log("clicked: ", selectedBrand);
+	const printSelection = (brand) => {
+		console.log("clicked: ", brand);
 	};
 	const brandsList = brandPhotos.map((brand, index) => (
 		<div
 			id="brand-list-child"
 			key={index}
 			onClick={() => {
-				setSelectedBrands(brand);
-				printSelection();
+				//setSelectedBrands(brand);
+				printSelection(brand);
 			}}
 		>
 			<div id="brand-list-child-title">{brand.name}</div>
@@ -29,23 +28,15 @@ const Brands = () => {
 		</div>
 	));
 
-	const displaySpinner = <div>spinny</div>;
-	useEffect(() => {
-		setTest(brandsList);
-		setTimeout(() => setSpinner(false), 4000);
-	}, []);
 	return (
 		<div>
-			{spinner ? (
-				<div id="brand-background">
-					<h2 id="brand-spinner">{displaySpinner}</h2>
+			<Spinner />
+			<div id="brand-background">
+				<h2 id="brand-title">Brandz</h2>
+				<div id="brand-list" onLoad={console.log("loaded DOM")}>
+					{brandsList}
 				</div>
-			) : (
-				<div id="brand-background">
-					<h2 id="brand-title">Brandz</h2>
-					<div id="brand-list">{test}</div>
-				</div>
-			)}
+			</div>
 		</div>
 	);
 };
