@@ -1,16 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
 import "../Style/brandSelected.css";
+import BrandContext from "../Components/Context/BrandContext";
+import brandsWithPhotos from "../Data/brandPhotos";
 
-const BrandSelected = () => {
+const BrandSelected = (props) => {
+	const { selectedBrandId } = useContext(BrandContext);
 	let { selectedBrand } = useParams();
+	const brand = brandsWithPhotos[selectedBrandId];
+	console.log("props: ", props);
 	return (
-		<div
-			id="brand-selected-background"
-			onLoad={console.log("brand loaded", selectedBrand)}
-		>
-			<h2 id="brand-selcted-title">{selectedBrand}</h2>
-			<div id="brand-list" onLoad={console.log("loaded brand DOM")}></div>
+		<div>
+			<div id="brand-selected-background" onLoad={console.log("brand: ", brand)}>
+				<h2 id="brand-selected-title">{selectedBrand}</h2>
+			</div>
 		</div>
 	);
 };

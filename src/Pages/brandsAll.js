@@ -1,22 +1,22 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useRouteMatch } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import Spinner from "../Components/Spinner";
 import brandPhotos from "../Data/brandPhotos";
+import BrandContext from "../Components/Context/BrandContext";
 import "../Style/brandsLanding.css";
 
 const BrandsAll = () => {
+	const { setSelectedBrandId } = useContext(BrandContext);
 	let { path, url } = useRouteMatch();
-	const printSelection = (brand) => {
-		console.log("clicked: ", brand);
-	};
 	const brandsList = brandPhotos.map((brand, index) => (
-		<LinkContainer to={`${url}/${brand.name}`} key={index}>
+		<LinkContainer to={`${url}/${brand.name}`} key={brand.id}>
 			<div
 				id="brand-list-child"
 				key={index}
 				onClick={() => {
-					printSelection(brand);
+					setSelectedBrandId(brand.id);
+					console.log("brand id", brand.id);
 				}}
 			>
 				<div id="brand-list-child-title">{brand.name}</div>
