@@ -1,12 +1,11 @@
-import React, { useState, useEffect } from "react";
-import { Link, Route, Switch, useRouteMatch } from "react-router-dom";
+import React from "react";
+import { useRouteMatch } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import Spinner from "../Components/Spinner";
 import brandPhotos from "../Data/brandPhotos";
-import "../Style/brands.css";
+import "../Style/brandsLanding.css";
 
-const Brands = () => {
-	//const [selectedBrand, setSelectedBrands] = useState(null);
+const BrandsAll = () => {
 	let { path, url } = useRouteMatch();
 	const printSelection = (brand) => {
 		console.log("clicked: ", brand);
@@ -17,7 +16,6 @@ const Brands = () => {
 				id="brand-list-child"
 				key={index}
 				onClick={() => {
-					//setSelectedBrands(brand);
 					printSelection(brand);
 				}}
 			>
@@ -27,6 +25,10 @@ const Brands = () => {
 					src={brand.image}
 					alt={brand.name}
 					onLoad={console.log("loaded: ", { brand })}
+					onClick={() => {
+						console.log("path: ", path);
+						console.log("url: ", url);
+					}}
 				/>
 			</div>
 		</LinkContainer>
@@ -45,4 +47,4 @@ const Brands = () => {
 	);
 };
 
-export default Brands;
+export default BrandsAll;

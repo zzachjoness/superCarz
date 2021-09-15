@@ -43,6 +43,7 @@
 	width: 20rem;
 	height: 12rem;
 	margin: 2rem 1rem;
+	cursor: pointer;
 }
 #brand-list-child-title {
 	color: rgb(6, 68, 0);

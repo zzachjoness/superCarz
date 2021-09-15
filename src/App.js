@@ -1,6 +1,6 @@
 import NavigationBar from "./Components/NavigationBar";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Brands from "./Pages/brands";
+import BrandsLanding from "./Pages/brandsLanding";
 import Home from "./Pages/home";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 
@@ -11,7 +11,7 @@ function App() {
 				<NavigationBar />
 				<Switch>
 					<Route path="/" exact component={Home} />
-					<Route path="/brands" exact component={Brands} />
+					<Route path="/brands" component={BrandsLanding} />
 				</Switch>
 			</div>
 		</BrowserRouter>

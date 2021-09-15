@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
-import "../Style/brands.css";
+import "../Style/brandsLanding.css";
 
 const Spinner = () => {
 	const [spinner, setSpinner] = useState(true);
+	const seconds = 1.5;
 	useEffect(() => {
 		console.log("used effected");
-		setTimeout(() => setSpinner(false), 3000);
+		setTimeout(() => setSpinner(false), seconds * 1000);
 	}, []);
 
 	return (
