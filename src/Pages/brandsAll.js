@@ -16,7 +16,6 @@ const BrandsAll = () => {
 				key={index}
 				onClick={() => {
 					setSelectedBrandId(brand.id);
-					console.log("brand id", brand.id);
 				}}
 			>
 				<div id="brand-list-child-title">{brand.name}</div>
@@ -24,7 +23,6 @@ const BrandsAll = () => {
 					id="brand-list-child-image"
 					src={brand.image}
 					alt={brand.name}
-					onLoad={console.log("loaded: ", { brand })}
 					onClick={() => {
 						console.log("path: ", path);
 						console.log("url: ", url);

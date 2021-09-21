@@ -33,7 +33,7 @@ const brandsWithPhotos = [
 		headquarters: "Torrance, California, USA",
 		parent: "Honda",
 		type: "Division",
-		website: "www.acura.com",
+		website: "https://www.acura.com",
 	},
 	{
 		id: 1,
@@ -43,7 +43,7 @@ const brandsWithPhotos = [
 		headquarters: "Gaydon, Warwickshire, England, UK",
 		parent: "",
 		type: "Public limited Company",
-		website: "www.astonmartinlagonda.com",
+		website: "https://www.astonmartinlagonda.com",
 	},
 	{
 		id: 2,
@@ -53,7 +53,7 @@ const brandsWithPhotos = [
 		headquarters: "Ingolstadt, Germany",
 		parent: "Volkswagen AG",
 		type: "Subsidiary",
-		website: "www.audi.com",
+		website: "https://www.audi.com",
 	},
 	{
 		id: 3,
@@ -63,7 +63,7 @@ const brandsWithPhotos = [
 		headquarters: "Crewe, England, UK",
 		parent: "Volkswagen AG",
 		type: "Subsidiary",
-		website: "www.bentleymotors.com",
+		website: "https://www.bentleymotors.com",
 	},
 	{
 		id: 4,
@@ -73,7 +73,7 @@ const brandsWithPhotos = [
 		headquarters: "Munich, Germany",
 		parent: "",
 		type: "Public",
-		website: "www.bmwgroup.com",
+		website: "https://www.bmwusa.com",
 	},
 	{
 		id: 5,
@@ -83,7 +83,7 @@ const brandsWithPhotos = [
 		headquarters: "Molsheim, Alsace, France",
 		parent: "Volkswagen AG",
 		type: "Subsidiary",
-		website: "www.bugatti.com",
+		website: "https://www.bugatti.com",
 	},
 	{
 		id: 6,
@@ -237,7 +237,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 21,
-		name: "Renautl",
+		name: "Renault",
 		image: Renault,
 		founded: "",
 		headquarters: "",
@@ -253,7 +253,7 @@ const brandsWithPhotos = [
 		headquarters: "Goodwood, West Sussex, England, UK",
 		parent: "BMW",
 		type: "",
-		website: "rolls-roycemotorcars.com",
+		website: "https://www.rolls-roycemotorcars.com",
 	},
 	{
 		id: 23,
