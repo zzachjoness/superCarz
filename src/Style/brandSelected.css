@@ -1,14 +1,40 @@
 #brand-selected-background {
-	height: 20rem;
 	background-color: black;
-}
-
-#brand-selected-title {
 	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+}
+#brand-selected-back-button {
+	padding: 10rem 2rem 0rem 2rem;
+	font-size: 1.5rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 500; /* 700,500,400 */
+	color: white;
+}
+#brand-selected-title-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+#brand-selected-title {
 	padding: 8rem 2rem 0rem 2rem;
 	font-size: 1.5rem;
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 500; /* 700,500,400 */
 	color: white;
+	user-select: none;
+}
+
+#brand-selected-image {
+	max-width: 10rem;
+}
+
+#brand-selected-data {
+	color: white;
+	padding: 0rem 0rem 1rem 3rem;
+	font-size: 1.5rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 500; /* 700,500,400 */
 	user-select: none;
 }

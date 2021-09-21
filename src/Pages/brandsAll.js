@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { useRouteMatch } from "react-router-dom";
+import { useRouteMatch, useHistory, useLocation } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import Spinner from "../Components/Spinner";
 import brandPhotos from "../Data/brandPhotos";
@@ -9,6 +9,10 @@ import "../Style/brandsLanding.css";
 const BrandsAll = () => {
 	const { setSelectedBrandId } = useContext(BrandContext);
 	let { path, url } = useRouteMatch();
+	const history = useHistory();
+	const location = useLocation();
+	console.log("location: ", location);
+	console.log("history: ", history);
 	const brandsList = brandPhotos.map((brand, index) => (
 		<LinkContainer to={`${url}/${brand.name}`} key={brand.id}>
 			<div
@@ -34,7 +38,7 @@ const BrandsAll = () => {
 
 	return (
 		<div>
-			<Spinner />
+			{history.action === "PUSH" ? <Spinner /> : null}
 			<div id="brand-background">
 				<h2 id="brand-title">Brandz</h2>
 				<div id="brand-list" onLoad={console.log("loaded DOM")}>

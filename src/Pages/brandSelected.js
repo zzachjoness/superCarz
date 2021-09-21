@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { useParams, useHistory, useLocation } from "react-router-dom";
+import { LinkContainer } from "react-router-bootstrap";
 import "../Style/brandSelected.css";
 import BrandContext from "../Components/Context/BrandContext";
 import brandsWithPhotos from "../Data/brandPhotos";
@@ -9,7 +10,7 @@ const BrandSelected = (props) => {
 	const { selectedBrandId } = useContext(BrandContext);
 	let { selectedBrand } = useParams();
 	let { inputBrand } = useLocation();
-	let { history } = useHistory();
+	let history = useHistory();
 	const brand = selectedBrandId
 		? brandsWithPhotos[selectedBrandId]
 		: brandsWithPhotos.find(
@@ -17,27 +18,46 @@ const BrandSelected = (props) => {
 		  );
 	console.log("user select: ", selectedBrand);
 	console.log("brand: ", brand);
+	console.log("history: ", history);
+	const historyClick = () => {
+		history.goBack();
+	};
 	return (
 		<div>
 			{!brand ? (
 				<div>Loading</div>
 			) : (
 				<div id="brand-selected-background" onLoad={console.log("brand: ", brand)}>
-					<h2 id="brand-selected-title">{brand.name}</h2>
-					<img src={brand.image} alt={brand.name}></img>
-					<h3>Founded: {brand.founded}</h3>
-					<h3>Headquarters: {brand.headquarters}</h3>
-					<h3>
-						Webiste:{" "}
-						<a
-							href={brand.website}
-							target="_blank"
-							rel="noreferrer"
-							referrerPolicy="no-referrer"
+					<LinkContainer to="/brands">
+						<h3
+							id="brand-selected-back-button"
+							onClick={() => {
+								historyClick();
+							}}
 						>
-							{brand.name}
-						</a>
-					</h3>
+							back
+						</h3>
+					</LinkContainer>
+
+					<div id="brand-selected-title-container">
+						<div id="brand-selected-data-container">
+							<h2 id="brand-selected-title">{brand.name}</h2>
+							<h3 id="brand-selected-data">Founded: {brand.founded}</h3>
+							<h3 id="brand-selected-data">Headquarters: {brand.headquarters}</h3>
+							<h3 id="brand-selected-data">
+								Webiste:{" "}
+								<a
+									href={brand.website}
+									target="_blank"
+									rel="noreferrer"
+									referrerPolicy="no-referrer"
+								>
+									{brand.name}
+								</a>
+							</h3>
+						</div>
+						<img id="brand-selected-image" src={brand.image} alt={brand.name}></img>
+					</div>
 				</div>
 			)}
 		</div>
