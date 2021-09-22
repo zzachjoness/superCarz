@@ -1,40 +1,50 @@
 #brand-selected-background {
-	background-color: black;
+	background-color: white;
 	display: flex;
 	flex-direction: column;
 	text-decoration: none;
 }
+#brand-selected-back-button-container {
+	margin-top: 5rem;
+	height: 2.5rem;
+	display: flex;
+	background: rgba(6, 68, 0, 1);
+}
 #brand-selected-back-button {
-	padding: 10rem 2rem 0rem 2rem;
-	font-size: 1.5rem;
+	margin-left: 2rem;
+	margin-top: 0.6rem;
+	font-size: 1.3rem;
 	font-family: "Helvetica", "Arial", sans-serif;
-	font-weight: 500; /* 700,500,400 */
+	font-weight: 200; /* 700,500,400 */
 	color: white;
+	cursor: pointer;
 }
 #brand-selected-title-container {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	align-items: flex-end;
+	align-items: flex-start;
 }
 #brand-selected-title {
-	padding: 8rem 2rem 0rem 2rem;
-	font-size: 1.5rem;
+	margin: 2rem 2rem 1rem 2rem;
+	font-size: 2rem;
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 500; /* 700,500,400 */
-	color: white;
+	color: black;
 	user-select: none;
 }
 
 #brand-selected-image {
-	max-width: 10rem;
+	margin: 2rem 0rem 2rem 2rem;
+	max-width: 18rem;
+	max-height: 12rem;
 }
 
 #brand-selected-data {
-	color: white;
-	padding: 0rem 0rem 1rem 3rem;
-	font-size: 1.5rem;
+	color: black;
+	margin: 0rem 0rem 0.5rem 3rem;
+	font-size: 1.3rem;
 	font-family: "Helvetica", "Arial", sans-serif;
-	font-weight: 500; /* 700,500,400 */
+	font-weight: 200; /* 700,500,400 */
 	user-select: none;
 }

@@ -23,15 +23,17 @@ const BrandsAll = () => {
 				}}
 			>
 				<div id="brand-list-child-title">{brand.name}</div>
-				<img
-					id="brand-list-child-image"
-					src={brand.image}
-					alt={brand.name}
-					onClick={() => {
-						console.log("path: ", path);
-						console.log("url: ", url);
-					}}
-				/>
+				<div id="brand-list-child-image-container">
+					<img
+						id="brand-list-child-image"
+						src={brand.image}
+						alt={brand.name}
+						onClick={() => {
+							console.log("path: ", path);
+							console.log("url: ", url);
+						}}
+					/>
+				</div>
 			</div>
 		</LinkContainer>
 	));
@@ -40,8 +42,11 @@ const BrandsAll = () => {
 		<div>
 			{history.action === "PUSH" ? <Spinner /> : null}
 			<div id="brand-background">
-				<h2 id="brand-title">Brandz</h2>
-				<div id="brand-list" onLoad={console.log("loaded DOM")}>
+				<div id="brand-title-container">
+					<h2 id="brand-title">Brandz</h2>
+				</div>
+
+				<div id="brand-list-container" onLoad={console.log("loaded DOM")}>
 					{brandsList}
 				</div>
 			</div>

@@ -28,17 +28,18 @@ const BrandSelected = (props) => {
 				<div>Loading</div>
 			) : (
 				<div id="brand-selected-background" onLoad={console.log("brand: ", brand)}>
-					<LinkContainer to="/brands">
-						<h3
-							id="brand-selected-back-button"
-							onClick={() => {
-								historyClick();
-							}}
-						>
-							back
-						</h3>
-					</LinkContainer>
-
+					<div id="brand-selected-back-button-container">
+						<LinkContainer to="/brands">
+							<h3
+								id="brand-selected-back-button"
+								onClick={() => {
+									historyClick();
+								}}
+							>
+								&#8592; back
+							</h3>
+						</LinkContainer>
+					</div>
 					<div id="brand-selected-title-container">
 						<div id="brand-selected-data-container">
 							<h2 id="brand-selected-title">{brand.name}</h2>
