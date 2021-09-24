@@ -1,15 +1,13 @@
 import React, { useContext } from "react";
-import { useParams, useHistory, useLocation } from "react-router-dom";
-import { LinkContainer } from "react-router-bootstrap";
-import "../Style/brandSelected.css";
+import { useParams, useHistory } from "react-router-dom";
 import BrandContext from "../Components/Context/BrandContext";
 import brandsWithPhotos from "../Data/brandPhotos";
 import capitalizeFirstLetter from "../Components/Functions/capitalizeFirstLetter";
+import "../Style/brandSelected.css";
 
 const BrandSelected = (props) => {
 	const { selectedBrandId } = useContext(BrandContext);
 	let { selectedBrand } = useParams();
-	let { inputBrand } = useLocation();
 	let history = useHistory();
 	const brand = selectedBrandId
 		? brandsWithPhotos[selectedBrandId]
@@ -29,16 +27,14 @@ const BrandSelected = (props) => {
 			) : (
 				<div id="brand-selected-background" onLoad={console.log("brand: ", brand)}>
 					<div id="brand-selected-back-button-container">
-						<LinkContainer to="/brands">
-							<h3
-								id="brand-selected-back-button"
-								onClick={() => {
-									historyClick();
-								}}
-							>
-								&#8592; back
-							</h3>
-						</LinkContainer>
+						<h3
+							id="brand-selected-back-button"
+							onClick={() => {
+								historyClick();
+							}}
+						>
+							&#8592; back
+						</h3>
 					</div>
 					<div id="brand-selected-container">
 						<div id="brand-selected-data-container">
