@@ -40,11 +40,15 @@ const BrandSelected = (props) => {
 							</h3>
 						</LinkContainer>
 					</div>
-					<div id="brand-selected-title-container">
+					<div id="brand-selected-container">
 						<div id="brand-selected-data-container">
-							<h2 id="brand-selected-title">{brand.name}</h2>
+							<h2 id="brand-selected-data-title">{brand.name}</h2>
 							<h3 id="brand-selected-data">Founded: {brand.founded}</h3>
 							<h3 id="brand-selected-data">Headquarters: {brand.headquarters}</h3>
+							<h3 id="brand-selected-data">{`Organization: ${brand.type} ${
+								brand.parent ? ` of ${brand.parent}` : ""
+							}`}</h3>
+
 							<h3 id="brand-selected-data">
 								Webiste:{" "}
 								<a
