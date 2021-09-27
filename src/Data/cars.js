@@ -78,20 +78,20 @@ const cars = [
 		id: "2",
 		brand: "Acura",
 		model: "Integra Type-R",
-		built: "",
+		built: "Suzuka, Japan",
 		technical: {
 			horsepower: "195", //hp
 			torque: "130", //lb-ft
-			zeroToSixty: "",
-			topSpeed: "", //mph
+			zeroToSixty: "6.3",
+			topSpeed: "145", //mph
 			driveType: "FWD",
 			engineLayout: "Front Transverse",
 			fuelType: "Gasoline",
 			engine: "B18C Inline-4",
 			aspiration: "Natural",
 			transmission: "5-Speed Manual",
-			mpgCombined: "",
-			weight: "", //lb
+			mpgCombined: "26.7",
+			weight: "2646", //lb
 			bodyStyle: "coupe",
 		},
 		year: "2000",

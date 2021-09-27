@@ -1,0 +1,44 @@
+#all-cars-background {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+#all-cars-title-container {
+	margin-top: 5rem;
+	height: 2.5rem;
+	display: flex;
+	background: rgba(6, 68, 0, 1);
+}
+#all-cars-title {
+	margin-left: 2rem;
+	margin-top: 0.6rem;
+	font-size: 1.3rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 200; /* 700,500,400 */
+	color: white;
+	user-select: none;
+}
+
+#all-cars-body {
+	background-color: palegreen;
+}
+
+#all-cars-grid-body {
+	display: flex;
+	box-sizing: content-box;
+	border-width: 1rem;
+}
+#all-cars-grid-header-container {
+	display: flex;
+}
+#all-cars-grid-header {
+	border: solid 1px black;
+	width: 10rem;
+}
+#all-cars-grid-car {
+	display: flex;
+}
+#all-cars-grid-car-data {
+	border: solid 1px black;
+	width: 10rem;
+}
