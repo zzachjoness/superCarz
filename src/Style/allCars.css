@@ -26,14 +26,37 @@
 #all-cars-grid-body {
 	display: flex;
 	box-sizing: content-box;
-	border-width: 1rem;
 }
 #all-cars-grid-header-container {
 	display: flex;
 }
-#all-cars-grid-header {
-	border: solid 1px black;
+#all-cars-grid-header-component {
+	display: flex;
 	width: 10rem;
+	height: 3rem;
+	border: solid 0.05rem black;
+	background-color: palegoldenrod;
+}
+#all-cars-grid-sort-container {
+	padding-right: 0.5rem;
+	align-self: center;
+}
+#all-cars-grid-sort-button {
+	font-size: 0.9rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 500; /* 700,500,400 */
+	cursor: pointer;
+	user-select: none;
+}
+#all-cars-grid-header {
+	font-size: 1.4rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 500; /* 700,500,400 */
+	font-variant: small-caps;
+	background-color: palegoldenrod;
+	align-self: center;
+	padding-left: 0.5rem;
+	flex-grow: 3;
 }
 #all-cars-grid-car {
 	display: flex;
@@ -41,4 +64,9 @@
 #all-cars-grid-car-data {
 	border: solid 1px black;
 	width: 10rem;
+	font-size: 1rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 200; /* 700,500,400 */
+	background-color: palegoldenrod;
+	padding: 0.5rem 0rem 0.5rem 0.5rem;
 }
