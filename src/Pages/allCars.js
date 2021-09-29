@@ -1,47 +1,20 @@
 import React, { useEffect, useState } from "react";
 import cars from "../Data/cars";
 import "../Style/allCars.css";
+import carSort from "../Components/Functions/carSort";
 
 const AllCars = () => {
 	const [carData, setCarData] = useState(cars);
 	const [count, setCount] = useState(0);
 
-	const sortCars = (sortDir, sortBy) => {
-		if (sortDir === "up") {
-			let carSort = cars.sort((a, b) => {
-				if (a[sortBy] > b[sortBy]) {
-					return 1;
-				}
-				if (a[sortBy] < b[sortBy]) {
-					return -1;
-				}
-				return 0;
-			});
-			setCarData(carSort);
-		}
-		if (sortDir === "down") {
-			let carSort = cars.sort((a, b) => {
-				if (a[sortBy] < b[sortBy]) {
-					return 1;
-				}
-				if (a[sortBy] > b[sortBy]) {
-					return -1;
-				}
-				return 0;
-			});
-			setCarData(carSort);
-		}
-
-		setCount(count + 1);
-	};
 	const SelectSort = (props) => {
 		return (
 			<div id="all-cars-grid-sort-container">
 				<div
 					id="all-cars-grid-sort-button"
 					onClick={() => {
-						sortCars("up", props.name);
-						console.log("props.name: ", props.name);
+						setCarData(carSort(cars, "up", props.name, props.reverse));
+						setCount(count + 1);
 					}}
 				>
 					&#x25b3;
@@ -49,8 +22,8 @@ const AllCars = () => {
 				<div
 					id="all-cars-grid-sort-button"
 					onClick={() => {
-						sortCars("down", props.name);
-						console.log("props.name: ", props.name);
+						setCarData(carSort(cars, "down", props.name, props.reverse));
+						setCount(count + 1);
 					}}
 				>
 					&#x25BD;
@@ -84,31 +57,31 @@ const AllCars = () => {
 					<div id="all-cars-grid-header-container">
 						<div id="all-cars-grid-header-component">
 							<div id="all-cars-grid-header">brand</div>
-							<SelectSort name="brand" />
+							<SelectSort name={["brand"]} reverse={false} />
 						</div>
 						<div id="all-cars-grid-header-component">
 							<div id="all-cars-grid-header">model</div>
-							<SelectSort name="model" />
+							<SelectSort name={["model"]} reverse={false} />
 						</div>
 						<div id="all-cars-grid-header-component">
 							<div id="all-cars-grid-header">class</div>
-							<SelectSort name="class" />
+							<SelectSort name={["class"]} reverse={false} />
 						</div>
 						<div id="all-cars-grid-header-component">
 							<div id="all-cars-grid-header">year</div>
-							<SelectSort name="year" />
+							<SelectSort name={["year"]} reverse={true} />
 						</div>
 						<div id="all-cars-grid-header-component">
 							<div id="all-cars-grid-header">horsepower</div>
-							<SelectSort name="technical.horsepower" />
+							<SelectSort name={["technical", "horsepower"]} reverse={true} />
 						</div>
 						<div id="all-cars-grid-header-component">
 							<div id="all-cars-grid-header">torque ftlb</div>
-							<SelectSort name="techincal.torque" />
+							<SelectSort name={["techincal", "torque"]} reverse={true} />
 						</div>
 						<div id="all-cars-grid-header-component">
 							<div id="all-cars-grid-header">zero-sixty</div>
-							<SelectSort name="technical.zeroToSixty" />
+							<SelectSort name={["technical", "zeroToSixty"]} reverse={false} />
 						</div>
 					</div>
 					<div id="all-cars-grid-cars">{carGrid}</div>
