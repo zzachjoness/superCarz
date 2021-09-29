@@ -1,20 +1,47 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import cars from "../Data/cars";
 import "../Style/allCars.css";
 
 const AllCars = () => {
 	const [carData, setCarData] = useState(cars);
-	const [sortType, setSortType] = useState(null);
-	const [sortDirection, setSortDirection] = useState(null);
+	const [count, setCount] = useState(0);
+
+	const sortCars = (sortDir, sortBy) => {
+		if (sortDir === "up") {
+			let carSort = cars.sort((a, b) => {
+				if (a[sortBy] > b[sortBy]) {
+					return 1;
+				}
+				if (a[sortBy] < b[sortBy]) {
+					return -1;
+				}
+				return 0;
+			});
+			setCarData(carSort);
+		}
+		if (sortDir === "down") {
+			let carSort = cars.sort((a, b) => {
+				if (a[sortBy] < b[sortBy]) {
+					return 1;
+				}
+				if (a[sortBy] > b[sortBy]) {
+					return -1;
+				}
+				return 0;
+			});
+			setCarData(carSort);
+		}
+
+		setCount(count + 1);
+	};
 	const SelectSort = (props) => {
 		return (
 			<div id="all-cars-grid-sort-container">
 				<div
 					id="all-cars-grid-sort-button"
 					onClick={() => {
-						console.log("ascend: ", props);
-						setSortType(props);
-						setSortDirection("ascend");
+						sortCars("up", props.name);
+						console.log("props.name: ", props.name);
 					}}
 				>
 					&#x25b3;
@@ -22,9 +49,8 @@ const AllCars = () => {
 				<div
 					id="all-cars-grid-sort-button"
 					onClick={() => {
-						console.log("descend: ", props);
-						setSortType(props);
-						setSortDirection("descned");
+						sortCars("down", props.name);
+						console.log("props.name: ", props.name);
 					}}
 				>
 					&#x25BD;
@@ -32,7 +58,7 @@ const AllCars = () => {
 			</div>
 		);
 	};
-	const carGrid = carData.map((car, index) => (
+	const carGrid = carData.map((car) => (
 		<div
 			id="all-cars-grid-car"
 			key={car.id}
@@ -47,6 +73,7 @@ const AllCars = () => {
 			<div id="all-cars-grid-car-data">{car.technical.zeroToSixty}</div>
 		</div>
 	));
+
 	return (
 		<div id="all-cars-background">
 			<div id="all-cars-title-container">
