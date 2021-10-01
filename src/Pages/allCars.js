@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import cars from "../Data/cars";
 import "../Style/allCars.css";
 import carSort from "../Components/Functions/carSort";
@@ -9,7 +9,10 @@ const AllCars = () => {
 
 	const SelectSort = (props) => {
 		return (
-			<div id="all-cars-grid-sort-container">
+			<div
+				id="all-cars-grid-sort-container"
+				onLoad={console.log("loaded select sort")}
+			>
 				<div
 					id="all-cars-grid-sort-button"
 					onClick={() => {

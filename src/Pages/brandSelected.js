@@ -3,6 +3,7 @@ import { useParams, useHistory } from "react-router-dom";
 import BrandContext from "../Components/Context/BrandContext";
 import brandsWithPhotos from "../Data/brandPhotos";
 import capitalizeFirstLetter from "../Components/Functions/capitalizeFirstLetter";
+import cars from "../Data/cars";
 import "../Style/brandSelected.css";
 
 const BrandSelected = (props) => {
@@ -14,9 +15,8 @@ const BrandSelected = (props) => {
 		: brandsWithPhotos.find(
 				({ name }) => name === capitalizeFirstLetter(selectedBrand)
 		  );
-	console.log("user select: ", selectedBrand);
-	console.log("brand: ", brand);
-	console.log("history: ", history);
+	const findCars = cars.filter((car) => car.brand === brand.name);
+	const brandCars = findCars.map((car) => <div key={car.id}>{car.model}</div>);
 	const historyClick = () => {
 		history.goBack();
 	};
@@ -59,6 +59,8 @@ const BrandSelected = (props) => {
 						</div>
 						<img id="brand-selected-image" src={brand.image} alt={brand.name}></img>
 					</div>
+					<div>cars</div>
+					<div>{brandCars}</div>
 				</div>
 			)}
 		</div>
