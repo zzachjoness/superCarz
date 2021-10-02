@@ -64,7 +64,7 @@ const cars = [
 			engineLayout: "Longitudinaally mid-mounted",
 			fuelType: "Gasoline",
 			engine: "C30A V6",
-			aspiration: "natural",
+			aspiration: "Natural",
 			transmission: "6-Speed Manual",
 			mpgCombined: "17",
 			weight: "2712", //lb
@@ -92,11 +92,35 @@ const cars = [
 			transmission: "5-Speed Manual",
 			mpgCombined: "26.7",
 			weight: "2646", //lb
-			bodyStyle: "coupe",
+			bodyStyle: "Coupe",
 		},
 		year: "2000",
 		class: "Gasoline",
 		cost: "$25,000",
+	},
+	{
+		id: "3",
+		brand: "Aston Martin",
+		model: "DB11 AMR",
+		built: "England",
+		technical: {
+			horsepower: "630", //hp
+			torque: "516", //lb-ft
+			zeroToSixty: "3.5",
+			topSpeed: "208", //mph
+			driveType: "RWD",
+			engineLayout: "Longitudinally mid-mounted",
+			fuelType: "Gasoline",
+			engine: "5.2L AE31 Twin-Turbo V12",
+			aspiration: "Bi-Turbo",
+			transmission: "8-Speed DCT",
+			mpgCombined: "18",
+			weight: "3902", //lb
+			bodyStyle: "Coupe",
+		},
+		year: "2018",
+		class: "Gasoline",
+		cost: "$245,000",
 	},
 ];
 
