@@ -38,7 +38,7 @@ const cars = [
 			topSpeed: "191",
 			driveType: "AWD",
 			layout: "Longitudinally mid-mounted",
-			fuelType: "Gasoline + Electric Hybird",
+			fuelType: "Gasoline + Electric",
 			engine: "Twin-turbocharged DOHC V6 + Electric Motor Units",
 			aspiration: "Turbo",
 			transmission: "9-Speed DCT",
@@ -121,6 +121,30 @@ const cars = [
 		year: "2018",
 		class: "Gasoline",
 		cost: "$245,000",
+	},
+	{
+		id: "4",
+		brand: "Aston Martin",
+		model: "Valkyrie",
+		built: "Warwickshire, UK",
+		technical: {
+			horsepower: "1160", //hp
+			torque: "664", //lb-ft
+			zeroToSixty: "2.6",
+			topSpeed: "250", //mph
+			driveType: "RWD",
+			engineLayout: "Rear mid-engine",
+			fuelType: "Gasoline + Electric",
+			engine: "6.5L V-12 + Electric Motor",
+			aspiration: "Natural",
+			transmission: "7-Speed Single-clutch automated manual",
+			mpgCombined: "TBD",
+			weight: "2425", //lb
+			bodyStyle: "Coupe",
+		},
+		year: "2021",
+		class: "Hybrid",
+		cost: "$3,000,000",
 	},
 ];
 
