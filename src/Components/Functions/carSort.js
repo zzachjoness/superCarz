@@ -36,10 +36,10 @@ const carSort = (cars, sortDir, sortBy, reverse) => {
 			(sortDir === "down" && reverse === true)
 		) {
 			carSort = cars.sort((a, b) => {
-				if (a.technical[sortBy[1]] > b.technical[sortBy[1]]) {
+				if (a[sortBy[0]][sortBy[1]] > b[sortBy[0]][sortBy[1]]) {
 					return 1;
 				}
-				if (a.technical[sortBy[1]] < b.technical[sortBy[1]]) {
+				if (a[sortBy[0]][sortBy[1]] < b[sortBy[0]][sortBy[1]]) {
 					return -1;
 				}
 				return 0;
@@ -50,10 +50,10 @@ const carSort = (cars, sortDir, sortBy, reverse) => {
 			(sortDir === "up" && reverse === true)
 		) {
 			carSort = cars.sort((a, b) => {
-				if (a.technical[sortBy[1]] < b.technical[sortBy[1]]) {
+				if (a[sortBy[0]][sortBy[1]] < b[sortBy[0]][sortBy[1]]) {
 					return 1;
 				}
-				if (a.technical[sortBy[1]] > b.technical[sortBy[1]]) {
+				if (a[sortBy[0]][sortBy[1]] > b[sortBy[0]][sortBy[1]]) {
 					return -1;
 				}
 				return 0;
