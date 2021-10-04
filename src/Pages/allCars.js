@@ -5,19 +5,17 @@ import carSort from "../Components/Functions/carSort";
 
 const AllCars = () => {
 	const [carData, setCarData] = useState(cars);
-	const [count, setCount] = useState(0);
 
 	const SelectSort = (props) => {
 		return (
 			<div
 				id="all-cars-grid-sort-container"
-				onLoad={console.log("loaded select sort")}
+				onLoad={console.log("props: ", props)}
 			>
 				<div
 					id="all-cars-grid-sort-button"
 					onClick={() => {
 						setCarData(carSort(cars, "up", props.name, props.reverse));
-						setCount(count + 1);
 					}}
 				>
 					&#x25b3;
@@ -26,7 +24,6 @@ const AllCars = () => {
 					id="all-cars-grid-sort-button"
 					onClick={() => {
 						setCarData(carSort(cars, "down", props.name, props.reverse));
-						setCount(count + 1);
 					}}
 				>
 					&#x25BD;
@@ -34,21 +31,22 @@ const AllCars = () => {
 			</div>
 		);
 	};
-	const carGrid = carData.map((car) => (
-		<div
-			id="all-cars-grid-car"
-			key={car.id}
-			onLoad={console.log("loaded: ", car.model)}
-		>
-			<div id="all-cars-grid-car-data">{car.brand}</div>
-			<div id="all-cars-grid-car-data">{car.model}</div>
-			<div id="all-cars-grid-car-data">{car.class}</div>
-			<div id="all-cars-grid-car-data">{car.year}</div>
-			<div id="all-cars-grid-car-data">{car.technical.horsepower}</div>
-			<div id="all-cars-grid-car-data">{car.technical.torque}</div>
-			<div id="all-cars-grid-car-data">{car.technical.zeroToSixty}</div>
-		</div>
-	));
+	const CarGrid = () =>
+		carData.map((car) => (
+			<div
+				id="all-cars-grid-car"
+				key={car.id}
+				onLoad={console.log("loaded: ", car.model)}
+			>
+				<div id="all-cars-grid-car-data">{car.brand}</div>
+				<div id="all-cars-grid-car-data">{car.model}</div>
+				<div id="all-cars-grid-car-data">{car.class}</div>
+				<div id="all-cars-grid-car-data">{car.year}</div>
+				<div id="all-cars-grid-car-data">{car.technical.horsepower}</div>
+				<div id="all-cars-grid-car-data">{car.technical.torque}</div>
+				<div id="all-cars-grid-car-data">{car.technical.zeroToSixty}</div>
+			</div>
+		));
 
 	return (
 		<div id="all-cars-background">
@@ -87,7 +85,9 @@ const AllCars = () => {
 							<SelectSort name={["technical", "zeroToSixty"]} reverse={false} />
 						</div>
 					</div>
-					<div id="all-cars-grid-cars">{carGrid}</div>
+					<div id="all-cars-grid-cars">
+						<CarGrid />
+					</div>
 				</div>
 			</div>
 		</div>

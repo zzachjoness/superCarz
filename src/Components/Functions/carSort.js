@@ -1,4 +1,5 @@
-const carSort = (cars, sortDir, sortBy, reverse) => {
+const carSort = (carsIn, sortDir, sortBy, reverse) => {
+	let cars = [...carsIn]; //dummy array for state managment
 	let carSort = {};
 	if (sortBy.length === 1) {
 		if (
