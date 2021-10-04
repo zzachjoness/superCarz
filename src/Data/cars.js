@@ -150,7 +150,7 @@ const cars = [
 		id: 5,
 		brand: "Aston Martin",
 		model: "Vulcan",
-		built: "",
+		built: "Wellesbourne, UK",
 		technical: {
 			horsepower: 820, //hp
 			torque: 575, //lb-ft
@@ -169,6 +169,30 @@ const cars = [
 		year: 2015,
 		class: "Gasoline",
 		cost: 2300000,
+	},
+	{
+		id: 6,
+		brand: "Aston Martin",
+		model: "Zagato",
+		built: "",
+		technical: {
+			horsepower: 510, //hp
+			torque: 420, //lb-ft
+			zeroToSixty: 4.1,
+			topSpeed: 190, //mph
+			driveType: "RWD",
+			engineLayout: "Front Longitudinal",
+			fuelType: "Gasoline",
+			engine: "5.9L AM11 V12",
+			aspiration: "Naural",
+			transmission: "6-Speed manual",
+			mpgCombined: "TBD",
+			weight: 3704, //lb
+			bodyStyle: "coupe",
+		},
+		year: 2012,
+		class: "Gasoline",
+		cost: 520000,
 	},
 ];
 
