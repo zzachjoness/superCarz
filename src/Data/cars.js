@@ -146,6 +146,30 @@ const cars = [
 		class: "Hybrid",
 		cost: 3000000,
 	},
+	{
+		id: 5,
+		brand: "Aston Martin",
+		model: "Vulcan",
+		built: "",
+		technical: {
+			horsepower: 820, //hp
+			torque: 575, //lb-ft
+			zeroToSixty: 2.9,
+			topSpeed: 208, //mph
+			driveType: "RWD",
+			engineLayout: "Front mid-engine",
+			fuelType: "Gasoline",
+			engine: "7.0L V12",
+			aspiration: "Natural",
+			transmission: "6-Speed sequential",
+			mpgCombined: "TBD",
+			weight: 2976, //lb
+			bodyStyle: "coupe",
+		},
+		year: 2015,
+		class: "Gasoline",
+		cost: 2300000,
+	},
 ];
 
 export default cars;
