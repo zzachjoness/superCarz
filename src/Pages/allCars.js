@@ -17,7 +17,7 @@ const AllCars = () => {
 					id="all-cars-grid-sort-button"
 					onClick={() => {
 						setCarData(carSort(cars, "up", props.name, props.reverse));
-						//setCount(count + 1);
+						setCount(count + 1);
 					}}
 				>
 					&#x25b3;
@@ -26,7 +26,7 @@ const AllCars = () => {
 					id="all-cars-grid-sort-button"
 					onClick={() => {
 						setCarData(carSort(cars, "down", props.name, props.reverse));
-						//setCount(count + 1);
+						setCount(count + 1);
 					}}
 				>
 					&#x25BD;
@@ -80,7 +80,7 @@ const AllCars = () => {
 						</div>
 						<div id="all-cars-grid-header-component">
 							<div id="all-cars-grid-header">torque ftlb</div>
-							<SelectSort name={["techincal", "torque"]} reverse={true} />
+							<SelectSort name={["technical", "torque"]} reverse={true} />
 						</div>
 						<div id="all-cars-grid-header-component">
 							<div id="all-cars-grid-header">zero-sixty</div>
