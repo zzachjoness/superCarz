@@ -1,7 +1,7 @@
 import Acura from "../Images/brands/acura.png";
 import Am from "../Images/brands/AM.png";
 import Audi from "../Images/brands/Audi.png";
-import Bently from "../Images/brands/bently.png";
+import Bentley from "../Images/brands/bentley.png";
 import Bmw from "../Images/brands/bmw.png";
 import Bugatti from "../Images/brands/bugatti.png";
 import Ferrari from "../Images/brands/ferrari.png";
@@ -57,8 +57,8 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 3,
-		name: "Bently",
-		image: Bently,
+		name: "Bentley",
+		image: Bentley,
 		founded: "1919",
 		headquarters: "Crewe, England, UK",
 		parent: "Volkswagen AG",

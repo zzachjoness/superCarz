@@ -2,7 +2,7 @@ const brands = [
 	"Acura",
 	"Aston-Martin",
 	"Audi",
-	"Bently",
+	"Bentley",
 	"BMW",
 	"Bugatti",
 	"Ferrari",
