@@ -40,7 +40,7 @@ const cars = [
 			layout: "Longitudinally mid-mounted",
 			fuelType: "Gasoline + Electric",
 			engine: "Twin-turbocharged DOHC V6 + Electric Motor Units",
-			aspiration: "Turbo",
+			aspiration: "Turbo-charged",
 			transmission: "9-Speed DCT",
 			mpgCombined: "TBD",
 			weight: 3946,
@@ -112,7 +112,7 @@ const cars = [
 			engineLayout: "Longitudinally mid-mounted",
 			fuelType: "Gasoline",
 			engine: "5.2L AE31 Twin-Turbo V12",
-			aspiration: "Bi-Turbo",
+			aspiration: "Bi-Turbo-charged",
 			transmission: "8-Speed DCT",
 			mpgCombined: 18,
 			weight: 3902, //lb
@@ -232,7 +232,7 @@ const cars = [
 			engineLayout: "Front Longitudinal",
 			fuelType: "Gasoline",
 			engine: "2.1L Turbocharged I5",
-			aspiration: "Turbo",
+			aspiration: "Turbo-charged",
 			transmission: "6-Speed manual",
 			mpgCombined: "TBD",
 			weight: 2403, //lb
@@ -256,7 +256,7 @@ const cars = [
 			engineLayout: "Front Longitudinal",
 			fuelType: "Gasoline",
 			engine: "V8 TFSI Twin-Turbo",
-			aspiration: "Turbo",
+			aspiration: "Turbo-charged",
 			transmission: "8-Speed Automatic",
 			mpgCombined: 18,
 			weight: 4740, //lb
@@ -265,6 +265,30 @@ const cars = [
 		year: 2021,
 		class: "Gasoline",
 		cost: 111000,
+	},
+	{
+		id: 10,
+		brand: "Bentley",
+		model: "Continental GT Speed",
+		built: "England, UK",
+		technical: {
+			horsepower: 650, //hp
+			torque: 664, //lb-ft
+			zeroToSixty: 3.5,
+			topSpeed: 208, //mph
+			driveType: "AWD",
+			engineLayout: "Front Longitudinal",
+			fuelType: "Gasoline",
+			engine: "6.0L W12 Twin-Turbo",
+			aspiration: "Turbo-charged",
+			transmission: "8-Speed DCT",
+			mpgCombined: 15,
+			weight: 6000, //lb
+			bodyStyle: "Coupe",
+		},
+		year: 2021,
+		class: "Gasoline",
+		cost: 225000,
 	},
 ];
 
