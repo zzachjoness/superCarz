@@ -164,7 +164,7 @@ const cars = [
 			transmission: "6-Speed sequential",
 			mpgCombined: "TBD",
 			weight: 2976, //lb
-			bodyStyle: "coupe",
+			bodyStyle: "Coupe",
 		},
 		year: 2015,
 		class: "Gasoline",
@@ -174,7 +174,7 @@ const cars = [
 		id: 6,
 		brand: "Aston Martin",
 		model: "Zagato",
-		built: "",
+		built: "Wellesbourne, UK",
 		technical: {
 			horsepower: 510, //hp
 			torque: 420, //lb-ft
@@ -188,11 +188,83 @@ const cars = [
 			transmission: "6-Speed manual",
 			mpgCombined: "TBD",
 			weight: 3704, //lb
-			bodyStyle: "coupe",
+			bodyStyle: "Coupe",
 		},
 		year: 2012,
 		class: "Gasoline",
 		cost: 520000,
+	},
+	{
+		id: 7,
+		brand: "Audi",
+		model: "R8 V10 Plus",
+		built: "Neckarsulm, Germany",
+		technical: {
+			horsepower: 542, //hp
+			torque: 398, //lb-ft
+			zeroToSixty: 3.5,
+			topSpeed: 197, //mph
+			driveType: "AWD",
+			engineLayout: "",
+			fuelType: "Gasoline",
+			engine: "4.2L FSI DOHC V10",
+			aspiration: "Natural",
+			transmission: "6-Speed manual",
+			mpgCombined: 17,
+			weight: 3460, //lb
+			bodyStyle: "Coupe",
+		},
+		year: 2012,
+		class: "Gasoline",
+		cost: 155000,
+	},
+	{
+		id: 8,
+		brand: "Audi",
+		model: "Sport Quattro S1",
+		built: "Neckarsulm, Germany",
+		technical: {
+			horsepower: 469, //hp
+			torque: 354, //lb-ft
+			zeroToSixty: "TBD",
+			topSpeed: "TBD", //mph
+			driveType: "AWD",
+			engineLayout: "Front Longitudinal",
+			fuelType: "Gasoline",
+			engine: "2.1L Turbocharged I5",
+			aspiration: "Turbo",
+			transmission: "6-Speed manual",
+			mpgCombined: "TBD",
+			weight: 2403, //lb
+			bodyStyle: "Coupe",
+		},
+		year: 1985,
+		class: "Gasoline",
+		cost: 200000,
+	},
+	{
+		id: 9,
+		brand: "Audi",
+		model: "RS6 Avant",
+		built: "Neckarsulm, Germany",
+		technical: {
+			horsepower: 592, //hp
+			torque: 590, //lb-ft
+			zeroToSixty: 3.1,
+			topSpeed: 156, //mph
+			driveType: "AWD",
+			engineLayout: "Front Longitudinal",
+			fuelType: "Gasoline",
+			engine: "V8 TFSI Twin-Turbo",
+			aspiration: "Turbo",
+			transmission: "8-Speed Automatic",
+			mpgCombined: 18,
+			weight: 4740, //lb
+			bodyStyle: "Wagon",
+		},
+		year: 2021,
+		class: "Gasoline",
+		cost: 111000,
 	},
 ];
 
