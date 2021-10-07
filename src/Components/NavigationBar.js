@@ -16,16 +16,9 @@ const NavigationBar = () => {
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="me-auto" id="navbar-links">
-						<LinkContainer to="/gasoline">
-							<Nav.Link id="navbar-link">Gasoline</Nav.Link>
+						<LinkContainer to="/cars">
+							<Nav.Link id="navbar-link">Carz</Nav.Link>
 						</LinkContainer>
-						<LinkContainer to="/electric">
-							<Nav.Link id="navbar-link">Electric</Nav.Link>
-						</LinkContainer>
-						<LinkContainer to="/hybrid">
-							<Nav.Link id="navbar-link">Hybrid</Nav.Link>
-						</LinkContainer>
-
 						<LinkContainer to="/brands">
 							<Nav.Link id="navbar-link">Brandz</Nav.Link>
 						</LinkContainer>
