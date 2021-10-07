@@ -290,6 +290,78 @@ const cars = [
 		class: "Gasoline",
 		cost: 225000,
 	},
+	{
+		id: 11,
+		brand: "Bentley",
+		model: "Hunaudieres",
+		built: "Crewe, England, UK",
+		technical: {
+			horsepower: 623, //hp
+			torque: 561, //lb-ft
+			zeroToSixty: "TBD",
+			topSpeed: 217, //mph
+			driveType: "AWD",
+			engineLayout: "Mid-Engine",
+			fuelType: "Gasoline",
+			engine: "8.0L W16",
+			aspiration: "Natural",
+			transmission: "5-Speed Manual",
+			mpgCombined: "TBD",
+			weight: 3086, //lb
+			bodyStyle: "Coupe",
+		},
+		year: 1999,
+		class: "Gasoline",
+		cost: "N/A",
+	},
+	{
+		id: 12,
+		brand: "Bentley",
+		model: "Turbo RT",
+		built: "Crewe, England, UK",
+		technical: {
+			horsepower: 400, //hp
+			torque: 590, //lb-ft
+			zeroToSixty: 6.0,
+			topSpeed: 150, //mph
+			driveType: "RWD",
+			engineLayout: "Front-Engine",
+			fuelType: "Gasoline",
+			engine: "6.75L V8",
+			aspiration: "Turbo-charged",
+			transmission: "4-Speed Automatic",
+			mpgCombined: 12,
+			weight: 5400, //lb
+			bodyStyle: "Sedan",
+		},
+		year: 1998,
+		class: "Gasoline",
+		cost: 211600,
+	},
+	{
+		id: 13,
+		brand: "Bentley",
+		model: "Mulsanne Speed",
+		built: "Crewe, England, UK",
+		technical: {
+			horsepower: 530, //hp
+			torque: 811, //lb-ft
+			zeroToSixty: 4.8,
+			topSpeed: 190, //mph
+			driveType: "RWD",
+			engineLayout: "Front-Engine",
+			fuelType: "Gasoline",
+			engine: "6.75L Twin-Turbo V8",
+			aspiration: "Turbo-charged",
+			transmission: "8-Speed Automatic",
+			mpgCombined: 13,
+			weight: 5920, //lb
+			bodyStyle: "Sedan",
+		},
+		year: 2018,
+		class: "Gasoline",
+		cost: 340000,
+	},
 ];
 
 export default cars;
