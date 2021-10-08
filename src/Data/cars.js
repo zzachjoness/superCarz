@@ -349,7 +349,7 @@ const cars = [
 			zeroToSixty: 4.8,
 			topSpeed: 190, //mph
 			driveType: "RWD",
-			engineLayout: "Front-Engine",
+			engineLayout: "Front-Mounted",
 			fuelType: "Gasoline",
 			engine: "6.75L Twin-Turbo V8",
 			aspiration: "Turbo-charged",
@@ -361,6 +361,102 @@ const cars = [
 		year: 2018,
 		class: "Gasoline",
 		cost: 340000,
+	},
+	{
+		id: 14,
+		brand: "BMW",
+		model: "507",
+		built: "Milbertshofen, Germany",
+		technical: {
+			horsepower: 148, //hp
+			torque: 173, //lb-ft
+			zeroToSixty: 10,
+			topSpeed: 127, //mph
+			driveType: "RWD",
+			engineLayout: "Front-Mounted",
+			fuelType: "Gasoline",
+			engine: "3168cc M507/1 V8",
+			aspiration: "Natural",
+			transmission: "4-Speed Manual",
+			mpgCombined: 14,
+			weight: 2932, //lb
+			bodyStyle: "Coupe",
+		},
+		year: 1956,
+		class: "Gasoline",
+		cost: 9000,
+	},
+	{
+		id: 15,
+		brand: "BMW",
+		model: "E39 M5",
+		built: "Dingolfing, Germany",
+		technical: {
+			horsepower: 394, //hp
+			torque: 369, //lb-ft
+			zeroToSixty: 4.6,
+			topSpeed: 155, //mph
+			driveType: "RWD",
+			engineLayout: "Front-Mounted",
+			fuelType: "Gasoline",
+			engine: "4.9L S62 V8",
+			aspiration: "Natural",
+			transmission: "6-Speed Manual",
+			mpgCombined: 15,
+			weight: 3960, //lb
+			bodyStyle: "Sedan",
+		},
+		year: 2000,
+		class: "Gasoline",
+		cost: 72000,
+	},
+	{
+		id: 16,
+		brand: "BMW",
+		model: "E30 M3",
+		built: "Munich, Germany",
+		technical: {
+			horsepower: 197, //hp
+			torque: 177, //lb-ft
+			zeroToSixty: 6.2,
+			topSpeed: 149, //mph
+			driveType: "RWD",
+			engineLayout: "Front-Mounted",
+			fuelType: "Gasoline",
+			engine: "2.5L S14 I4",
+			aspiration: "Natural",
+			transmission: "5-Speed Manual",
+			mpgCombined: 16,
+			weight: 2700, //lb
+			bodyStyle: "Coupe",
+		},
+		year: 1991,
+		class: "Gasoline",
+		cost: 35000,
+	},
+	{
+		id: 17,
+		brand: "BMW",
+		model: "M1 E26",
+		built: "Munich, Germany",
+		technical: {
+			horsepower: 273, //hp
+			torque: 243, //lb-ft
+			zeroToSixty: 5.8,
+			topSpeed: 162, //mph
+			driveType: "RWD",
+			engineLayout: "Mid-Engine",
+			fuelType: "Gasoline",
+			engine: "3.5L M88/1 I6",
+			aspiration: "Turbo-charged",
+			transmission: "5-Speed Manual",
+			mpgCombined: 15,
+			weight: 2866, //lb
+			bodyStyle: "Coupe",
+		},
+		year: 1978,
+		class: "Gasoline",
+		cost: 115000,
 	},
 ];
 
