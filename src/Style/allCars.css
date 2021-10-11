@@ -30,9 +30,52 @@
 #all-cars-grid-header-container {
 	display: flex;
 }
-#all-cars-grid-header-component {
+
+#all-cars-grid-header-component-brand {
 	display: flex;
-	width: 10rem;
+	width: 8rem;
+	height: 3rem;
+	border: solid 0.05rem black;
+	background-color: palegoldenrod;
+}
+#all-cars-grid-header-component-model {
+	display: flex;
+	width: 14rem;
+	height: 3rem;
+	border: solid 0.05rem black;
+	background-color: palegoldenrod;
+}
+#all-cars-grid-header-component-class {
+	display: flex;
+	width: 7rem;
+	height: 3rem;
+	border: solid 0.05rem black;
+	background-color: palegoldenrod;
+}
+#all-cars-grid-header-component-year {
+	display: flex;
+	width: 6rem;
+	height: 3rem;
+	border: solid 0.05rem black;
+	background-color: palegoldenrod;
+}
+#all-cars-grid-header-component-technical-hp {
+	display: flex;
+	width: 5rem;
+	height: 3rem;
+	border: solid 0.05rem black;
+	background-color: palegoldenrod;
+}
+#all-cars-grid-header-component-technical-torque {
+	display: flex;
+	width: 7rem;
+	height: 3rem;
+	border: solid 0.05rem black;
+	background-color: palegoldenrod;
+}
+#all-cars-grid-header-component-technical-zeroSixty {
+	display: flex;
+	width: 9rem;
 	height: 3rem;
 	border: solid 0.05rem black;
 	background-color: palegoldenrod;
@@ -61,9 +104,63 @@
 #all-cars-grid-car {
 	display: flex;
 }
-#all-cars-grid-car-data {
+#all-cars-grid-car-data-brand {
 	border: solid 1px black;
-	width: 10rem;
+	width: 8rem;
+	font-size: 1rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 200; /* 700,500,400 */
+	background-color: palegoldenrod;
+	padding: 0.5rem 0rem 0.5rem 0.5rem;
+}
+#all-cars-grid-car-data-model {
+	border: solid 1px black;
+	width: 14rem;
+	font-size: 1rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 200; /* 700,500,400 */
+	background-color: palegoldenrod;
+	padding: 0.5rem 0rem 0.5rem 0.5rem;
+}
+#all-cars-grid-car-data-class {
+	border: solid 1px black;
+	width: 7rem;
+	font-size: 1rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 200; /* 700,500,400 */
+	background-color: palegoldenrod;
+	padding: 0.5rem 0rem 0.5rem 0.5rem;
+}
+#all-cars-grid-car-data-year {
+	border: solid 1px black;
+	width: 6rem;
+	font-size: 1rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 200; /* 700,500,400 */
+	background-color: palegoldenrod;
+	padding: 0.5rem 0rem 0.5rem 0.5rem;
+}
+#all-cars-grid-car-data-technical-hp {
+	border: solid 1px black;
+	width: 5rem;
+	font-size: 1rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 200; /* 700,500,400 */
+	background-color: palegoldenrod;
+	padding: 0.5rem 0rem 0.5rem 0.5rem;
+}
+#all-cars-grid-car-data-technical-torque {
+	border: solid 1px black;
+	width: 7rem;
+	font-size: 1rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 200; /* 700,500,400 */
+	background-color: palegoldenrod;
+	padding: 0.5rem 0rem 0.5rem 0.5rem;
+}
+#all-cars-grid-car-data-technical-zeroSixty {
+	border: solid 1px black;
+	width: 9rem;
 	font-size: 1rem;
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 200; /* 700,500,400 */
