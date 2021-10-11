@@ -1,11 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import { useRouteMatch, useHistory, useLocation } from "react-router-dom";
+import { LinkContainer } from "react-router-bootstrap";
+import CarContext from "../Components/Context/CarContext";
 import cars from "../Data/cars";
 import "../Style/allCars.css";
 import carSort from "../Components/Functions/carSort";
 
 const AllCars = () => {
 	const [carData, setCarData] = useState(cars);
-
+	const { setSelectedCarId } = useContext(CarContext);
+	let { path, url } = useRouteMatch();
+	const history = useHistory();
+	const location = useLocation();
 	const SelectSort = (props) => {
 		return (
 			<div id="all-cars-grid-sort-container">
@@ -32,7 +38,14 @@ const AllCars = () => {
 		carData.map((car) => (
 			<div id="all-cars-grid-car" key={car.id}>
 				<div id="all-cars-grid-car-data-brand">{car.brand}</div>
-				<div id="all-cars-grid-car-data-model">{car.model}</div>
+				<LinkContainer to={`${url}/${car.model}`}>
+					<div
+						id="all-cars-grid-car-data-model"
+						onClick={() => setSelectedCarId(car.id)}
+					>
+						{car.model}
+					</div>
+				</LinkContainer>
 				<div id="all-cars-grid-car-data-class">{car.class}</div>
 				<div id="all-cars-grid-car-data-year">{car.year}</div>
 				<div id="all-cars-grid-car-data-technical-hp">
