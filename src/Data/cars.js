@@ -458,6 +458,102 @@ const cars = [
 		class: "Gasoline",
 		cost: 115000,
 	},
+	{
+		id: 18,
+		brand: "Bugatti",
+		model: "Type 13",
+		built: "Molsheim, France",
+		technical: {
+			horsepower: 30, //hp
+			torque: "N/A", //lb-ft
+			zeroToSixty: "N/A",
+			topSpeed: 78, //mph
+			driveType: "RWD",
+			engineLayout: "Front-Longitudinal",
+			fuelType: "Gasoline",
+			engine: "1.4L dual carb I4",
+			aspiration: "Natural",
+			transmission: "4-Speed Manual",
+			mpgCombined: "N/A",
+			weight: 660, //lb
+			bodyStyle: "Roadster",
+		},
+		year: 1920,
+		class: "Gasoline",
+		cost: "N/A",
+	},
+	{
+		id: 19,
+		brand: "Bugatti",
+		model: "Type 35",
+		built: "Molsheim, France",
+		technical: {
+			horsepower: 160, //hp
+			torque: "N/A", //lb-ft
+			zeroToSixty: 7.0,
+			topSpeed: 130, //mph
+			driveType: "RWD",
+			engineLayout: "Front-Longitudinal",
+			fuelType: "Gasoline",
+			engine: "2.3L V8",
+			aspiration: "Natural",
+			transmission: "4-Speed Manual",
+			mpgCombined: "N/A",
+			weight: 1650, //lb
+			bodyStyle: "Roadster",
+		},
+		year: 1924,
+		class: "Gasoline",
+		cost: "N/A",
+	},
+	{
+		id: 20,
+		brand: "Bugatti",
+		model: "Veyron 16.4 SuperSport",
+		built: "Molsheim,France",
+		technical: {
+			horsepower: 1184, //hp
+			torque: 1106, //lb-ft
+			zeroToSixty: 2.4,
+			topSpeed: 267.856, //mph
+			driveType: "AWD",
+			engineLayout: "Mid-Engine",
+			fuelType: "Gasoline",
+			engine: "8.0L W16 Quad Turbo",
+			aspiration: "Turbo-charged",
+			transmission: "7-Speed DSG",
+			mpgCombined: 12,
+			weight: 4400, //lb
+			bodyStyle: "Coupe",
+		},
+		year: 2010,
+		class: "Gasoline",
+		cost: 2427000,
+	},
+	{
+		id: 21,
+		brand: "Bugatti",
+		model: "Chiron SuperSport 300+",
+		built: "Molsheim, France",
+		technical: {
+			horsepower: 1577, //hp
+			torque: 1180, //lb-ft
+			zeroToSixty: 2.4,
+			topSpeed: 304.773, //mph
+			driveType: "AWD",
+			engineLayout: "Mid-Engine",
+			fuelType: "Gasoline",
+			engine: '8.0L W16 Quad Turbo "Thor"',
+			aspiration: "Turbo-charged",
+			transmission: "7-Speed DSG",
+			mpgCombined: 12,
+			weight: 4361, //lb
+			bodyStyle: "Coupe",
+		},
+		year: 2019,
+		class: "Gasoline",
+		cost: 3890000,
+	},
 ];
 
 export default cars;
