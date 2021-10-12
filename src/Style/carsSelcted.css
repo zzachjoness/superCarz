@@ -1,7 +1,8 @@
 #car-selected-background {
-	background-color: white;
+	background-color: palegreen;
 	display: flex;
 	flex-direction: column;
 	text-decoration: none;
 	margin-top: 10rem;
+	height: 10rem;
 }

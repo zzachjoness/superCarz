@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { useRouteMatch, useHistory, useLocation } from "react-router-dom";
+import { useRouteMatch } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import CarContext from "../Components/Context/CarContext";
 import cars from "../Data/cars";
@@ -9,9 +9,7 @@ import carSort from "../Components/Functions/carSort";
 const AllCars = () => {
 	const [carData, setCarData] = useState(cars);
 	const { setSelectedCarId } = useContext(CarContext);
-	let { path, url } = useRouteMatch();
-	const history = useHistory();
-	const location = useLocation();
+	let { url } = useRouteMatch();
 	const SelectSort = (props) => {
 		return (
 			<div id="all-cars-grid-sort-container">
