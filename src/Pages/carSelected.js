@@ -5,8 +5,10 @@ import cars from "../Data/cars";
 
 const CarSelected = () => {
 	const { selectedCarId } = useContext(CarContext);
-	const car = cars[selectedCarId];
-	let { selectedCar } = useParams();
+	const { selectedCar } = useParams();
+	const car = selectedCarId
+		? cars[selectedCarId]
+		: cars.find(({ model }) => model === selectedCar);
 	let history = useHistory();
 	const historyClick = () => {
 		history.goBack();
@@ -30,13 +32,10 @@ const CarSelected = () => {
 					<div id="brand-selected-container">
 						<div id="brand-selected-data-container">
 							<h2 id="brand-selected-data-title">{car.model}</h2>
-							<h3 id="brand-selected-data">Founded: {car.brand}</h3>
-							<h3 id="brand-selected-data">
-								Headquarters: {car.technical.horsepower}
-							</h3>
-							<h3 id="brand-selected-data">{`Organization: ${car.brand} ${
-								car.brand ? ` of ${car.brand}` : ""
-							}`}</h3>
+							<h3 id="brand-selected-data">Brand: {car.brand}</h3>
+							<h3 id="brand-selected-data">Year: {car.year}</h3>
+							<h3 id="brand-selected-data">Manufactured: {car.built}</h3>
+							<h3 id="brand-selected-data">Sale Price: ${car.cost} USD</h3>
 
 							<h3 id="brand-selected-data">
 								Webiste:{" "}
