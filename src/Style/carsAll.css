@@ -121,7 +121,14 @@
 	font-weight: 200; /* 700,500,400 */
 	background-color: palegoldenrod;
 	padding: 0.5rem 0rem 0.5rem 0.5rem;
+	cursor: pointer;
 }
+#all-cars-grid-car-data-model:hover {
+	color: rgba(6, 68, 0, 1);
+	text-decoration: underline;
+	font-size: 1.2rem;
+}
+
 #all-cars-grid-car-data-class {
 	border: solid 1px black;
 	width: 7rem;

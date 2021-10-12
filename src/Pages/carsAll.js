@@ -3,7 +3,7 @@ import { useRouteMatch, useHistory, useLocation } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import CarContext from "../Components/Context/CarContext";
 import cars from "../Data/cars";
-import "../Style/allCars.css";
+import "../Style/carsAll.css";
 import carSort from "../Components/Functions/carSort";
 
 const AllCars = () => {
