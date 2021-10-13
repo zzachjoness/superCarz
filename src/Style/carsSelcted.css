@@ -1,8 +1,70 @@
 #car-selected-background {
-	background-color: palegreen;
+	background-color: white;
 	display: flex;
 	flex-direction: column;
 	text-decoration: none;
-	margin-top: 10rem;
-	height: 10rem;
+}
+#car-selected-back-button-container {
+	margin-top: 5rem;
+	height: 2.5rem;
+	display: flex;
+	background: rgba(6, 68, 0, 1);
+}
+#car-selected-back-button {
+	margin-left: 2rem;
+	margin-top: 0.6rem;
+	font-size: 1.3rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 200; /* 700,500,400 */
+	color: white;
+	cursor: pointer;
+}
+#car-selected-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+#car-selected-data-container {
+	margin-left: 2rem;
+}
+#car-selected-data-container-link {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+#car-selected-data-title {
+	margin: 2rem 2rem 1rem 2rem;
+	font-size: 2rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 500; /* 700,500,400 */
+	color: black;
+	user-select: none;
+}
+#car-selected-data {
+	color: black;
+	margin: 0rem 0rem 0.5rem 3rem;
+	font-size: 1.3rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 200; /* 700,500,400 */
+	user-select: none;
+}
+#car-selected-data-link {
+	color: black;
+	margin: 0rem 0rem 0.5rem 0.5rem;
+	font-size: 1.3rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 200; /* 700,500,400 */
+	cursor: pointer;
+	color: rgba(6, 68, 0, 1);
+}
+#car-selected-data-link:hover {
+	color: rgba(6, 68, 0, 1);
+	text-decoration: underline;
+}
+
+#car-selected-image {
+	margin: 1rem 0rem 2rem 2rem;
+	max-width: 18rem;
+	max-height: 12rem;
 }
