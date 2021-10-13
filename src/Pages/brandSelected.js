@@ -46,8 +46,9 @@ const BrandSelected = (props) => {
 							}`}</h3>
 
 							<h3 id="brand-selected-data">
-								Webiste:{" "}
+								Webiste:
 								<a
+									id="brand-selected-data-link"
 									href={brand.website}
 									target="_blank"
 									rel="noreferrer"

@@ -50,3 +50,18 @@
 	max-width: 18rem;
 	max-height: 12rem;
 }
+
+#brand-selected-data-link {
+	color: black;
+	margin: 0rem 0rem 0.5rem 0.5rem;
+	font-size: 1.3rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 200; /* 700,500,400 */
+	cursor: pointer;
+	color: rgba(6, 68, 0, 1);
+	text-decoration: none;
+}
+#brand-selected-data-link:hover {
+	color: rgba(6, 68, 0, 1);
+	text-decoration: underline;
+}
