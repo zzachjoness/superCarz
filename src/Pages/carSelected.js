@@ -3,6 +3,7 @@ import { useParams, useHistory } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import CarContext from "../Components/Context/CarContext";
 import cars from "../Data/cars";
+import carCost from "../Components/Functions/carCost";
 
 const CarSelected = () => {
 	const { selectedCarId } = useContext(CarContext);
@@ -10,20 +11,7 @@ const CarSelected = () => {
 	const car = selectedCarId
 		? cars[selectedCarId]
 		: cars.find(({ model }) => model === selectedCar);
-	const carCost = () => {
-		console.log("car.cost: ", car.cost);
-		const string = car.cost.toString();
-		const n = string.length;
-		let cost = "";
-		for (let i = 0; i < n; i++) {
-			let add = "";
-			if (i === 3 || i === 6) {
-				add = ",";
-			}
-			cost = string[n - 1 - i] + add + cost;
-		}
-		return cost;
-	};
+
 	let history = useHistory();
 	const historyClick = () => {
 		history.goBack();
@@ -50,7 +38,7 @@ const CarSelected = () => {
 							<h3 id="brand-selected-data">Brand: {car.brand}</h3>
 							<h3 id="brand-selected-data">Year: {car.year}</h3>
 							<h3 id="brand-selected-data">Manufactured: {car.built}</h3>
-							<h3 id="brand-selected-data">Sale Price: ${carCost()} USD</h3>
+							<h3 id="brand-selected-data">Sale Price: ${carCost(car)} USD</h3>
 
 							<h3 id="brand-selected-data">
 								Webiste:{" "}
