@@ -23,10 +23,12 @@ import Renault from "../Images/brands/renault.png";
 import Rr from "../Images/brands/RR.png";
 import Tesla from "../Images/brands/tesla.png";
 import Toyota from "../Images/brands/toyota.png";
+import brandsAbout from "./brandsAbout";
 
 const brandsWithPhotos = [
 	{
 		id: 0,
+		about: brandsAbout[0],
 		name: "Acura",
 		image: Acura,
 		founded: "1886",

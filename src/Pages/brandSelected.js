@@ -60,6 +60,7 @@ const BrandSelected = (props) => {
 						</div>
 						<img id="brand-selected-image" src={brand.image} alt={brand.name}></img>
 					</div>
+					<div>{brand.about}</div>
 					<div>cars</div>
 					<div>{brandCars}</div>
 				</div>
