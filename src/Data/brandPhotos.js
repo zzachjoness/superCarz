@@ -39,6 +39,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 1,
+		about: brandsAbout[1],
 		name: "Aston Martin",
 		image: Am,
 		founded: "1913",
@@ -49,6 +50,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 2,
+		about: brandsAbout[2],
 		name: "Audi",
 		image: Audi,
 		founded: "1909",
@@ -59,6 +61,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 3,
+		about: brandsAbout[3],
 		name: "Bentley",
 		image: Bentley,
 		founded: "1919",
@@ -69,6 +72,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 4,
+		about: brandsAbout[4],
 		name: "BMW",
 		image: Bmw,
 		founded: "1916",
