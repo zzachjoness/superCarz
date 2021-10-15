@@ -83,6 +83,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 5,
+		about: brandsAbout[5],
 		name: "Bugatti",
 		image: Bugatti,
 		founded: "1909",
@@ -93,6 +94,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 6,
+		about: brandsAbout[6],
 		name: "Ferrari",
 		image: Ferrari,
 		founded: "1939",
