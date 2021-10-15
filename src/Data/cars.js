@@ -650,6 +650,102 @@ const cars = [
 		class: "Hybrid",
 		cost: 625000,
 	},
+	{
+		id: 26,
+		brand: "Ford",
+		model: "F-150 SVT Raptor",
+		built: "Dearborn, Michigan, USA",
+		technical: {
+			horsepower: 450, //hp
+			torque: 510, //lb-ft
+			zeroToSixty: 5.2,
+			topSpeed: 107, //mph
+			driveType: "4WD",
+			engineLayout: "Front",
+			fuelType: "Gasoline",
+			engine: "3.5L D35 twin-turbo V8",
+			aspiration: "Turbo-charged",
+			transmission: "10-Speed Automatic",
+			mpgCombined: 16,
+			weight: 5700, //lb
+			bodyStyle: "Pickup Truck",
+		},
+		year: 2018,
+		class: "Gasoline",
+		cost: 49520,
+	},
+	{
+		id: 27,
+		brand: "Ford",
+		model: "Ford GT Mk II",
+		built: "Markham, Ontario, Canada",
+		technical: {
+			horsepower: 647, //hp
+			torque: 550, //lb-ft
+			zeroToSixty: 2.9,
+			topSpeed: 216, //mph
+			driveType: "RWD",
+			engineLayout: "Mid-engine",
+			fuelType: "Gasoline",
+			engine: "3.5L Twin-turbo EcoBoost V6",
+			aspiration: "Turbo-charged",
+			transmission: "7-Speed DCT",
+			mpgCombined: 14,
+			weight: 3250, //lb
+			bodyStyle: "Coupe",
+		},
+		year: 2017,
+		class: "Gasoline",
+		cost: 450000,
+	},
+	{
+		id: 28,
+		brand: "Ford",
+		model: "Escort RS Cosworth",
+		built: "Rheine, Germany",
+		technical: {
+			horsepower: 224, //hp
+			torque: 224, //lb-ft
+			zeroToSixty: 5.6,
+			topSpeed: 144, //mph
+			driveType: "AWD",
+			engineLayout: "Longitudinal Front-engine",
+			fuelType: "Gasoline",
+			engine: "1993cc Cosworth YBP turbo I4",
+			aspiration: "Turbo-charged",
+			transmission: "5-Speed Manual",
+			mpgCombined: 23,
+			weight: 2880, //lb
+			bodyStyle: "3-door hatch",
+		},
+		year: 1994,
+		class: "Gasoline",
+		cost: 25000,
+	},
+	{
+		id: 29,
+		brand: "Ford",
+		model: "Fiesta ST",
+		built: "Cuatitlan, Mexico",
+		technical: {
+			horsepower: 197, //hp
+			torque: 202, //lb-ft
+			zeroToSixty: 6.4,
+			topSpeed: 130, //mph
+			driveType: "FWD",
+			engineLayout: "Longitudinal Front-engine",
+			fuelType: "Gasoline",
+			engine: "1.6L turbocharged I4",
+			aspiration: "Turbo-charged",
+			transmission: "6-Speed Manual",
+			mpgCombined: 28,
+			weight: 2720, //lb
+			bodyStyle: "5-door hatch",
+		},
+		year: 2018,
+		class: "Gasoline",
+		cost: 22160,
+	},
 ];
 
 export default cars;
