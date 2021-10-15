@@ -554,6 +554,102 @@ const cars = [
 		class: "Gasoline",
 		cost: 3890000,
 	},
+	{
+		id: 22,
+		brand: "Ferrari",
+		model: "LaFerrari F150",
+		built: "Maranello, Italy",
+		technical: {
+			horsepower: 950, //hp
+			torque: 664, //lb-ft
+			zeroToSixty: 2.7,
+			topSpeed: 217, //mph
+			driveType: "RWD",
+			engineLayout: "Rear mid-engine",
+			fuelType: "Gasoline + Electric",
+			engine: "6.3L F140FE V12 + HY-KERS",
+			aspiration: "Natural",
+			transmission: "7-Speed DCT",
+			mpgCombined: 14,
+			weight: 2767, //lb
+			bodyStyle: "Coupe",
+		},
+		year: 2013,
+		class: "Hybrid",
+		cost: 1420000,
+	},
+	{
+		id: 23,
+		brand: "Ferrari",
+		model: "250 GTO",
+		built: "Maranello, Italy",
+		technical: {
+			horsepower: 300, //hp
+			torque: 216, //lb-ft
+			zeroToSixty: 6.1,
+			topSpeed: 175, //mph
+			driveType: "RWD",
+			engineLayout: "Front-Engine",
+			fuelType: "Gasoline",
+			engine: "3.0L V12",
+			aspiration: "Natural",
+			transmission: "5-Speed manual",
+			mpgCombined: 10,
+			weight: 2094, //lb
+			bodyStyle: "2-door berlinetta",
+		},
+		year: 1964,
+		class: "Gasoline",
+		cost: 18000,
+	},
+	{
+		id: 24,
+		brand: "Ferrari",
+		model: "F40",
+		built: "Maranello, Italy",
+		technical: {
+			horsepower: 471, //hp
+			torque: 426, //lb-ft
+			zeroToSixty: 3.8,
+			topSpeed: 201, //mph
+			driveType: "RWD",
+			engineLayout: "Mid-engine",
+			fuelType: "Gasoline",
+			engine: "2.9L twin-turbo V8",
+			aspiration: "Turbo-charged",
+			transmission: "5-Speed Manual",
+			mpgCombined: 13,
+			weight: 3000, //lb
+			bodyStyle: "2-door berlinetta",
+		},
+		year: 1987,
+		class: "Gasoline",
+		cost: 400000,
+	},
+	{
+		id: 25,
+		brand: "Ferrari",
+		model: "SF90 Stradale",
+		built: "Maranello, Italy",
+		technical: {
+			horsepower: 989, //hp
+			torque: 590, //lb-ft
+			zeroToSixty: 2.0,
+			topSpeed: 211, //mph
+			driveType: "AWD",
+			engineLayout: "Longitudinal mid-engine",
+			fuelType: "Gasoline + Plug-in Electric",
+			engine: "3990cc Twin-turbo V8 + 3 Electric Motors",
+			aspiration: "Turbo-charged",
+			transmission: "8-Speed DCT",
+			mpgCombined: 18,
+			weight: 3527, //lb
+			bodyStyle: "2-door berlinetta",
+		},
+		year: 2021,
+		class: "Hybrid",
+		cost: 625000,
+	},
 ];
 
 export default cars;
