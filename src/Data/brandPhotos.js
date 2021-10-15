@@ -105,6 +105,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 7,
+		about: brandsAbout[7],
 		name: "Ford",
 		image: Ford,
 		founded: "1903",
