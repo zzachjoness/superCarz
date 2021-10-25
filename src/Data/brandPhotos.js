@@ -116,6 +116,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 8,
+		about: brandsAbout[8],
 		name: "Honda",
 		image: Honda,
 		founded: "1946",
