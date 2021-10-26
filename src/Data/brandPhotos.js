@@ -138,6 +138,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 10,
+		about: brandsAbout[10],
 		name: "Koenigsegg",
 		image: Koenigsegg,
 		founded: "1994",
