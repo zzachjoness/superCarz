@@ -42,7 +42,7 @@ const cars = [
 			engine: "Twin-turbocharged DOHC V6 + Electric Motor Units",
 			aspiration: "Turbo-charged",
 			transmission: "9-Speed DCT",
-			mpgCombined: "TBD",
+			mpgCombined: "",
 			weight: 3946,
 			bodyStyle: "Coupe",
 		},
@@ -138,7 +138,7 @@ const cars = [
 			engine: "6.5L V-12 + Electric Motor",
 			aspiration: "Natural",
 			transmission: "7-Speed Single-clutch automated manual",
-			mpgCombined: "TBD",
+			mpgCombined: "",
 			weight: 2425, //lb
 			bodyStyle: "Coupe",
 		},
@@ -162,7 +162,7 @@ const cars = [
 			engine: "7.0L V12",
 			aspiration: "Natural",
 			transmission: "6-Speed sequential",
-			mpgCombined: "TBD",
+			mpgCombined: "",
 			weight: 2976, //lb
 			bodyStyle: "Coupe",
 		},
@@ -186,7 +186,7 @@ const cars = [
 			engine: "5.9L AM11 V12",
 			aspiration: "Naural",
 			transmission: "6-Speed manual",
-			mpgCombined: "TBD",
+			mpgCombined: "",
 			weight: 3704, //lb
 			bodyStyle: "Coupe",
 		},
@@ -226,15 +226,15 @@ const cars = [
 		technical: {
 			horsepower: 469, //hp
 			torque: 354, //lb-ft
-			zeroToSixty: "TBD",
-			topSpeed: "TBD", //mph
+			zeroToSixty: "",
+			topSpeed: "", //mph
 			driveType: "AWD",
 			engineLayout: "Front Longitudinal",
 			fuelType: "Gasoline",
 			engine: "2.1L Turbocharged I5",
 			aspiration: "Turbo-charged",
 			transmission: "6-Speed manual",
-			mpgCombined: "TBD",
+			mpgCombined: "",
 			weight: 2403, //lb
 			bodyStyle: "Coupe",
 		},
@@ -298,7 +298,7 @@ const cars = [
 		technical: {
 			horsepower: 623, //hp
 			torque: 561, //lb-ft
-			zeroToSixty: "TBD",
+			zeroToSixty: "",
 			topSpeed: 217, //mph
 			driveType: "AWD",
 			engineLayout: "Mid-Engine",
@@ -306,13 +306,13 @@ const cars = [
 			engine: "8.0L W16",
 			aspiration: "Natural",
 			transmission: "5-Speed Manual",
-			mpgCombined: "TBD",
+			mpgCombined: "",
 			weight: 3086, //lb
 			bodyStyle: "Coupe",
 		},
 		year: 1999,
 		class: "Gasoline",
-		cost: "N/A",
+		cost: "",
 	},
 	{
 		id: 12,
@@ -465,8 +465,8 @@ const cars = [
 		built: "Molsheim, France",
 		technical: {
 			horsepower: 30, //hp
-			torque: "N/A", //lb-ft
-			zeroToSixty: "N/A",
+			torque: "", //lb-ft
+			zeroToSixty: "",
 			topSpeed: 78, //mph
 			driveType: "RWD",
 			engineLayout: "Front-Longitudinal",
@@ -474,13 +474,13 @@ const cars = [
 			engine: "1.4L dual carb I4",
 			aspiration: "Natural",
 			transmission: "4-Speed Manual",
-			mpgCombined: "N/A",
+			mpgCombined: "",
 			weight: 660, //lb
 			bodyStyle: "Roadster",
 		},
 		year: 1920,
 		class: "Gasoline",
-		cost: "N/A",
+		cost: "",
 	},
 	{
 		id: 19,
@@ -489,7 +489,7 @@ const cars = [
 		built: "Molsheim, France",
 		technical: {
 			horsepower: 160, //hp
-			torque: "N/A", //lb-ft
+			torque: "", //lb-ft
 			zeroToSixty: 7.0,
 			topSpeed: 130, //mph
 			driveType: "RWD",
@@ -498,13 +498,13 @@ const cars = [
 			engine: "2.3L V8",
 			aspiration: "Natural",
 			transmission: "4-Speed Manual",
-			mpgCombined: "N/A",
+			mpgCombined: "",
 			weight: 1650, //lb
 			bodyStyle: "Roadster",
 		},
 		year: 1924,
 		class: "Gasoline",
-		cost: "N/A",
+		cost: "",
 	},
 	{
 		id: 20,
@@ -539,7 +539,7 @@ const cars = [
 			horsepower: 1577, //hp
 			torque: 1180, //lb-ft
 			zeroToSixty: 2.4,
-			topSpeed: 304, //mph
+			topSpeed: 304.773, //mph
 			driveType: "AWD",
 			engineLayout: "Mid-Engine",
 			fuelType: "Gasoline",
@@ -1026,7 +1026,7 @@ const cars = [
 			engine: "5.0L V8 Twin-turbo + Electric motors",
 			aspiration: "Turbo-charged",
 			transmission: "9-speed LST",
-			mpgCombined: "TBD",
+			mpgCombined: "",
 			weight: 3064, //lb
 			bodyStyle: "2-door coupe",
 		},
