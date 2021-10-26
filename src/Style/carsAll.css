@@ -80,6 +80,13 @@
 	border: solid 0.05rem black;
 	background-color: palegoldenrod;
 }
+#all-cars-grid-header-component-technical-topSpeed {
+	display: flex;
+	width: 12rem;
+	height: 3rem;
+	border: solid 0.05rem black;
+	background-color: palegoldenrod;
+}
 #all-cars-grid-sort-container {
 	padding-right: 0.5rem;
 	/* align-self: center;mbm    */
@@ -168,6 +175,15 @@
 #all-cars-grid-car-data-technical-zeroSixty {
 	border: solid 1px black;
 	width: 9rem;
+	font-size: 1rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 200; /* 700,500,400 */
+	background-color: palegoldenrod;
+	padding: 0.5rem 0rem 0.5rem 0.5rem;
+}
+#all-cars-grid-car-data-technical-topSpeed {
+	border: solid 1px black;
+	width: 12rem;
 	font-size: 1rem;
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 200; /* 700,500,400 */
