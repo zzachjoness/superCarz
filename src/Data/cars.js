@@ -515,7 +515,7 @@ const cars = [
 			horsepower: 1184, //hp
 			torque: 1106, //lb-ft
 			zeroToSixty: 2.4,
-			topSpeed: 267.856, //mph
+			topSpeed: 267, //mph
 			driveType: "AWD",
 			engineLayout: "Mid-Engine",
 			fuelType: "Gasoline",
@@ -539,7 +539,7 @@ const cars = [
 			horsepower: 1577, //hp
 			torque: 1180, //lb-ft
 			zeroToSixty: 2.4,
-			topSpeed: 304.773, //mph
+			topSpeed: 304, //mph
 			driveType: "AWD",
 			engineLayout: "Mid-Engine",
 			fuelType: "Gasoline",
