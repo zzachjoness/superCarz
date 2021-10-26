@@ -55,6 +55,9 @@ const AllCars = () => {
 				<div id="all-cars-grid-car-data-technical-zeroSixty">
 					{car.technical.zeroToSixty}
 				</div>
+				<div id="all-cars-grid-car-data-technical-topSpeed">
+					{car.technical.topSpeed}
+				</div>
 			</div>
 		));
 
@@ -93,6 +96,10 @@ const AllCars = () => {
 						<div id="all-cars-grid-header-component-technical-zeroSixty">
 							<div id="all-cars-grid-header">zero-sixty</div>
 							<SelectSort name={["technical", "zeroToSixty"]} reverse={false} />
+						</div>
+						<div id="all-cars-grid-header-component-technical-topSpeed">
+							<div id="all-cars-grid-header">top-speed (mpg)</div>
+							<SelectSort name={["technical", "topSpeed"]} reverse={true} />
 						</div>
 					</div>
 					<div id="all-cars-grid-cars">
