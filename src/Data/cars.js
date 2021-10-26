@@ -746,6 +746,102 @@ const cars = [
 		class: "Gasoline",
 		cost: 22160,
 	},
+	{
+		id: 30,
+		brand: "Honda",
+		model: "S2000",
+		built: "Takanezawa, Japan",
+		technical: {
+			horsepower: 240, //hp
+			torque: 162, //lb-ft
+			zeroToSixty: 5.9,
+			topSpeed: 149, //mph
+			driveType: "RWD",
+			engineLayout: "Front mid-engine",
+			fuelType: "Gasoline",
+			engine: "2.2L VTEC I4",
+			aspiration: "Natural",
+			transmission: "6-speed Manual",
+			mpgCombined: 22,
+			weight: 2835, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2005,
+		class: "Gasoline",
+		cost: 33150,
+	},
+	{
+		id: 31,
+		brand: "Honda",
+		model: "S800 Coupe",
+		built: "Suzuka, Japan",
+		technical: {
+			horsepower: 70, //hp
+			torque: 49, //lb-ft
+			zeroToSixty: 13.6,
+			topSpeed: 100, //mph
+			driveType: "RWD",
+			engineLayout: "Front-mounted Longitudinal",
+			fuelType: "Gasoline",
+			engine: "791cc I4",
+			aspiration: "Natural",
+			transmission: "4-speed Manual",
+			mpgCombined: 35,
+			weight: 1724, //lb
+			bodyStyle: "2-coor coupe",
+		},
+		year: 1968,
+		class: "Gasoline",
+		cost: 10000,
+	},
+	{
+		id: 32,
+		brand: "Honda",
+		model: "Civic Type R",
+		built: "Swindon, U.K.",
+		technical: {
+			horsepower: 306, //hp
+			torque: 295, //lb-ft
+			zeroToSixty: 4.9,
+			topSpeed: 169, //mph
+			driveType: "FWD",
+			engineLayout: "Front-mounted Longitudinal",
+			fuelType: "Gasoline",
+			engine: "2.0L Turbo-charged I4",
+			aspiration: "Turbo-charged",
+			transmission: "6-speed Manual",
+			mpgCombined: 25,
+			weight: 3071, //lb
+			bodyStyle: "4-door sedan",
+		},
+		year: 2021,
+		class: "Gasoline",
+		cost: 37990,
+	},
+	{
+		id: 33,
+		brand: "Honda",
+		model: "Prelude",
+		built: "Sayama, Japan",
+		technical: {
+			horsepower: 190, //hp
+			torque: 158, //lb-ft
+			zeroToSixty: 7,
+			topSpeed: 150, //mph
+			driveType: "FWD",
+			engineLayout: "Front-mounted Longitudinal",
+			fuelType: "Gasoline",
+			engine: "2.2L VTEC I4",
+			aspiration: "Natural",
+			transmission: "5-Speed Manual",
+			mpgCombined: 24,
+			weight: 2932, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 1996,
+		class: "Gasoline",
+		cost: 25880,
+	},
 ];
 
 export default cars;
