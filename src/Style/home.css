@@ -40,35 +40,23 @@
 	border: none;
 	top: 19.8rem;
 	left: 5rem;
-	background: rgba(183, 52, 8, 0.7);
+	background-color: rgba(183, 52, 8, 0.7);
 	backdrop-filter: blur(0.05rem);
-	animation: retract 1s forwards;
+	transition: width 2s, background-color 2s;
+	-webkit-transition: width 2s, background-color 2s;
 }
+
 #home-button:active {
 	position: absolute;
 	top: 20rem;
 	left: 5rem;
 }
 #home-button:hover {
-	animation: extend 1s forwards;
-}
-@keyframes extend {
-	100% {
-		width: 10rem;
-		background: rgba(183, 52, 8, 0.8);
-	}
-}
-@keyframes retract {
-	0% {
-		width: 10rem;
-		background: rgba(183, 52, 8, 0.8);
-	}
-	100% {
-		width: 5rem;
-	}
+	background-color: rgba(183, 52, 8, 0.9);
+	width: 20rem;
 }
 
-*/ :active,
+:active,
 :focus {
 	outline: 0;
 }
