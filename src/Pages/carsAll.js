@@ -98,7 +98,7 @@ const AllCars = () => {
 							<SelectSort name={["technical", "zeroToSixty"]} reverse={false} />
 						</div>
 						<div id="all-cars-grid-header-component-technical-topSpeed">
-							<div id="all-cars-grid-header">top-speed (mpg)</div>
+							<div id="all-cars-grid-header">top-speed (mph)</div>
 							<SelectSort name={["technical", "topSpeed"]} reverse={true} />
 						</div>
 					</div>
