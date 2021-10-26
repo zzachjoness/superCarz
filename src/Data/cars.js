@@ -938,6 +938,102 @@ const cars = [
 		class: "Gasoline",
 		cost: 88000,
 	},
+	{
+		id: 38,
+		brand: "Koenigsegg",
+		model: "Agera RS",
+		built: "Angelholm, Sweden",
+		technical: {
+			horsepower: 1341, //hp
+			torque: 1011, //lb-ft
+			zeroToSixty: 2.8,
+			topSpeed: 249, //mph
+			driveType: "RWD",
+			engineLayout: "Rear mid-engine",
+			fuelType: "Gasoline",
+			engine: "5.0L V8 Twin-turbo",
+			aspiration: "Turbo-charged",
+			transmission: "7-speed DCT",
+			mpgCombined: 13,
+			weight: 3075, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2018,
+		class: "Gasoline",
+		cost: 2500000,
+	},
+	{
+		id: 39,
+		brand: "Koenigsegg",
+		model: "Gemera",
+		built: "Angelholm, Sweden",
+		technical: {
+			horsepower: 1700, //hp
+			torque: 2580, //lb-ft
+			zeroToSixty: 1.9,
+			topSpeed: 249, //mph
+			driveType: "AWD",
+			engineLayout: "Rear mid-engine",
+			fuelType: "PHEV",
+			engine: "2.0L TFG Twin-turbo-charged I3 + Electric motors",
+			aspiration: "Turbo-charged",
+			transmission: "Single-speed Direct Drive",
+			mpgCombined: 31.4,
+			weight: 4079, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2022,
+		class: "Hybrid",
+		cost: 1700000,
+	},
+	{
+		id: 40,
+		brand: "Koenigsegg",
+		model: "Regera",
+		built: "Angelholm, Sweden",
+		technical: {
+			horsepower: 1500, //hp
+			torque: 1479, //lb-ft
+			zeroToSixty: 2.7,
+			topSpeed: 251, //mph
+			driveType: "RWD",
+			engineLayout: "Longitudinal mid-engine",
+			fuelType: "PHEV",
+			engine: "5.0L V8 Twin-turbo + Electric motors",
+			aspiration: "Turbo-charged",
+			transmission: "Single-speed Direct Drive",
+			mpgCombined: 11,
+			weight: 3589, //lb
+			bodyStyle: "2-door targa top",
+		},
+		year: 2019,
+		class: "Hybrid",
+		cost: 1900000,
+	},
+	{
+		id: 41,
+		brand: "Koenigsegg",
+		model: "Jesko Absolut",
+		built: "Angelholm, Sweden",
+		technical: {
+			horsepower: 1600, //hp
+			torque: 1106, //lb-ft
+			zeroToSixty: 2.5,
+			topSpeed: 330, //mph
+			driveType: "RWD",
+			engineLayout: "Longitudinal mid-engine",
+			fuelType: "PHEV",
+			engine: "5.0L V8 Twin-turbo + Electric motors",
+			aspiration: "Turbo-charged",
+			transmission: "9-speed LST",
+			mpgCombined: "TBD",
+			weight: 3064, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2022,
+		class: "Hybrid",
+		cost: 3419000,
+	},
 ];
 
 export default cars;
