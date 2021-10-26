@@ -127,6 +127,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 9,
+		about: brandsAbout[9],
 		name: "Jaguar",
 		image: Jaguar,
 		founded: "1933",
