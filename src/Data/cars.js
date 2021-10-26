@@ -842,6 +842,102 @@ const cars = [
 		class: "Gasoline",
 		cost: 25880,
 	},
+	{
+		id: 34,
+		brand: "Jaguar",
+		model: "E-Type Series 3",
+		built: "Coventry, England",
+		technical: {
+			horsepower: 272, //hp
+			torque: 304, //lb-ft
+			zeroToSixty: 6.8,
+			topSpeed: 135, //mph
+			driveType: "RWD",
+			engineLayout: "Front-mounted Longitudinal",
+			fuelType: "Gasoline",
+			engine: "5.3L V12",
+			aspiration: "Natural",
+			transmission: "4-speed Manual",
+			mpgCombined: 13,
+			weight: 3380, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 1971,
+		class: "Gasoline",
+		cost: 8000,
+	},
+	{
+		id: 35,
+		brand: "Jaguar",
+		model: "XKR-S",
+		built: "Birmingham, England",
+		technical: {
+			horsepower: 543, //hp
+			torque: 502, //lb-ft
+			zeroToSixty: 4.2,
+			topSpeed: 186, //mph
+			driveType: "RWD",
+			engineLayout: "Front-mounted Longitudinal",
+			fuelType: "Gasoline",
+			engine: "5.0L Super-charged V8 550 PS",
+			aspiration: "Super-charged",
+			transmission: "6-speed Automatic",
+			mpgCombined: 18,
+			weight: 4063, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2011,
+		class: "Gasoline",
+		cost: 140000,
+	},
+	{
+		id: 36,
+		brand: "Jaguar",
+		model: "F-Pace SRV",
+		built: "Solihull, U.K.",
+		technical: {
+			horsepower: 550, //hp
+			torque: 516, //lb-ft
+			zeroToSixty: 3.8,
+			topSpeed: 178, //mph
+			driveType: "AWD",
+			engineLayout: "Front-mounted Longitudinal",
+			fuelType: "Gasoline",
+			engine: "Super-charged V8",
+			aspiration: "Super-charged",
+			transmission: "8-speed Automatic",
+			mpgCombined: 18,
+			weight: 4800, //lb
+			bodyStyle: "SUV",
+		},
+		year: 2021,
+		class: "Gasoline",
+		cost: 86000,
+	},
+	{
+		id: 37,
+		brand: "Jaguar",
+		model: "XFR-S Sportbrake",
+		built: "Birmingham, England",
+		technical: {
+			horsepower: 542, //hp
+			torque: 501, //lb-ft
+			zeroToSixty: 4.6,
+			topSpeed: 186, //mph
+			driveType: "RWD",
+			engineLayout: "Front-mounted Longitudinal",
+			fuelType: "Gasoline",
+			engine: "5.0L Super-charged V8",
+			aspiration: "Super-charged",
+			transmission: "8-speed Automatic",
+			mpgCombined: 18,
+			weight: 4336, //lb
+			bodyStyle: "4-door wagon",
+		},
+		year: 2015,
+		class: "Gasoline",
+		cost: 88000,
+	},
 ];
 
 export default cars;
