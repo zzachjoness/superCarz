@@ -1034,6 +1034,102 @@ const cars = [
 		class: "Hybrid",
 		cost: 3419000,
 	},
+	{
+		id: 42,
+		brand: "Lamborghini",
+		model: "Countach LP 5000 QV",
+		built: "Sant'Agata Bolognese, Italy",
+		technical: {
+			horsepower: 455, //hp
+			torque: 340, //lb-ft
+			zeroToSixty: 4.7,
+			topSpeed: 183, //mph
+			driveType: "RWD",
+			engineLayout: "Rear mid-engine",
+			fuelType: "Gasoline",
+			engine: "V12",
+			aspiration: "Natural",
+			transmission: "5-speed Manual",
+			mpgCombined: 11,
+			weight: 3280, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 1988,
+		class: "Gasoline",
+		cost: 118000,
+	},
+	{
+		id: 43,
+		brand: "Lamborghini",
+		model: "Veneno",
+		built: "Sant'Agata Bolognese, Italy",
+		technical: {
+			horsepower: 740, //hp
+			torque: 509, //lb-ft
+			zeroToSixty: 2.9,
+			topSpeed: 221, //mph
+			driveType: "AWD",
+			engineLayout: "Mid-engine",
+			fuelType: "Gasoline",
+			engine: "6.5L V12",
+			aspiration: "Natural",
+			transmission: "7-speed ISR",
+			mpgCombined: 13,
+			weight: 3285, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2013,
+		class: "Gasoline",
+		cost: 4000000,
+	},
+	{
+		id: 44,
+		brand: "Lamborghini",
+		model: "Sian",
+		built: "Sant'Agata Bolognese, Italy",
+		technical: {
+			horsepower: 808, //hp
+			torque: 561, //lb-ft
+			zeroToSixty: 2.8,
+			topSpeed: 217, //mph
+			driveType: "AWD",
+			engineLayout: "Mid-engine",
+			fuelType: "Gasoline + Supercapacitor",
+			engine: "6.5L V12 + Electric motor",
+			aspiration: "Natural",
+			transmission: "7-speed ISR",
+			mpgCombined: 12,
+			weight: 3400, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2021,
+		class: "Hybrid",
+		cost: 3000000,
+	},
+	{
+		id: 45,
+		brand: "Lamborghini",
+		model: "Centenario",
+		built: "Sant'Agata Bolognese, Italy",
+		technical: {
+			horsepower: 759, //hp
+			torque: 509, //lb-ft
+			zeroToSixty: 2.7,
+			topSpeed: 217, //mph
+			driveType: "AWD",
+			engineLayout: "Mid-engine",
+			fuelType: "Gasoline",
+			engine: "6.5L V12",
+			aspiration: "Natural",
+			transmission: "7-speed ISR",
+			mpgCombined: 15,
+			weight: 3800, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2016,
+		class: "Gasoline",
+		cost: 2000000,
+	},
 ];
 
 export default cars;
