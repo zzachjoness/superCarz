@@ -149,6 +149,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 11,
+		about: brandsAbout[11],
 		name: "Lamborghini",
 		image: Lamborghini,
 		founded: "1963",
