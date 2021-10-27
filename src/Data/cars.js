@@ -226,8 +226,8 @@ const cars = [
 		technical: {
 			horsepower: 469, //hp
 			torque: 354, //lb-ft
-			zeroToSixty: "",
-			topSpeed: "", //mph
+			zeroToSixty: "3.0",
+			topSpeed: "155", //mph
 			driveType: "AWD",
 			engineLayout: "Front Longitudinal",
 			fuelType: "Gasoline",
@@ -298,7 +298,7 @@ const cars = [
 		technical: {
 			horsepower: 623, //hp
 			torque: 561, //lb-ft
-			zeroToSixty: "",
+			zeroToSixty: "3.4",
 			topSpeed: 217, //mph
 			driveType: "AWD",
 			engineLayout: "Mid-Engine",
@@ -465,8 +465,8 @@ const cars = [
 		built: "Molsheim, France",
 		technical: {
 			horsepower: 30, //hp
-			torque: "", //lb-ft
-			zeroToSixty: "",
+			torque: "15", //lb-ft
+			zeroToSixty: "18",
 			topSpeed: 78, //mph
 			driveType: "RWD",
 			engineLayout: "Front-Longitudinal",
@@ -489,7 +489,7 @@ const cars = [
 		built: "Molsheim, France",
 		technical: {
 			horsepower: 160, //hp
-			torque: "", //lb-ft
+			torque: "178", //lb-ft
 			zeroToSixty: 7.0,
 			topSpeed: 130, //mph
 			driveType: "RWD",
@@ -539,7 +539,7 @@ const cars = [
 			horsepower: 1577, //hp
 			torque: 1180, //lb-ft
 			zeroToSixty: 2.4,
-			topSpeed: 304.773, //mph
+			topSpeed: 305, //mph
 			driveType: "AWD",
 			engineLayout: "Mid-Engine",
 			fuelType: "Gasoline",
