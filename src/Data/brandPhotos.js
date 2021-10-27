@@ -160,6 +160,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 12,
+		about: brandsAbout[12],
 		name: "Lancia",
 		image: Lancia,
 		founded: "1906",
