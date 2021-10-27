@@ -65,3 +65,6 @@
 	color: rgba(6, 68, 0, 1);
 	text-decoration: underline;
 }
+#brand-selected-about {
+	white-space: pre-wrap;
+}
