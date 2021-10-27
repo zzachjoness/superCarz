@@ -1130,6 +1130,54 @@ const cars = [
 		class: "Gasoline",
 		cost: 2000000,
 	},
+	{
+		id: 46,
+		brand: "Lancia",
+		model: "Stratos",
+		built: "Turin, Italy",
+		technical: {
+			horsepower: 190, //hp
+			torque: 166, //lb-ft
+			zeroToSixty: 6.7,
+			topSpeed: 144, //mph
+			driveType: "RWD",
+			engineLayout: "Transverse mid-engine",
+			fuelType: "Gasoline",
+			engine: "Dino V6",
+			aspiration: "Natural",
+			transmission: "5-speed Manual",
+			mpgCombined: 23,
+			weight: 2100, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 1978,
+		class: "Gasoline",
+		cost: 17000,
+	},
+	{
+		id: 47,
+		brand: "Lancia",
+		model: "Delta Integrale Evo II",
+		built: "Chivasso, Turin, Italy",
+		technical: {
+			horsepower: 212, //hp
+			torque: 224, //lb-ft
+			zeroToSixty: 5.7,
+			topSpeed: 137, //mph
+			driveType: "4WD",
+			engineLayout: "Transverse front-engine",
+			fuelType: "Gasoline",
+			engine: "2.0L Fiat I4",
+			aspiration: "Turbo-charged",
+			transmission: "5-speed manual",
+			mpgCombined: 18,
+			weight: 2954, //lb
+			bodyStyle: "5-door hatchback",
+		},
+		year: 1993,
+		class: "Gasoline",
+		cost: 43000,
+	},
 ];
 
 export default cars;
