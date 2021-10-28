@@ -182,6 +182,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 14,
+		about: brandsAbout[14],
 		name: "Lotus",
 		image: Lotus,
 		founded: "1948",
