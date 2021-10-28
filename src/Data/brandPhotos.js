@@ -171,6 +171,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 13,
+		about: brandsAbout[13],
 		name: "Lexus",
 		image: Lexus,
 		founded: "1989",
