@@ -1178,6 +1178,78 @@ const cars = [
 		class: "Gasoline",
 		cost: 43000,
 	},
+	{
+		id: 48,
+		brand: "Lexus",
+		model: "LFA",
+		built: "Motomachi, Japan",
+		technical: {
+			horsepower: 552, //hp
+			torque: 354, //lb-ft
+			zeroToSixty: 3.6,
+			topSpeed: 203, //mph
+			driveType: "RWD",
+			engineLayout: "Front-mid engine",
+			fuelType: "Gasoline",
+			engine: "4.8L V10",
+			aspiration: "Natural",
+			transmission: "6-speed ASG",
+			mpgCombined: 13,
+			weight: 3263, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2013,
+		class: "Gasoline",
+		cost: 375000,
+	},
+	{
+		id: 49,
+		brand: "Lexus",
+		model: "LC500",
+		built: "Motomachi, Japan",
+		technical: {
+			horsepower: 470, //hp
+			torque: 400, //lb-ft
+			zeroToSixty: 4.6,
+			topSpeed: 168, //mph
+			driveType: "RWD",
+			engineLayout: "Front-engine",
+			fuelType: "Gasoline",
+			engine: "5.0L V8",
+			aspiration: "Natural",
+			transmission: "10-speed DCT",
+			mpgCombined: 19,
+			weight: 4340, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2020,
+		class: "Gasoline",
+		cost: 93100,
+	},
+	{
+		id: 50,
+		brand: "Lexus",
+		model: "RC F",
+		built: "Tahara, Japan",
+		technical: {
+			horsepower: 467, //hp
+			torque: 389, //lb-ft
+			zeroToSixty: 3.9,
+			topSpeed: 172, //mph
+			driveType: "RWD",
+			engineLayout: "Front-engine",
+			fuelType: "Gasoline",
+			engine: "5.0L V8",
+			aspiration: "Natural",
+			transmission: "8-speed Automatic",
+			mpgCombined: 19,
+			weight: 3900, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2015,
+		class: "Gasoline",
+		cost: 66000,
+	},
 ];
 
 export default cars;
