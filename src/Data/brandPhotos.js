@@ -193,6 +193,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 15,
+		about: brandsAbout[15],
 		name: "Maserati",
 		image: Maserati,
 		founded: "1914",
