@@ -1250,6 +1250,102 @@ const cars = [
 		class: "Gasoline",
 		cost: 66000,
 	},
+	{
+		id: 51,
+		brand: "Lotus",
+		model: "Evija",
+		built: "Norfolk, England",
+		technical: {
+			horsepower: 1970, //hp
+			torque: 1254, //lb-ft
+			zeroToSixty: 2.9,
+			topSpeed: 200, //mph
+			driveType: "IWD",
+			engineLayout: "bottom mounted battery",
+			fuelType: "Electric",
+			engine: "4 electric motors",
+			aspiration: "N/A",
+			transmission: "4 single-speed planetary",
+			mpgCombined: "250 mile range",
+			weight: 3700, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2022,
+		class: "Electric",
+		cost: 2300000,
+	},
+	{
+		id: 52,
+		brand: "Lotus",
+		model: "Exige Sport 410",
+		built: "Norfolk, England",
+		technical: {
+			horsepower: 410, //hp
+			torque: 310, //lb-ft
+			zeroToSixty: 3.3,
+			topSpeed: 180, //mph
+			driveType: "RWD",
+			engineLayout: "Rear-mid engine",
+			fuelType: "Gasoline",
+			engine: "3.5L Supercharged V6",
+			aspiration: "Supercharged",
+			transmission: "6-speed manual",
+			mpgCombined: 27.7,
+			weight: 2324, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2018,
+		class: "Gasoline",
+		cost: 108000,
+	},
+	{
+		id: 53,
+		brand: "Lotus",
+		model: "Elise GT1",
+		built: "Norfolk, England",
+		technical: {
+			horsepower: 607, //hp
+			torque: 398, //lb-ft
+			zeroToSixty: 3.2,
+			topSpeed: 199, //mph
+			driveType: "RWD",
+			engineLayout: "Rear mid-engine",
+			fuelType: "Gasoline",
+			engine: "6.0L Chevy LT5 V8",
+			aspiration: "Natural",
+			transmission: "6-speed manual",
+			mpgCombined: 17,
+			weight: 2094, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 1997,
+		class: "Gasoline",
+		cost: 645000,
+	},
+	{
+		id: 54,
+		brand: "Lotus",
+		model: "3-Eleven",
+		built: "Norfolk, England",
+		technical: {
+			horsepower: 410, //hp
+			torque: 302, //lb-ft
+			zeroToSixty: 3.3,
+			topSpeed: 180, //mph
+			driveType: "RWD",
+			engineLayout: "Transverse mid-engine",
+			fuelType: "Gasoline",
+			engine: "3.5L Supercharged Toyota V6",
+			aspiration: "Supercharged",
+			transmission: "6-speed manual",
+			mpgCombined: 24.2,
+			weight: 2039, //lb
+			bodyStyle: "0-door speedster",
+		},
+		year: 2016,
+		class: "Gasoline",
+		cost: 107000,
+	},
 ];
 
 export default cars;
