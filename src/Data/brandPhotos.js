@@ -204,6 +204,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 16,
+		about: brandsAbout[16],
 		name: "McLaren",
 		image: Mclaren,
 		founded: "1985",
