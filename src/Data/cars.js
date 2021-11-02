@@ -1442,6 +1442,126 @@ const cars = [
 		class: "Gasoline",
 		cost: 2400000,
 	},
+	{
+		id: 59,
+		brand: "McLaren",
+		model: "F1",
+		built: "Surrey, England",
+		technical: {
+			horsepower: 627, //hp
+			torque: 479, //lb-ft
+			zeroToSixty: 3.2,
+			topSpeed: 240, //mph
+			driveType: "RWD",
+			engineLayout: "Rear mid-engine",
+			fuelType: "Gasoline",
+			engine: "6.1L BMW S70/2 V12",
+			aspiration: "Natural",
+			transmission: "6-speed manual",
+			mpgCombined: 15.2,
+			weight: 2509, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 1993,
+		class: "Gasoline",
+		cost: 815000,
+	},
+	{
+		id: 60,
+		brand: "McLaren",
+		model: "P1",
+		built: "Surrey, England",
+		technical: {
+			horsepower: 903, //hp
+			torque: 664, //lb-ft
+			zeroToSixty: 2.8,
+			topSpeed: 217, //mph
+			driveType: "RWD",
+			engineLayout: "Rear mid-engine",
+			fuelType: "PHEV",
+			engine: "3.8L Twin Turbo-charged V8 + E-Motor",
+			aspiration: "Turbo-charged",
+			transmission: "7-speed DCT",
+			mpgCombined: 16,
+			weight: 3280, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2015,
+		class: "Hybrid",
+		cost: 1150000,
+	},
+	{
+		id: 61,
+		brand: "McLaren",
+		model: "SLR Stirling Moss",
+		built: "Surrey, England",
+		technical: {
+			horsepower: 651, //hp
+			torque: 605, //lb-ft
+			zeroToSixty: 3.5,
+			topSpeed: 217, //mph
+			driveType: "RWD",
+			engineLayout: "Front mid-engine",
+			fuelType: "Gasoline",
+			engine: "5.4L supercharged M155 SLR V8",
+			aspiration: "Super-charged",
+			transmission: "5-speed automatic",
+			mpgCombined: "N/A",
+			weight: 3600, //lb
+			bodyStyle: "2-door speedster",
+		},
+		year: 2009,
+		class: "Gasoline",
+		cost: 1200000,
+	},
+	{
+		id: 62,
+		brand: "McLaren",
+		model: "Speedtail",
+		built: "Surrey, England",
+		technical: {
+			horsepower: 1035, //hp
+			torque: 848, //lb-ft
+			zeroToSixty: 2.9,
+			topSpeed: 250, //mph
+			driveType: "RWD",
+			engineLayout: "Rear mid-engine",
+			fuelType: "Parallel Hybrid",
+			engine: "4.0L Twin Turbo-charged V8 with parallel hybrid system",
+			aspiration: "Tubro-charged",
+			transmission: "7-speed DCT",
+			mpgCombined: 15,
+			weight: 3500, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2020,
+		class: "Hybrid",
+		cost: 2300000,
+	},
+	{
+		id: 63,
+		brand: "McLaren",
+		model: "Senna",
+		built: "Surrey, England",
+		technical: {
+			horsepower: 789, //hp
+			torque: 590, //lb-ft
+			zeroToSixty: 2.8,
+			topSpeed: 211, //mph
+			driveType: "RWD",
+			engineLayout: "Rear mid-engine",
+			fuelType: "Gasoline",
+			engine: "4.0L twin turbo-charged V8",
+			aspiration: "Turbo-charged",
+			transmission: "7-speed DCT",
+			mpgCombined: 16,
+			weight: 3030, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2020,
+		class: "Gasoline",
+		cost: 1000000,
+	},
 ];
 
 export default cars;
