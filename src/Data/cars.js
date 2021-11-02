@@ -1346,6 +1346,102 @@ const cars = [
 		class: "Gasoline",
 		cost: 107000,
 	},
+	{
+		id: 55,
+		brand: "Maserati",
+		model: "GranTurismo MC Stradale",
+		built: "Modena, Italy",
+		technical: {
+			horsepower: 444, //hp
+			torque: 376, //lb-ft
+			zeroToSixty: 4.3,
+			topSpeed: 190, //mph
+			driveType: "RWD",
+			engineLayout: "Front-engine",
+			fuelType: "Gasoline",
+			engine: "4.7L V8",
+			aspiration: "Natural",
+			transmission: "6-speed Automatic",
+			mpgCombined: 16,
+			weight: 4090, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2018,
+		class: "Gasoline",
+		cost: 158962,
+	},
+	{
+		id: 56,
+		brand: "Maserati",
+		model: "Mistral",
+		built: "Modena, Italy",
+		technical: {
+			horsepower: 251, //hp
+			torque: 289, //lb-ft
+			zeroToSixty: 6.3,
+			topSpeed: 152, //mph
+			driveType: "RWD",
+			engineLayout: "Front-engine",
+			fuelType: "Gasoline",
+			engine: "4.0L L6",
+			aspiration: "Natural",
+			transmission: "5-speed manual",
+			mpgCombined: "N/A",
+			weight: 3064, //lb
+			bodyStyle: "3-door coupe",
+		},
+		year: 1968,
+		class: "Gasoline",
+		cost: 14000,
+	},
+	{
+		id: 57,
+		brand: "Maserati",
+		model: "3500 GT",
+		built: "Modena, Italy",
+		technical: {
+			horsepower: 230, //hp
+			torque: 234, //lb-ft
+			zeroToSixty: 7.0,
+			topSpeed: 146, //mph
+			driveType: "RWD",
+			engineLayout: "Front-engine",
+			fuelType: "Gasoline",
+			engine: "3.5L Tipo 101 I6",
+			aspiration: "Natural",
+			transmission: "5-speed Manual",
+			mpgCombined: 17.4,
+			weight: 3175, //lb
+			bodyStyle: "2+2 coupe",
+		},
+		year: 1964,
+		class: "Gasoline",
+		cost: 11400,
+	},
+	{
+		id: 58,
+		brand: "Maserati",
+		model: "MC12",
+		built: "Modena, Italy",
+		technical: {
+			horsepower: 621, //hp
+			torque: 481, //lb-ft
+			zeroToSixty: 3.7,
+			topSpeed: 205, //mph
+			driveType: "RWD",
+			engineLayout: "Rear-mid engine",
+			fuelType: "Gasoline",
+			engine: "6.0L V12",
+			aspiration: "Natural",
+			transmission: "6-speed automated manual",
+			mpgCombined: 10.2,
+			weight: 3300, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2005,
+		class: "Gasoline",
+		cost: 2400000,
+	},
 ];
 
 export default cars;
