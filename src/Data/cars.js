@@ -1658,6 +1658,102 @@ const cars = [
 		class: "Gasoline",
 		cost: 220000,
 	},
+	{
+		id: 68,
+		brand: "Nissan",
+		model: "R390 GT1",
+		built: "Atsugi, Japan",
+		technical: {
+			horsepower: 550, //hp
+			torque: 470, //lb-ft
+			zeroToSixty: 3.9,
+			topSpeed: 220, //mph
+			driveType: "RWD",
+			engineLayout: "Rear mid-engine",
+			fuelType: "Gasoline",
+			engine: "3.5L Twin turbo-charged V8",
+			aspiration: "Turbo-charged",
+			transmission: "6-speed Manual",
+			mpgCombined: 12,
+			weight: 2421, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 1999,
+		class: "Gasoline",
+		cost: 1000000,
+	},
+	{
+		id: 69,
+		brand: "Nissan",
+		model: "GT-R NISMO",
+		built: "Tochigi, Japan",
+		technical: {
+			horsepower: 592, //hp
+			torque: 481, //lb-ft
+			zeroToSixty: 2.5,
+			topSpeed: 205, //mph
+			driveType: "AWD",
+			engineLayout: "Front-engine",
+			fuelType: "Gasoline",
+			engine: "3.8L Twin Turbo-charged V6",
+			aspiration: "Turbo-charged",
+			transmission: "6-speed DCT",
+			mpgCombined: 18,
+			weight: 3754, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2021,
+		class: "Gasoline",
+		cost: 210740,
+	},
+	{
+		id: 70,
+		brand: "Nissan",
+		model: "Silvia S15 Spec-R",
+		built: "Fukuoka, Japan",
+		technical: {
+			horsepower: 247, //hp
+			torque: 202, //lb-ft
+			zeroToSixty: 5.5,
+			topSpeed: 152, //mph
+			driveType: "RWD",
+			engineLayout: "Front-engine",
+			fuelType: "Gasoline",
+			engine: "2.0L Turbo-charged I4",
+			aspiration: "Turbo-charged",
+			transmission: "6-speed manual",
+			mpgCombined: 26,
+			weight: 2756, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2002,
+		class: "Gasoline",
+		cost: 27000,
+	},
+	{
+		id: 71,
+		brand: "Nissan",
+		model: "Z",
+		built: "Tochigi, Japan",
+		technical: {
+			horsepower: 400, //hp
+			torque: 350, //lb-ft
+			zeroToSixty: 4.25,
+			topSpeed: 160, //mph
+			driveType: "RWD",
+			engineLayout: "Front-engine",
+			fuelType: "Gasoline",
+			engine: "3.0L Twin Turbo-charged V6",
+			aspiration: "Turbo-charged",
+			transmission: "6-speed Manual",
+			mpgCombined: 24,
+			weight: 3500, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2023,
+		class: "Gasoline",
+		cost: 35000,
+	},
 ];
 
 export default cars;
