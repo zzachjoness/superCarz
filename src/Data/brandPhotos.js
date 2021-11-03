@@ -226,6 +226,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 18,
+		about: brandsAbout[18],
 		name: "Nissan",
 		image: Nissan,
 		founded: "1933",
