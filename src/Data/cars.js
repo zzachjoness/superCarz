@@ -1562,6 +1562,102 @@ const cars = [
 		class: "Gasoline",
 		cost: 1000000,
 	},
+	{
+		id: 64,
+		brand: "Mercedes-Benz",
+		model: "AMG One",
+		built: "Affalterbach, Germany",
+		technical: {
+			horsepower: 1231, //hp
+			torque: 1000, //lb-ft
+			zeroToSixty: 2.1,
+			topSpeed: 217, //mph
+			driveType: "AWD",
+			engineLayout: "Mid-engine",
+			fuelType: "PHEV",
+			engine: "1.6 L Hybrid E-turbo V6",
+			aspiration: "Natural",
+			transmission: "8-spped SCAM",
+			mpgCombined: "N/A",
+			weight: 2866, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2022,
+		class: "Hybrid",
+		cost: 2700000,
+	},
+	{
+		id: 65,
+		brand: "Mercedes-Benz",
+		model: "SLS AMG Black Series",
+		built: "Sindelfingen, Germany",
+		technical: {
+			horsepower: 622, //hp
+			torque: 468, //lb-ft
+			zeroToSixty: 3.2,
+			topSpeed: 196, //mph
+			driveType: "RWD",
+			engineLayout: "Front mid-engine",
+			fuelType: "Gasoline",
+			engine: "6.2 L M159 DOHC V8",
+			aspiration: "Natural",
+			transmission: "7-speed DCT",
+			mpgCombined: 15,
+			weight: 3415, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2013,
+		class: "Gasoline",
+		cost: 300000,
+	},
+	{
+		id: 66,
+		brand: "Mercedes-Benz",
+		model: "CLK GRT Super Sport",
+		built: "Affalterbach, Germany",
+		technical: {
+			horsepower: 711, //hp
+			torque: 580, //lb-ft
+			zeroToSixty: 2.9,
+			topSpeed: 232, //mph
+			driveType: "RWD",
+			engineLayout: "Rear mid-engine",
+			fuelType: "Gasoline",
+			engine: "7.3L V12",
+			aspiration: "Natural",
+			transmission: "6-speed manual",
+			mpgCombined: 11.2,
+			weight: 3175, //lb
+			bodyStyle: "2-door roadster",
+		},
+		year: 1999,
+		class: "Gasoline",
+		cost: 1600000,
+	},
+	{
+		id: 67,
+		brand: "Mercedes-Benz",
+		model: "G65 AMG",
+		built: "Graz, Austria",
+		technical: {
+			horsepower: 621, //hp
+			torque: 738, //lb-ft
+			zeroToSixty: 5.1,
+			topSpeed: 155, //mph
+			driveType: "AWD",
+			engineLayout: "Font-engine",
+			fuelType: "Gasoline",
+			engine: "6.0L V12",
+			aspiration: "Natural",
+			transmission: "7-speed automatic",
+			mpgCombined: 12,
+			weight: 5691, //lb
+			bodyStyle: "SUV",
+		},
+		year: 2018,
+		class: "Gasoline",
+		cost: 220000,
+	},
 ];
 
 export default cars;
