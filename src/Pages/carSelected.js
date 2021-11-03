@@ -17,6 +17,7 @@ const CarSelected = () => {
 	const historyClick = () => {
 		history.goBack();
 	};
+
 	return (
 		<div>
 			{!car ? (

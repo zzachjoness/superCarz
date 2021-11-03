@@ -20,6 +20,7 @@ const BrandSelected = (props) => {
 	const historyClick = () => {
 		history.goBack();
 	};
+
 	return (
 		<div>
 			{!brand ? (

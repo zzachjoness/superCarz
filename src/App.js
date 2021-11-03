@@ -4,10 +4,12 @@ import CarsLanding from "./Pages/carsLanding";
 import BrandsLanding from "./Pages/brandsLanding";
 import Home from "./Pages/home";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
+import ScrollToTop from "./Components/Functions/ScrollToTop";
 
 function App() {
 	return (
 		<BrowserRouter>
+			<ScrollToTop />
 			<div className="App">
 				<NavigationBar />
 				<Switch>
