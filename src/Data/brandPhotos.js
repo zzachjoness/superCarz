@@ -215,6 +215,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 17,
+		about: brandsAbout[17],
 		name: "Mercedes-Benz",
 		image: Mb,
 		founded: "1926",
