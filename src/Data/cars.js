@@ -1754,6 +1754,54 @@ const cars = [
 		class: "Gasoline",
 		cost: 35000,
 	},
+	{
+		id: 72,
+		brand: "Pagani",
+		model: "Zonda R",
+		built: "San Cesario sul Panaro, Italy",
+		technical: {
+			horsepower: 740, //hp
+			torque: 524, //lb-ft
+			zeroToSixty: 2.8,
+			topSpeed: 233, //mph
+			driveType: "RWD",
+			engineLayout: "Rear mid-engine",
+			fuelType: "Gasoline",
+			engine: "6.0L V12",
+			aspiration: "Natural",
+			transmission: "6-speed manual",
+			mpgCombined: 13,
+			weight: 2359, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2011,
+		class: "Gasoline",
+		cost: 1800000,
+	},
+	{
+		id: 73,
+		brand: "Pagani",
+		model: "Huayra R",
+		built: "San Cesario sul Panaro, Italy",
+		technical: {
+			horsepower: 838, //hp
+			torque: 553, //lb-ft
+			zeroToSixty: 2.6,
+			topSpeed: 240, //mph
+			driveType: "RWD",
+			engineLayout: "Rear mid-engine",
+			fuelType: "Gasoline",
+			engine: "6.0L V12",
+			aspiration: "Natural",
+			transmission: "6-speed sequential",
+			mpgCombined: 13,
+			weight: 2315, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2021,
+		class: "Gasoline",
+		cost: 3100000,
+	},
 ];
 
 export default cars;
