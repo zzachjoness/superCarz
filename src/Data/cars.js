@@ -1802,6 +1802,102 @@ const cars = [
 		class: "Gasoline",
 		cost: 3100000,
 	},
+	{
+		id: 74,
+		brand: "Porsche",
+		model: "917K",
+		built: "Stuttgart, Germany",
+		technical: {
+			horsepower: 630, //hp
+			torque: 434, //lb-ft
+			zeroToSixty: 2.6,
+			topSpeed: 220, //mph
+			driveType: "RWD",
+			engineLayout: "Rear mid-engine",
+			fuelType: "Gasoline",
+			engine: "5.0L Type 912 Flat-12",
+			aspiration: "Natural",
+			transmission: "5-speed manual",
+			mpgCombined: 3,
+			weight: 1808, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 1971,
+		class: "Gasoline",
+		cost: 40000,
+	},
+	{
+		id: 75,
+		brand: "Porsche",
+		model: "911 2.7 Carrera RS",
+		built: "Stuttgart, Germany",
+		technical: {
+			horsepower: 207, //hp
+			torque: 188, //lb-ft
+			zeroToSixty: 5.5,
+			topSpeed: 152, //mph
+			driveType: "RWD",
+			engineLayout: "Rear-engine",
+			fuelType: "Gasoline",
+			engine: "2.7L boxer-6",
+			aspiration: "Natural",
+			transmission: "5-speed manual",
+			mpgCombined: 24,
+			weight: 2370, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 1972,
+		class: "Gasoline",
+		cost: 12000,
+	},
+	{
+		id: 76,
+		brand: "Porsche",
+		model: "918 Spyder",
+		built: "Stuttgart, Germany",
+		technical: {
+			horsepower: 875, //hp
+			torque: 944, //lb-ft
+			zeroToSixty: 2.2,
+			topSpeed: 214, //mph
+			driveType: "AWD",
+			engineLayout: "Mid-engine",
+			fuelType: "PHEV",
+			engine: "4.6L V8 + dual electric motors",
+			aspiration: "Natural",
+			transmission: "7-speed PDK",
+			mpgCombined: 45,
+			weight: 3791, //lb
+			bodyStyle: "2-door roadster",
+		},
+		year: 2015,
+		class: "Hybrid",
+		cost: 845000,
+	},
+	{
+		id: 77,
+		brand: "Porsche",
+		model: "Taycan Turbo S",
+		built: "Stuttgart, Germany",
+		technical: {
+			horsepower: 751, //hp
+			torque: 774, //lb-ft
+			zeroToSixty: 2.6,
+			topSpeed: 162, //mph
+			driveType: "AWD",
+			engineLayout: "Rear-motor",
+			fuelType: "Electric",
+			engine: "2x AC synchronous electric motors",
+			aspiration: "N/A",
+			transmission: "2-speed automatic",
+			mpgCombined: 70,
+			weight: 5060, //lb
+			bodyStyle: "4-door saloon",
+		},
+		year: 2020,
+		class: "Electric",
+		cost: 185000,
+	},
 ];
 
 export default cars;
