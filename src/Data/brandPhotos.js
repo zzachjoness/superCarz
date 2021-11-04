@@ -237,6 +237,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 19,
+		about: brandsAbout[19],
 		name: "Pagani",
 		image: Pagani,
 		founded: "1992",
