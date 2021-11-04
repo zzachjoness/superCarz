@@ -248,6 +248,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 20,
+		about: brandsAbout[20],
 		name: "Porsche",
 		image: Porsche,
 		founded: "1931",
