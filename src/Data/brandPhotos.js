@@ -281,6 +281,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 23,
+		about: brandsAbout[23],
 		name: "Tesla",
 		image: Tesla,
 		founded: "2003",
