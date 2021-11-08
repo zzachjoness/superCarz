@@ -1906,7 +1906,7 @@ const cars = [
 		technical: {
 			horsepower: 158, //hp
 			torque: 163, //lb-ft
-			zeroToSixty: 68,
+			zeroToSixty: 6.8,
 			topSpeed: 120, //mph
 			driveType: "RWD",
 			engineLayout: "Rear mid-engine",
@@ -1993,6 +1993,102 @@ const cars = [
 		year: 2016,
 		class: "Gasoline",
 		cost: 35000,
+	},
+	{
+		id: 82,
+		brand: "Rolls-Royce",
+		model: "Phantom III",
+		built: "Derby, England",
+		technical: {
+			horsepower: 165, //hp
+			torque: 120, //lb-ft
+			zeroToSixty: 16.8,
+			topSpeed: 87.5, //mph
+			driveType: "RWD",
+			engineLayout: "Front-engine",
+			fuelType: "Gasoline",
+			engine: "7.3L Aluminum-alloy V12",
+			aspiration: "Natural",
+			transmission: "4-speed manual",
+			mpgCombined: 8.4,
+			weight: 7700, //lb
+			bodyStyle: "4-door saloon",
+		},
+		year: 1939,
+		class: "Gasoline",
+		cost: 28000,
+	},
+	{
+		id: 83,
+		brand: "Rolls-Royce",
+		model: "Silver Shadow II",
+		built: "Crewe, England",
+		technical: {
+			horsepower: 300, //hp
+			torque: 400, //lb-ft
+			zeroToSixty: 11.2,
+			topSpeed: 121, //mph
+			driveType: "RWD",
+			engineLayout: "Front-engine",
+			fuelType: "Gasoline",
+			engine: "6.2L V8",
+			aspiration: "Natural",
+			transmission: "3-speed automatic",
+			mpgCombined: 15,
+			weight: 4684, //lb
+			bodyStyle: "4-door saloon",
+		},
+		year: 1977,
+		class: "Gasoline",
+		cost: 65000,
+	},
+	{
+		id: 84,
+		brand: "Rolls-Royce",
+		model: "Phantom",
+		built: "West Sussex, England",
+		technical: {
+			horsepower: 563, //hp
+			torque: 664, //lb-ft
+			zeroToSixty: 5.4,
+			topSpeed: 155, //mph
+			driveType: "RWD",
+			engineLayout: "Front-engine",
+			fuelType: "Gasoline",
+			engine: "6.75L Twin Turbo-charged V12",
+			aspiration: "Turbo-charged",
+			transmission: "8-speed automatci",
+			mpgCombined: 18.7,
+			weight: 5754, //lb
+			bodyStyle: "4-door saloon",
+		},
+		year: 2021,
+		class: "Gasoline",
+		cost: 535000,
+	},
+	{
+		id: 85,
+		brand: "Rolls-Royce",
+		model: "Ghost",
+		built: "West Sussex, England",
+		technical: {
+			horsepower: 563, //hp
+			torque: 627, //lb-ft
+			zeroToSixty: 4.3,
+			topSpeed: 155, //mph
+			driveType: "4WD",
+			engineLayout: "Front-engine",
+			fuelType: "Gasoline",
+			engine: "6.75L Twin Turbo-charged V12",
+			aspiration: "Turbo-charged",
+			transmission: "8-speed automatic",
+			mpgCombined: 18.8,
+			weight: 5730, //lb
+			bodyStyle: "4-door saloon",
+		},
+		year: 2021,
+		class: "Gasoline",
+		cost: 311900,
 	},
 ];
 
