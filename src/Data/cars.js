@@ -2090,6 +2090,78 @@ const cars = [
 		class: "Gasoline",
 		cost: 311900,
 	},
+	{
+		id: 86,
+		brand: "Tesla",
+		model: "Roadster",
+		built: "Austin, Texas",
+		technical: {
+			horsepower: 1200, //hp
+			torque: 7400, //lb-ft
+			zeroToSixty: 1.1,
+			topSpeed: 250, //mph
+			driveType: "AWD",
+			engineLayout: "200 kWh battery pack",
+			fuelType: "Electric",
+			engine: "3x electric motors (2+1)",
+			aspiration: "N/A",
+			transmission: "1-speed direct drive",
+			mpgCombined: "tbd",
+			weight: "tbd", //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2023,
+		class: "Electric",
+		cost: 250000,
+	},
+	{
+		id: 87,
+		brand: "Tesla",
+		model: "Model S Plaid",
+		built: "Fremont, California",
+		technical: {
+			horsepower: 1020, //hp
+			torque: 1050, //lb-ft
+			zeroToSixty: 1.98,
+			topSpeed: 200, //mph
+			driveType: "AWD",
+			engineLayout: "100 kWh battery pack",
+			fuelType: "Electric",
+			engine: "3x electric motors (2+1)",
+			aspiration: "N/A",
+			transmission: "1-speed direct drive",
+			mpgCombined: 101,
+			weight: 4960, //lb
+			bodyStyle: "4-door sedan",
+		},
+		year: 2021,
+		class: "Electric",
+		cost: 131100,
+	},
+	{
+		id: 88,
+		brand: "Tesla",
+		model: "Cybertruck",
+		built: "Austin, Texas",
+		technical: {
+			horsepower: 800, //hp
+			torque: 1000, //lb-ft
+			zeroToSixty: 2.9,
+			topSpeed: 130, //mph
+			driveType: "AWD",
+			engineLayout: "",
+			fuelType: "Electric",
+			engine: "3x electric motors (2+1)",
+			aspiration: "N/A",
+			transmission: "1-speed direct drive",
+			mpgCombined: 94,
+			weight: 3500, //lb
+			bodyStyle: "Pickup",
+		},
+		year: 2022,
+		class: "Electric",
+		cost: 70000,
+	},
 ];
 
 export default cars;
