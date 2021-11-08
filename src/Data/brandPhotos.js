@@ -259,6 +259,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 21,
+		about: brandsAbout[21],
 		name: "Renault",
 		image: Renault,
 		founded: "1899",
