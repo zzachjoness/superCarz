@@ -1898,6 +1898,102 @@ const cars = [
 		class: "Electric",
 		cost: 185000,
 	},
+	{
+		id: 78,
+		brand: "Renault",
+		model: "5 Turbo",
+		built: "Dieppe, France",
+		technical: {
+			horsepower: 158, //hp
+			torque: 163, //lb-ft
+			zeroToSixty: 68,
+			topSpeed: 120, //mph
+			driveType: "RWD",
+			engineLayout: "Rear mid-engine",
+			fuelType: "Gasoline",
+			engine: "1.4L Cleon-Fonte turbo I4",
+			aspiration: "Turbo-charged",
+			transmission: "5-speed manual",
+			mpgCombined: 32,
+			weight: 2138, //lb
+			bodyStyle: "3-door hatchback",
+		},
+		year: 1980,
+		class: "Gasoline",
+		cost: 13500,
+	},
+	{
+		id: 79,
+		brand: "Renault",
+		model: "Clio Williams",
+		built: "Dieppe, France",
+		technical: {
+			horsepower: 150, //hp
+			torque: 129, //lb-ft
+			zeroToSixty: 7.8,
+			topSpeed: 133, //mph
+			driveType: "FWD",
+			engineLayout: "Front-engine",
+			fuelType: "Gasoline",
+			engine: "2.0L L4",
+			aspiration: "Natural",
+			transmission: "5-speed manual",
+			mpgCombined: 27.4,
+			weight: 2165, //lb
+			bodyStyle: "3-door hatchback",
+		},
+		year: 1993,
+		class: "Gasoline",
+		cost: 20000,
+	},
+	{
+		id: 80,
+		brand: "Renault",
+		model: "Clio V6",
+		built: "Dieppe, France",
+		technical: {
+			horsepower: 252, //hp
+			torque: 221, //lb-ft
+			zeroToSixty: 5.9,
+			topSpeed: 153, //mph
+			driveType: "RWD",
+			engineLayout: "Rear mid-engine",
+			fuelType: "Gasoline",
+			engine: "2.9L V6",
+			aspiration: "Natural",
+			transmission: "6-speed manual",
+			mpgCombined: 20,
+			weight: 3086, //lb
+			bodyStyle: "2-door hatchback",
+		},
+		year: 1998,
+		class: "Gasoline",
+		cost: 28000,
+	},
+	{
+		id: 81,
+		brand: "Renault",
+		model: "Megane RS Trophy R",
+		built: "Dieppe, France",
+		technical: {
+			horsepower: 269, //hp
+			torque: 266, //lb-ft
+			zeroToSixty: 5.8,
+			topSpeed: 158, //mph
+			driveType: "FWD",
+			engineLayout: "Front-engine",
+			fuelType: "Gasoline",
+			engine: "2.0L I4",
+			aspiration: "Turbo-charged",
+			transmission: "6-speed manual",
+			mpgCombined: 22,
+			weight: 3500, //lb
+			bodyStyle: "3-door hatchbavck",
+		},
+		year: 2016,
+		class: "Gasoline",
+		cost: 35000,
+	},
 ];
 
 export default cars;
