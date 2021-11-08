@@ -270,6 +270,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 22,
+		about: brandsAbout[22],
 		name: "Rolls-Royce",
 		image: Rr,
 		founded: "1906",
