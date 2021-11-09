@@ -292,6 +292,7 @@ const brandsWithPhotos = [
 	},
 	{
 		id: 24,
+		about: brandsAbout[24],
 		name: "Toyota",
 		image: Toyota,
 		founded: "1937",
