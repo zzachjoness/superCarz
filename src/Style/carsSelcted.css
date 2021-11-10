@@ -34,7 +34,7 @@
 	align-items: flex-start;
 }
 #car-selected-data-title {
-	margin: 2rem 2rem 1rem 2rem;
+	margin: 1rem 2rem 0.5rem 2rem;
 	font-size: 2rem;
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 500; /* 700,500,400 */
@@ -43,16 +43,20 @@
 }
 #car-selected-data {
 	color: black;
-	margin: 0rem 0rem 0.5rem 3rem;
+	margin: 0rem 0rem 0rem 3rem;
+	padding: 0.5rem;
 	font-size: 1.3rem;
+	line-height: 1.2rem;
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 200; /* 700,500,400 */
 	user-select: none;
 }
 #car-selected-data-link {
 	color: black;
-	margin: 0rem 0rem 0.5rem 0.5rem;
+	margin: 0rem;
+	padding: 0.5rem 0rem 0rem 0rem;
 	font-size: 1.3rem;
+	line-height: 1.2rem;
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 200; /* 700,500,400 */
 	cursor: pointer;
@@ -85,7 +89,7 @@
 	margin: 0rem 0rem 0rem 3rem;
 	padding: 0.5rem;
 	font-size: 1.3rem;
-	line-height: 1.3rem;
+	line-height: 1.2rem;
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 200; /* 700,500,400 */
 	user-select: none;
