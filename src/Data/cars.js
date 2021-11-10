@@ -2162,6 +2162,102 @@ const cars = [
 		class: "Electric",
 		cost: 70000,
 	},
+	{
+		id: 89,
+		brand: "Toyota",
+		model: "GR Supra",
+		built: "Styria, Austria",
+		technical: {
+			horsepower: 382, //hp
+			torque: 368, //lb-ft
+			zeroToSixty: 4.4,
+			topSpeed: 155, //mph
+			driveType: "RWD",
+			engineLayout: "Front-engine",
+			fuelType: "Gasoline",
+			engine: "3.0L Turbo-chraged I6",
+			aspiration: "Turbo-charged",
+			transmission: "8-speed automatic",
+			mpgCombined: 27,
+			weight: 3351, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 2021,
+		class: "Gasoline",
+		cost: 52000,
+	},
+	{
+		id: 90,
+		brand: "Toyota",
+		model: "Chaser X100 2500T",
+		built: "Aichi, Japan",
+		technical: {
+			horsepower: 276, //hp
+			torque: 275, //lb-ft
+			zeroToSixty: 5.5,
+			topSpeed: 155, //mph
+			driveType: "RWD",
+			engineLayout: "Front-engine",
+			fuelType: "Gasoline",
+			engine: "2.5L Twin Turbo-charged I6",
+			aspiration: "Turbo-charged",
+			transmission: "5-speed manual",
+			mpgCombined: 24,
+			weight: 3241, //lb
+			bodyStyle: "4-door sedan",
+		},
+		year: 1996,
+		class: "Gasoline",
+		cost: 25000,
+	},
+	{
+		id: 91,
+		brand: "Toyota",
+		model: "Celica GT-Four ST205",
+		built: "Aichi, Japan",
+		technical: {
+			horsepower: 252, //hp
+			torque: 223, //lb-ft
+			zeroToSixty: 6.3,
+			topSpeed: 152, //mph
+			driveType: "AWD",
+			engineLayout: "Front-engine",
+			fuelType: "Gasoline",
+			engine: "2.0L Turbo-charged I4",
+			aspiration: "Turbo-charged",
+			transmission: "5-speed manual",
+			mpgCombined: 23,
+			weight: 3064, //lb
+			bodyStyle: "2-door coupe",
+		},
+		year: 1999,
+		class: "Gasoline",
+		cost: 28000,
+	},
+	{
+		id: 92,
+		brand: "Toyota",
+		model: "GR Yaris",
+		built: "Aichi, Japan",
+		technical: {
+			horsepower: 268, //hp
+			torque: 273, //lb-ft
+			zeroToSixty: 5.2,
+			topSpeed: 143, //mph
+			driveType: "AWD",
+			engineLayout: "Front-engine",
+			fuelType: "Gasoline",
+			engine: "1.6L Turbo-charged I3",
+			aspiration: "Turbo-charged",
+			transmission: "6-speed manual",
+			mpgCombined: 34,
+			weight: 2800, //lb
+			bodyStyle: "3-door hatchback",
+		},
+		year: 2020,
+		class: "Gasoline",
+		cost: 41600,
+	},
 ];
 
 export default cars;
