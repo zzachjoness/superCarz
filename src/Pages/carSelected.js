@@ -43,27 +43,27 @@ technical: {
 			) : (
 				<div id="car-selected-background" onLoad={console.log("car: ", car)}>
 					<div id="car-selected-back-button-container">
-						<h3
+						<div
 							id="car-selected-back-button"
 							onClick={() => {
 								historyClick();
 							}}
 						>
 							&#8592; back
-						</h3>
+						</div>
 					</div>
 					<div id="car-selected-container">
 						<div id="car-selected-data-container">
-							<h1 id="car-selected-data-title">{car.model}</h1>
+							<div id="car-selected-data-title">{car.model}</div>
 							<div id="car-selected-data-container-link">
-								<h3 id="car-selected-data">Brand: </h3>
+								<div id="car-selected-data">Brand: </div>
 								<LinkContainer to={`/brands/${car.brand}`}>
-									<h3 id="car-selected-data-link">{car.brand}</h3>
+									<div id="car-selected-data-link">{car.brand}</div>
 								</LinkContainer>
 							</div>
-							<h3 id="car-selected-data">Year: {car.year}</h3>
-							<h3 id="car-selected-data">Manufactured: {car.built}</h3>
-							<h3 id="car-selected-data">Sale Price: ${carCost(car)} USD</h3>
+							<div id="car-selected-data">Year: {car.year}</div>
+							<div id="car-selected-data">Manufactured: {car.built}</div>
+							<div id="car-selected-data">Sale Price: ${carCost(car)} USD</div>
 						</div>
 						<div id="car-selected-tech-container">
 							<div id="car-selected-tech-header">Technical Data</div>
