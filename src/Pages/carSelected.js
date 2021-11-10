@@ -46,22 +46,8 @@ const CarSelected = () => {
 							<h3 id="car-selected-data">Year: {car.year}</h3>
 							<h3 id="car-selected-data">Manufactured: {car.built}</h3>
 							<h3 id="car-selected-data">Sale Price: ${carCost(car)} USD</h3>
-
-							<h3 id="car-selected-data">
-								Webiste:{" "}
-								<a
-									href={car.built}
-									target="_blank"
-									rel="noreferrer"
-									referrerPolicy="no-referrer"
-								>
-									{car.model}
-								</a>
-							</h3>
 						</div>
 					</div>
-					<div>cars</div>
-					<div>{car.year}</div>
 				</div>
 			)}
 		</div>
