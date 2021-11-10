@@ -42,9 +42,9 @@ const cars = [
 			engine: "Twin-turbocharged DOHC V6 + Electric Motor Units",
 			aspiration: "Turbo-charged",
 			transmission: "9-Speed DCT",
-			mpgCombined: "",
+			mpgCombined: "24",
 			weight: 3946,
-			bodyStyle: "Coupe",
+			bodyStyle: "2-door coupe",
 		},
 		year: 2022,
 		class: "Hybrid",
@@ -68,7 +68,7 @@ const cars = [
 			transmission: "6-Speed Manual",
 			mpgCombined: 17,
 			weight: 2712, //lb
-			bodyStyle: "Coupe",
+			bodyStyle: "2-door coupe",
 		},
 		year: 1992,
 		class: "Gasoline",
@@ -92,7 +92,7 @@ const cars = [
 			transmission: "5-Speed Manual",
 			mpgCombined: 26.7,
 			weight: 2646, //lb
-			bodyStyle: "Coupe",
+			bodyStyle: "2-door coupe",
 		},
 		year: 2000,
 		class: "Gasoline",
@@ -116,7 +116,7 @@ const cars = [
 			transmission: "8-Speed DCT",
 			mpgCombined: 18,
 			weight: 3902, //lb
-			bodyStyle: "Coupe",
+			bodyStyle: "2-door coupe",
 		},
 		year: 2018,
 		class: "Gasoline",
@@ -140,7 +140,7 @@ const cars = [
 			transmission: "7-Speed Single-clutch automated manual",
 			mpgCombined: "",
 			weight: 2425, //lb
-			bodyStyle: "Coupe",
+			bodyStyle: "2-door coupe",
 		},
 		year: 2021,
 		class: "Hybrid",
@@ -164,7 +164,7 @@ const cars = [
 			transmission: "6-Speed sequential",
 			mpgCombined: "",
 			weight: 2976, //lb
-			bodyStyle: "Coupe",
+			bodyStyle: "2-door coupe",
 		},
 		year: 2015,
 		class: "Gasoline",
@@ -188,7 +188,7 @@ const cars = [
 			transmission: "6-Speed manual",
 			mpgCombined: "",
 			weight: 3704, //lb
-			bodyStyle: "Coupe",
+			bodyStyle: "2-door coupe",
 		},
 		year: 2012,
 		class: "Gasoline",
@@ -205,14 +205,14 @@ const cars = [
 			zeroToSixty: 3.5,
 			topSpeed: 197, //mph
 			driveType: "AWD",
-			engineLayout: "",
+			engineLayout: "Mid-engine",
 			fuelType: "Gasoline",
 			engine: "4.2L FSI DOHC V10",
 			aspiration: "Natural",
 			transmission: "6-Speed manual",
 			mpgCombined: 17,
 			weight: 3460, //lb
-			bodyStyle: "Coupe",
+			bodyStyle: "2-door coupe",
 		},
 		year: 2012,
 		class: "Gasoline",
@@ -234,9 +234,9 @@ const cars = [
 			engine: "2.1L Turbocharged I5",
 			aspiration: "Turbo-charged",
 			transmission: "6-Speed manual",
-			mpgCombined: "",
+			mpgCombined: "18",
 			weight: 2403, //lb
-			bodyStyle: "Coupe",
+			bodyStyle: "2-door coupe",
 		},
 		year: 1985,
 		class: "Gasoline",
@@ -260,7 +260,7 @@ const cars = [
 			transmission: "8-Speed Automatic",
 			mpgCombined: 18,
 			weight: 4740, //lb
-			bodyStyle: "Wagon",
+			bodyStyle: "4-door wagon",
 		},
 		year: 2021,
 		class: "Gasoline",
@@ -284,7 +284,7 @@ const cars = [
 			transmission: "8-Speed DCT",
 			mpgCombined: 15,
 			weight: 6000, //lb
-			bodyStyle: "Coupe",
+			bodyStyle: "2-door coupe",
 		},
 		year: 2021,
 		class: "Gasoline",
@@ -306,13 +306,13 @@ const cars = [
 			engine: "8.0L W16",
 			aspiration: "Natural",
 			transmission: "5-Speed Manual",
-			mpgCombined: "",
+			mpgCombined: "17",
 			weight: 3086, //lb
-			bodyStyle: "Coupe",
+			bodyStyle: "2-door coupe",
 		},
 		year: 1999,
 		class: "Gasoline",
-		cost: "",
+		cost: "2000000",
 	},
 	{
 		id: 12,
@@ -332,7 +332,7 @@ const cars = [
 			transmission: "4-Speed Automatic",
 			mpgCombined: 12,
 			weight: 5400, //lb
-			bodyStyle: "Sedan",
+			bodyStyle: "4-door sedan",
 		},
 		year: 1998,
 		class: "Gasoline",
@@ -356,7 +356,7 @@ const cars = [
 			transmission: "8-Speed Automatic",
 			mpgCombined: 13,
 			weight: 5920, //lb
-			bodyStyle: "Sedan",
+			bodyStyle: "4-door sedan",
 		},
 		year: 2018,
 		class: "Gasoline",
@@ -380,7 +380,7 @@ const cars = [
 			transmission: "4-Speed Manual",
 			mpgCombined: 14,
 			weight: 2932, //lb
-			bodyStyle: "Coupe",
+			bodyStyle: "2-door coupe",
 		},
 		year: 1956,
 		class: "Gasoline",
@@ -404,7 +404,7 @@ const cars = [
 			transmission: "6-Speed Manual",
 			mpgCombined: 15,
 			weight: 3960, //lb
-			bodyStyle: "Sedan",
+			bodyStyle: "4-door sedan",
 		},
 		year: 2000,
 		class: "Gasoline",
@@ -428,7 +428,7 @@ const cars = [
 			transmission: "5-Speed Manual",
 			mpgCombined: 16,
 			weight: 2700, //lb
-			bodyStyle: "Coupe",
+			bodyStyle: "2-door coupe",
 		},
 		year: 1991,
 		class: "Gasoline",
@@ -452,7 +452,7 @@ const cars = [
 			transmission: "5-Speed Manual",
 			mpgCombined: 15,
 			weight: 2866, //lb
-			bodyStyle: "Coupe",
+			bodyStyle: "2-door coupe",
 		},
 		year: 1978,
 		class: "Gasoline",
@@ -476,11 +476,11 @@ const cars = [
 			transmission: "4-Speed Manual",
 			mpgCombined: "",
 			weight: 660, //lb
-			bodyStyle: "Roadster",
+			bodyStyle: "2-door roadster",
 		},
 		year: 1920,
 		class: "Gasoline",
-		cost: "",
+		cost: "5000",
 	},
 	{
 		id: 19,
@@ -498,13 +498,13 @@ const cars = [
 			engine: "2.3L V8",
 			aspiration: "Natural",
 			transmission: "4-Speed Manual",
-			mpgCombined: "",
+			mpgCombined: "8",
 			weight: 1650, //lb
-			bodyStyle: "Roadster",
+			bodyStyle: "2-door roadster",
 		},
 		year: 1924,
 		class: "Gasoline",
-		cost: "",
+		cost: "8000",
 	},
 	{
 		id: 20,
@@ -524,7 +524,7 @@ const cars = [
 			transmission: "7-Speed DSG",
 			mpgCombined: 12,
 			weight: 4400, //lb
-			bodyStyle: "Coupe",
+			bodyStyle: "2-door coupe",
 		},
 		year: 2010,
 		class: "Gasoline",
@@ -548,7 +548,7 @@ const cars = [
 			transmission: "7-Speed DSG",
 			mpgCombined: 12,
 			weight: 4361, //lb
-			bodyStyle: "Coupe",
+			bodyStyle: "2-door coupe",
 		},
 		year: 2019,
 		class: "Gasoline",
@@ -572,7 +572,7 @@ const cars = [
 			transmission: "7-Speed DCT",
 			mpgCombined: 14,
 			weight: 2767, //lb
-			bodyStyle: "Coupe",
+			bodyStyle: "2-door coupe",
 		},
 		year: 2013,
 		class: "Hybrid",
