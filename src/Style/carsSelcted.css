@@ -21,7 +21,7 @@
 }
 #car-selected-container {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
 }
@@ -67,4 +67,28 @@
 	margin: 1rem 0rem 2rem 2rem;
 	max-width: 18rem;
 	max-height: 12rem;
+}
+#car-selected-tech-container {
+	margin-left: 2rem;
+	box-sizing: content-box;
+}
+#car-selected-tech-header {
+	margin: 1rem 2rem 0.5rem 2rem;
+	font-size: 1.5rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 500; /* 700,500,400 */
+	color: black;
+	user-select: none;
+}
+#car-selected-tech-data {
+	color: black;
+	margin: 0rem 0rem 0rem 3rem;
+	padding: 0.5rem;
+	font-size: 1.3rem;
+	line-height: 1.3rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 200; /* 700,500,400 */
+	user-select: none;
+	border: black 0.1rem;
+	border-style: hidden hidden inset hidden;
 }
