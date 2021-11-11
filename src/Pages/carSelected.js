@@ -56,7 +56,7 @@ technical: {
 						<div id="car-selected-data-container">
 							<div id="car-selected-data-title">{car.model}</div>
 							<div id="car-selected-data-container-link">
-								<div id="car-selected-data">Brand: </div>
+								<div id="car-selected-data">Brand:</div>
 								<LinkContainer to={`/brands/${car.brand}`}>
 									<div id="car-selected-data-link">{car.brand}</div>
 								</LinkContainer>
