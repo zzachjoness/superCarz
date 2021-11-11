@@ -4,7 +4,7 @@ import { LinkContainer } from "react-router-bootstrap";
 import CarContext from "../Components/Context/CarContext";
 import cars from "../Data/cars";
 import carCost from "../Components/Functions/carCost";
-import "../Style/carsSelcted.css";
+import "../Style/carSelcted.css";
 
 const CarSelected = () => {
 	const { selectedCarId } = useContext(CarContext);
