@@ -28,14 +28,14 @@ const BrandSelected = (props) => {
 			) : (
 				<div id="brand-selected-background" onLoad={console.log("brand: ", brand)}>
 					<div id="brand-selected-back-button-container">
-						<h3
+						<div
 							id="brand-selected-back-button"
 							onClick={() => {
 								historyClick();
 							}}
 						>
 							&#8592; back
-						</h3>
+						</div>
 					</div>
 					<div id="brand-selected-container">
 						<div id="brand-selected-data-container">
