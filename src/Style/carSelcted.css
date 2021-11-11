@@ -21,6 +21,13 @@
 }
 #car-selected-container {
 	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-color: paleturquoise;
+}
+#car-selected-column {
+	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
