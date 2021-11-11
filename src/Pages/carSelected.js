@@ -74,6 +74,24 @@ technical: {
 							<div id="car-selected-tech-data">Drive: {car.technical.driveType}</div>
 							<div id="car-selected-tech-data">Fuel: {car.technical.fuelType}</div>
 							<div id="car-selected-tech-data">Body: {car.technical.bodyStyle}</div>
+							<div id="car-selected-tech-data">
+								Horse Power: {car.technical.horsepower}
+							</div>
+							<div id="car-selected-tech-data">
+								Torque: {car.technical.torque} ft&#8901;lb
+							</div>
+							<div id="car-selected-tech-data">
+								Zero to Sixty: {car.technical.zeroToSixty} secs.
+							</div>
+							<div id="car-selected-tech-data">
+								Top Speed: {car.technical.topSpeed} mph
+							</div>
+							<div id="car-selected-tech-data">
+								Fuel Efficiency: {car.technical.mpgCombined} mpg combined
+							</div>
+							<div id="car-selected-tech-data">
+								Curb Weight: {car.technical.weight} lb
+							</div>
 						</div>
 					</div>
 				</div>
