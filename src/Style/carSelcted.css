@@ -21,6 +21,7 @@
 }
 #car-selected-container {
 	display: flex;
+	width: 100vw;
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: flex-start;
@@ -108,4 +109,27 @@
 	user-select: none;
 	border: black 0.1rem;
 	border-style: hidden hidden inset hidden;
+}
+#car-selected-picture-container {
+	margin: 2rem 0rem 0rem 3rem;
+	background-color: palegoldenrod;
+	text-align: center;
+}
+#car-selected-picture {
+	width: 40rem;
+}
+#car-selected-picture-description {
+	align-self: center;
+}
+
+#car-selected-about-container {
+	margin: 0.5rem 0rem 0rem 3rem;
+	width: 40rem;
+	text-align: justify;
+}
+#car-selected-about-paragraph {
+	font-size: 1.1rem;
+	line-height: 1.4rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 200; /* 700,500,400 */
 }

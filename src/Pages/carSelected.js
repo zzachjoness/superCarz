@@ -5,6 +5,7 @@ import CarContext from "../Components/Context/CarContext";
 import cars from "../Data/cars";
 import carCost from "../Components/Functions/carCost";
 import "../Style/carSelcted.css";
+import placeHolderPic from "../Images/background.jpg";
 
 const CarSelected = () => {
 	const { selectedCarId } = useContext(CarContext);
@@ -36,6 +37,70 @@ technical: {
 		},
 	*/
 
+	const carData = (
+		<div id="car-selected-data-container">
+			<div id="car-selected-data-title">{car.model}</div>
+			<div id="car-selected-data-container-link">
+				<div id="car-selected-data">Brand:</div>
+				<LinkContainer to={`/brands/${car.brand}`}>
+					<div id="car-selected-data-link">{car.brand}</div>
+				</LinkContainer>
+			</div>
+			<div id="car-selected-data">Year: {car.year}</div>
+			<div id="car-selected-data">Manufactured: {car.built}</div>
+			<div id="car-selected-data">Sale Price: ${carCost(car)} USD</div>
+		</div>
+	);
+
+	const carTechData = (
+		<div id="car-selected-tech-container">
+			<div id="car-selected-tech-header">Technical Data</div>
+			<div id="car-selected-tech-data">Engine: {car.technical.engine}</div>
+			<div id="car-selected-tech-data">Layout: {car.technical.engineLayout}</div>
+			<div id="car-selected-tech-data">Drive: {car.technical.driveType}</div>
+			<div id="car-selected-tech-data">Fuel: {car.technical.fuelType}</div>
+			<div id="car-selected-tech-data">Body: {car.technical.bodyStyle}</div>
+			<div id="car-selected-tech-data">
+				Horse Power: {car.technical.horsepower}
+			</div>
+			<div id="car-selected-tech-data">
+				Torque: {car.technical.torque} ft&#8901;lb
+			</div>
+			<div id="car-selected-tech-data">
+				Zero to Sixty: {car.technical.zeroToSixty} secs.
+			</div>
+			<div id="car-selected-tech-data">
+				Top Speed: {car.technical.topSpeed} mph
+			</div>
+			<div id="car-selected-tech-data">
+				Fuel Efficiency: {car.technical.mpgCombined} mpg combined
+			</div>
+			<div id="car-selected-tech-data">Curb Weight: {car.technical.weight} lb</div>
+		</div>
+	);
+
+	const carPicture = (
+		<div id="car-selected-picture-container">
+			<img id="car-selected-picture" src={placeHolderPic} alt="placeholder"></img>
+			<div id="car-selected-picture-description">
+				{car.year} {car.brand} {car.model}
+			</div>
+		</div>
+	);
+
+	const carAbout = (
+		<div id="car-selected-about-container">
+			<div id="car-selected-about-paragraph">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+				non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
+		</div>
+	);
+
 	return (
 		<div>
 			{!car ? (
@@ -54,51 +119,12 @@ technical: {
 					</div>
 					<div id="car-selected-container">
 						<div id="car-selected-row">
-							<div id="car-selected-data-container">
-								<div id="car-selected-data-title">{car.model}</div>
-								<div id="car-selected-data-container-link">
-									<div id="car-selected-data">Brand:</div>
-									<LinkContainer to={`/brands/${car.brand}`}>
-										<div id="car-selected-data-link">{car.brand}</div>
-									</LinkContainer>
-								</div>
-								<div id="car-selected-data">Year: {car.year}</div>
-								<div id="car-selected-data">Manufactured: {car.built}</div>
-								<div id="car-selected-data">Sale Price: ${carCost(car)} USD</div>
-							</div>
-							<div id="car-selected-tech-container">
-								<div id="car-selected-tech-header">Technical Data</div>
-								<div id="car-selected-tech-data">Engine: {car.technical.engine}</div>
-								<div id="car-selected-tech-data">
-									Layout: {car.technical.engineLayout}
-								</div>
-								<div id="car-selected-tech-data">Drive: {car.technical.driveType}</div>
-								<div id="car-selected-tech-data">Fuel: {car.technical.fuelType}</div>
-								<div id="car-selected-tech-data">Body: {car.technical.bodyStyle}</div>
-								<div id="car-selected-tech-data">
-									Horse Power: {car.technical.horsepower}
-								</div>
-								<div id="car-selected-tech-data">
-									Torque: {car.technical.torque} ft&#8901;lb
-								</div>
-								<div id="car-selected-tech-data">
-									Zero to Sixty: {car.technical.zeroToSixty} secs.
-								</div>
-								<div id="car-selected-tech-data">
-									Top Speed: {car.technical.topSpeed} mph
-								</div>
-								<div id="car-selected-tech-data">
-									Fuel Efficiency: {car.technical.mpgCombined} mpg combined
-								</div>
-								<div id="car-selected-tech-data">
-									Curb Weight: {car.technical.weight} lb
-								</div>
-							</div>
+							{carData}
+							{carTechData}
 						</div>
 						<div id="car-selected-row">
-							<div>hi</div>
-							<div>car picture</div>
-							<div>car about</div>
+							{carPicture}
+							{carAbout}
 							<div>other cars from this brand</div>
 						</div>
 					</div>
