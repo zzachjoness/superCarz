@@ -134,6 +134,8 @@
 	font-weight: 200; /* 700,500,400 */
 }
 #car-selected-alt-cars-container {
+	display: flex;
+	flex-direction: column;
 	margin: 1rem 0rem 0rem 3rem;
 	width: 40rem;
 	text-align: justify;
@@ -149,4 +151,22 @@
 	text-align: justify;
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 200; /* 700,500,400 */
+}
+#car-selected-alt-cars-list-container {
+	display: flex;
+	flex-direction: row;
+	padding: 0.5rem 0rem 0rem 1rem;
+}
+#car-selected-alt-cars-list {
+	padding-right: 2rem;
+	color: rgba(6, 68, 0, 1);
+	cursor: pointer;
+	font-size: 1.2rem;
+	line-height: 1.2rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 200; /* 700,500,400 */
+}
+#car-selected-alt-cars-list:hover {
+	text-decoration: underline;
+	color: rgba(6, 68, 0, 1);
 }

@@ -21,6 +21,7 @@ const CarSelected = () => {
 	const findCars = cars
 		.filter((item) => item.brand === car.brand)
 		.filter((item) => item.id !== car.id);
+
 	const altCarNames = findCars.map((car) => (
 		<LinkContainer to={`${car.model}`}>
 			<div id="car-selected-alt-cars-list">{car.model}</div>
@@ -111,7 +112,7 @@ technical: {
 	const altCars = (
 		<div id="car-selected-alt-cars-container">
 			<div id="car-selected-alt-cars-title">Other {car.brand} Cars</div>
-			<div>{altCarNames}</div>
+			<div id="car-selected-alt-cars-list-container">{altCarNames}</div>
 		</div>
 	);
 
