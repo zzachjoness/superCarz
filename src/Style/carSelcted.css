@@ -123,13 +123,30 @@
 }
 
 #car-selected-about-container {
-	margin: 0.5rem 0rem 0rem 3rem;
+	margin: 1rem 0rem 0rem 3rem;
 	width: 40rem;
 	text-align: justify;
 }
 #car-selected-about-paragraph {
-	font-size: 1.1rem;
+	font-size: 1rem;
 	line-height: 1.4rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 200; /* 700,500,400 */
+}
+#car-selected-alt-cars-container {
+	margin: 1rem 0rem 0rem 3rem;
+	width: 40rem;
+	text-align: justify;
+}
+
+#car-selected-alt-cars-title {
+	text-align: justify;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 400; /* 700,500,400 */
+	font-size: 1.2rem;
+}
+#car-selected-alt-cars-data {
+	text-align: justify;
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 200; /* 700,500,400 */
 }

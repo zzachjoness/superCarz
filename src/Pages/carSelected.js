@@ -101,6 +101,12 @@ technical: {
 		</div>
 	);
 
+	const altCars = (
+		<div id="car-selected-alt-cars-container">
+			<div id="car-selected-alt-cars-title">Other Cars from {car.brand}</div>
+		</div>
+	);
+
 	return (
 		<div>
 			{!car ? (
@@ -125,7 +131,7 @@ technical: {
 						<div id="car-selected-row">
 							{carPicture}
 							{carAbout}
-							<div>other cars from this brand</div>
+							{altCars}
 						</div>
 					</div>
 				</div>
