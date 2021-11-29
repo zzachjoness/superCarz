@@ -19,6 +19,10 @@ const CarSelected = () => {
 		history.goBack();
 	};
 
+	const findCars = cars.filter((item) => item.brand === car.brand);
+	const altCarNames = findCars.map((car) => (
+		<div id="car-selected-alt-cars-list">{car.model}</div>
+	));
 	/*
 technical: {
 			horsepower: 252, //hp
@@ -103,7 +107,8 @@ technical: {
 
 	const altCars = (
 		<div id="car-selected-alt-cars-container">
-			<div id="car-selected-alt-cars-title">Other Cars from {car.brand}</div>
+			<div id="car-selected-alt-cars-title">Other {car.brand} Cars</div>
+			<div>{altCarNames}</div>
 		</div>
 	);
 
