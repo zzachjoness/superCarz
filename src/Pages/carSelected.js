@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { useParams, useHistory } from "react-router-dom";
+import { useParams, useHistory, useRouteMatch } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import CarContext from "../Components/Context/CarContext";
 import cars from "../Data/cars";
@@ -13,15 +13,19 @@ const CarSelected = () => {
 	const car = selectedCarId
 		? cars[selectedCarId]
 		: cars.find(({ model }) => model === selectedCar);
-
+	const url = useRouteMatch();
 	let history = useHistory();
 	const historyClick = () => {
 		history.goBack();
 	};
 
-	const findCars = cars.filter((item) => item.brand === car.brand);
+	const findCars = cars
+		.filter((item) => item.brand === car.brand)
+		.filter((item) => item.id !== car.id);
 	const altCarNames = findCars.map((car) => (
-		<div id="car-selected-alt-cars-list">{car.model}</div>
+		<LinkContainer to={`${car.model}`}>
+			<div id="car-selected-alt-cars-list">{car.model}</div>
+		</LinkContainer>
 	));
 	/*
 technical: {
