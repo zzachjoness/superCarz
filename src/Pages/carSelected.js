@@ -1,5 +1,5 @@
-import React, { useContext, useState } from "react";
-import { useParams, useHistory } from "react-router-dom";
+import React, { useContext } from "react";
+import { useParams, useHistory, useLocation } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import CarContext from "../Components/Context/CarContext";
 import cars from "../Data/cars";
@@ -10,12 +10,17 @@ import placeHolderPic from "../Images/background.jpg";
 const CarSelected = () => {
 	const { selectedCarId, setSelectedCarId } = useContext(CarContext);
 	const { selectedCar } = useParams();
-	console.log("selectedCar:", selectedCarId);
-	const car = selectedCarId
-		? cars[selectedCarId]
-		: cars.find(({ model }) => model === selectedCar);
 	let history = useHistory();
-	const historyClick = () => {
+	let url = useLocation();
+	console.log("selectedCar:", selectedCar);
+	console.log("url:", url);
+	console.log("history:", history);
+	const car =
+		cars[selectedCarId].model === selectedCar
+			? cars[selectedCarId]
+			: cars.find(({ model }) => model === selectedCar);
+
+	let historyClick = async () => {
 		history.goBack();
 	};
 
@@ -134,6 +139,7 @@ technical: {
 							onClick={() => {
 								historyClick();
 							}}
+							state={car.id}
 						>
 							&#8592; back
 						</div>
