@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { useParams, useHistory, useLocation } from "react-router-dom";
+import { useParams, useHistory } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import CarContext from "../Components/Context/CarContext";
 import cars from "../Data/cars";
@@ -11,10 +11,6 @@ const CarSelected = () => {
 	const { selectedCarId, setSelectedCarId } = useContext(CarContext);
 	const { selectedCar } = useParams();
 	let history = useHistory();
-	let url = useLocation();
-	console.log("selectedCar:", selectedCar);
-	console.log("url:", url);
-	console.log("history:", history);
 	const car =
 		cars[selectedCarId].model === selectedCar
 			? cars[selectedCarId]
