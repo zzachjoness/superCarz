@@ -84,7 +84,7 @@
 	max-height: 12rem;
 }
 #car-selected-tech-container {
-	margin-left: 2rem;
+	margin: 0rem 0rem 1rem 2rem;
 	box-sizing: content-box;
 }
 #car-selected-tech-header {
@@ -155,7 +155,7 @@
 #car-selected-alt-cars-list-container {
 	display: flex;
 	flex-direction: row;
-	padding: 0.5rem 0rem 0rem 1rem;
+	padding: 0.5rem 0rem 1rem 1rem;
 }
 #car-selected-alt-cars-list {
 	padding-right: 2rem;
