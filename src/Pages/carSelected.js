@@ -1,5 +1,5 @@
-import React, { useContext } from "react";
-import { useParams, useHistory } from "react-router-dom";
+import React, { useContext, useEffect } from "react";
+import { useParams, useHistory, useLocation } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import CarContext from "../Components/Context/CarContext";
 import cars from "../Data/cars";
@@ -11,15 +11,20 @@ const CarSelected = () => {
 	const { selectedCarId, setSelectedCarId } = useContext(CarContext);
 	const { selectedCar } = useParams();
 	let history = useHistory();
-	const car =
-		cars[selectedCarId].model === selectedCar
+	const pathName = useLocation();
+	const car = selectedCarId
+		? cars[selectedCarId].model === selectedCar
 			? cars[selectedCarId]
-			: cars.find(({ model }) => model === selectedCar);
+			: cars.find(({ model }) => model === selectedCar)
+		: cars.find(({ model }) => model === selectedCar);
 
 	let historyClick = async () => {
 		history.goBack();
 	};
-
+	const ScrollToTop = () => {
+		window.scrollTo(0, 0);
+		return null;
+	};
 	const findCars = cars
 		.filter((item) => item.brand === car.brand)
 		.filter((item) => item.id !== car.id);
