@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import CarContext from "../Components/Context/CarContext";
@@ -8,8 +8,9 @@ import "../Style/carSelcted.css";
 import placeHolderPic from "../Images/background.jpg";
 
 const CarSelected = () => {
-	const { selectedCarId } = useContext(CarContext);
+	const { selectedCarId, setSelectedCarId } = useContext(CarContext);
 	const { selectedCar } = useParams();
+	console.log("selectedCar:", selectedCarId);
 	const car = selectedCarId
 		? cars[selectedCarId]
 		: cars.find(({ model }) => model === selectedCar);
@@ -22,9 +23,14 @@ const CarSelected = () => {
 		.filter((item) => item.brand === car.brand)
 		.filter((item) => item.id !== car.id);
 
-	const altCarNames = findCars.map((car) => (
-		<LinkContainer to={`${car.model}`}>
-			<div id="car-selected-alt-cars-list">{car.model}</div>
+	const altCarNames = findCars.map((carA) => (
+		<LinkContainer to={`${carA.model}`} key={carA.id}>
+			<div
+				id="car-selected-alt-cars-list"
+				onClick={() => setSelectedCarId(carA.id)}
+			>
+				{carA.model}
+			</div>
 		</LinkContainer>
 	));
 	/*
@@ -121,7 +127,7 @@ technical: {
 			{!car ? (
 				<div>Loading</div>
 			) : (
-				<div id="car-selected-background" onLoad={console.log("car: ", car)}>
+				<div id="car-selected-background">
 					<div id="car-selected-back-button-container">
 						<div
 							id="car-selected-back-button"
