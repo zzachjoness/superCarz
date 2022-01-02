@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import CarContext from "../Components/Context/CarContext";
@@ -11,6 +11,15 @@ const CarSelected = () => {
 	const { selectedCarId, setSelectedCarId } = useContext(CarContext);
 	const { selectedCar } = useParams();
 	let history = useHistory();
+
+	useEffect(() => {
+		/// not fucking working
+		console.log("should be after");
+		setTimeout(() => {
+			window.scrollTo({ top: 0, behavior: "smooth" });
+		}, 15);
+	}, [history.location.pathname]);
+
 	const car = selectedCarId
 		? cars[selectedCarId].model === selectedCar
 			? cars[selectedCarId]
@@ -18,8 +27,11 @@ const CarSelected = () => {
 		: cars.find(({ model }) => model === selectedCar);
 
 	let historyClick = async () => {
+		console.log(history);
 		history.goBack();
+		console.log(history);
 	};
+
 	const findCars = cars
 		.filter((item) => item.brand === car.brand)
 		.filter((item) => item.id !== car.id);
