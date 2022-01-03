@@ -9,9 +9,9 @@ import ScrollToTop from "./Components/Functions/ScrollToTop";
 function App() {
 	return (
 		<BrowserRouter>
-			<ScrollToTop />
 			<div className="App">
 				<NavigationBar />
+				<ScrollToTop />
 				<Switch>
 					<Route path="/" exact component={Home} />
 					<Route path="/brands" component={BrandsLanding} />

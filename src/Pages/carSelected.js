@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext /*useEffect*/ } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import CarContext from "../Components/Context/CarContext";
@@ -11,7 +11,7 @@ const CarSelected = () => {
 	const { selectedCarId, setSelectedCarId } = useContext(CarContext);
 	const { selectedCar } = useParams();
 	let history = useHistory();
-
+	/*
 	useEffect(() => {
 		// history.goback() is scrolling after painting dom
 		// history is scrolling to the place of click
@@ -21,8 +21,8 @@ const CarSelected = () => {
 		setTimeout(() => {
 			window.scrollTo({ top: 0, behavior: "smooth" });
 		}, 15);
-	}, [history.location.pathname]);
-
+	}, []);
+	*/
 	const car = selectedCarId
 		? cars[selectedCarId].model === selectedCar
 			? cars[selectedCarId]
@@ -141,27 +141,29 @@ technical: {
 			{!car ? (
 				<div>Loading</div>
 			) : (
-				<div id="car-selected-background">
-					<div id="car-selected-back-button-container">
-						<div
-							id="car-selected-back-button"
-							onClick={() => {
-								historyClick();
-							}}
-							state={car.id}
-						>
-							&#8592; back
+				<div>
+					<div id="car-selected-background">
+						<div id="car-selected-back-button-container">
+							<div
+								id="car-selected-back-button"
+								onClick={() => {
+									historyClick();
+								}}
+								state={car.id}
+							>
+								&#8592; back
+							</div>
 						</div>
-					</div>
-					<div id="car-selected-container">
-						<div id="car-selected-row">
-							{carData}
-							{carTechData}
-						</div>
-						<div id="car-selected-row">
-							{carPicture}
-							{carAbout}
-							{altCars}
+						<div id="car-selected-container">
+							<div id="car-selected-row">
+								{carData}
+								{carTechData}
+							</div>
+							<div id="car-selected-row">
+								{carPicture}
+								{carAbout}
+								{altCars}
+							</div>
 						</div>
 					</div>
 				</div>
