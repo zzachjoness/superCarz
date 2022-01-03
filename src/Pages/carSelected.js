@@ -13,8 +13,11 @@ const CarSelected = () => {
 	let history = useHistory();
 
 	useEffect(() => {
-		/// not fucking working
-		console.log("should be after");
+		// history.goback() is scrolling after painting dom
+		// history is scrolling to the place of click
+		// set as scrollX: / scrollY:
+		// useEffect is scrolling on rerender, need to add delay to scroll
+		// window.scrollTo({ top: 0, behavior: "smooth" });
 		setTimeout(() => {
 			window.scrollTo({ top: 0, behavior: "smooth" });
 		}, 15);
@@ -27,9 +30,7 @@ const CarSelected = () => {
 		: cars.find(({ model }) => model === selectedCar);
 
 	let historyClick = async () => {
-		console.log(history);
 		history.goBack();
-		console.log(history);
 	};
 
 	const findCars = cars
