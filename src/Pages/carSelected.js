@@ -11,18 +11,7 @@ const CarSelected = () => {
 	const { selectedCarId, setSelectedCarId } = useContext(CarContext);
 	const { selectedCar } = useParams();
 	let history = useHistory();
-	/*
-	useEffect(() => {
-		// history.goback() is scrolling after painting dom
-		// history is scrolling to the place of click
-		// set as scrollX: / scrollY:
-		// useEffect is scrolling on rerender, need to add delay to scroll
-		// window.scrollTo({ top: 0, behavior: "smooth" });
-		setTimeout(() => {
-			window.scrollTo({ top: 0, behavior: "smooth" });
-		}, 15);
-	}, []);
-	*/
+	window.history.scrollRestoration = "manual";
 	const car = selectedCarId
 		? cars[selectedCarId].model === selectedCar
 			? cars[selectedCarId]
