@@ -46,7 +46,7 @@
 }
 
 #brand-selected-image {
-	margin: 1rem 0rem 2rem 2rem;
+	margin: 1rem 0rem 0rem 2rem;
 	max-width: 18rem;
 	max-height: 12rem;
 }
@@ -67,4 +67,8 @@
 }
 #brand-selected-about {
 	white-space: pre-wrap;
+	margin: 1rem 4rem;
+	padding-top: 1rem;
+	line-height: 1.8rem;
+	border-top: rgba(6, 68, 0, 1) solid;
 }
