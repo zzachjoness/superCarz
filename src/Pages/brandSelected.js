@@ -10,6 +10,7 @@ const BrandSelected = (props) => {
 	const { selectedBrandId } = useContext(BrandContext);
 	let { selectedBrand } = useParams();
 	let history = useHistory();
+	window.history.scrollRestoration = "manual";
 	const brand = selectedBrandId
 		? brandsWithPhotos[selectedBrandId]
 		: brandsWithPhotos.find(
@@ -26,7 +27,7 @@ const BrandSelected = (props) => {
 			{!brand ? (
 				<div>Loading</div>
 			) : (
-				<div id="brand-selected-background" onLoad={console.log("brand: ", brand)}>
+				<div id="brand-selected-background">
 					<div id="brand-selected-back-button-container">
 						<div
 							id="brand-selected-back-button"

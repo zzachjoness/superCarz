@@ -8,6 +8,7 @@ import "../Style/brandsLanding.css";
 const BrandsLanding = () => {
 	let { path } = useRouteMatch();
 	const [selectedBrandId, setSelectedBrandId] = useState("");
+	window.history.scrollRestoration = "manual";
 	return (
 		<div>
 			<BrandContext.Provider value={{ selectedBrandId, setSelectedBrandId }}>

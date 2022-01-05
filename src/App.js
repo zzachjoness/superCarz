@@ -7,6 +7,7 @@ import { Switch, Route, BrowserRouter } from "react-router-dom";
 import ScrollToTop from "./Components/Functions/ScrollToTop";
 
 function App() {
+	window.history.scrollRestoration = "manual";
 	return (
 		<BrowserRouter>
 			<div className="App">
