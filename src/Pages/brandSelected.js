@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { useParams, useHistory } from "react-router-dom";
+import { LinkContainer } from "react-router-bootstrap";
 import BrandContext from "../Components/Context/BrandContext";
 import brandsWithPhotos from "../Data/brandPhotos";
 import capitalizeFirstLetter from "../Components/Functions/capitalizeFirstLetter";
@@ -21,8 +22,11 @@ const BrandSelected = (props) => {
 	};
 	const brandCars = cars
 		.filter((car) => car.brand === brand.name)
-		.map((car) => <div key={car.id}>{car.model}</div>);
-	console.log(brandCars);
+		.map((car) => (
+			<LinkContainer to={`/cars/${car.model}`} key={car.id}>
+				<div id="brand-selected-data-link">{car.model}</div>
+			</LinkContainer>
+		));
 
 	const brandAbout = (
 		<div id="brand-selected-data-container">
@@ -46,6 +50,12 @@ const BrandSelected = (props) => {
 				</a>
 			</h3>
 		</div>
+	);
+
+	const additionalBrandCars = (
+		<h3 id="brand-selected-data">
+			Additional {brand.name} Cars: {brandCars}
+		</h3>
 	);
 	/* test
 	function BrandsAboutTwo() {
@@ -97,7 +107,7 @@ const BrandSelected = (props) => {
 					</div>
 					<div id="brand-selected-container">
 						{brandAbout}
-						{brandCars}
+						{additionalBrandCars}
 						{brandImage}
 					</div>
 					<div id="brand-selected-about">{brand.about}</div>
