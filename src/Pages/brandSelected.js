@@ -16,10 +16,13 @@ const BrandSelected = (props) => {
 		: brandsWithPhotos.find(
 				({ name }) => name === capitalizeFirstLetter(selectedBrand)
 		  );
-	const findCars = cars.filter((car) => car.brand === brand.name);
 	const historyClick = () => {
 		history.goBack();
 	};
+	const brandCars = cars
+		.filter((car) => car.brand === brand.name)
+		.map((car) => <div key={car.id}>{car.model}</div>);
+	console.log(brandCars);
 
 	const brandAbout = (
 		<div id="brand-selected-data-container">
@@ -71,8 +74,6 @@ const BrandSelected = (props) => {
 		);
 	}
 	*/
-
-	const brandCars = findCars.map((car) => <div key={car.id}>{car.model}</div>);
 
 	const brandImage = (
 		<img id="brand-selected-image" src={brand.image} alt={brand.name}></img>
