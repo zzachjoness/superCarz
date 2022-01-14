@@ -25,14 +25,14 @@
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: flex-start;
-	background-color: paleturquoise;
+	background-color: gainsboro;
 }
 #car-selected-column-one {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
-	width: 31rem;
+	width: 28rem;
 }
 #car-selected-column-two {
 	display: flex;
@@ -58,7 +58,6 @@
 }
 #car-selected-data {
 	color: black;
-	background-color: palegreen;
 	text-indent: -4.8rem;
 	max-width: 25rem;
 	margin: 0rem 0rem 0rem 3rem;
@@ -104,7 +103,6 @@
 }
 #car-selected-tech-data {
 	color: black;
-	background-color: palevioletred;
 	text-indent: -4.8rem;
 	max-width: 25rem;
 	margin: 0rem 0rem 0rem 3rem;
@@ -114,12 +112,15 @@
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 200; /* 700,500,400 */
 	user-select: none;
-	border: black 0.1rem;
-	border-style: hidden hidden inset hidden;
+	/*border: black 0.1rem;
+	border-style: hidden hidden inset hidden;*/
 }
 #car-selected-picture-container {
 	margin: 2rem 0rem 0rem 3rem;
-	background-color: palegoldenrod;
+	background-color: rgba(6, 68, 0, 1);
+	font-family: "Helvetica", "Arial", sans-serif;
+	color: white;
+	font-weight: 200;
 	text-align: center;
 }
 #car-selected-picture {
