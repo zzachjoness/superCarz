@@ -2,7 +2,7 @@
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	background-color: gainsboro;
+	background-color: white;
 }
 #all-cars-title-container {
 	margin-top: 5rem;
@@ -37,56 +37,56 @@
 	width: 8rem;
 	height: 3rem;
 	border: solid 0.05rem black;
-	background-color: gainsboro;
+	background-color: white;
 }
 #all-cars-grid-header-component-model {
 	display: flex;
 	width: 14rem;
 	height: 3rem;
 	border: solid 0.05rem black;
-	background-color: gainsboro;
+	background-color: white;
 }
 #all-cars-grid-header-component-class {
 	display: flex;
 	width: 7rem;
 	height: 3rem;
 	border: solid 0.05rem black;
-	background-color: gainsboro;
+	background-color: white;
 }
 #all-cars-grid-header-component-year {
 	display: flex;
 	width: 6rem;
 	height: 3rem;
 	border: solid 0.05rem black;
-	background-color: gainsboro;
+	background-color: white;
 }
 #all-cars-grid-header-component-technical-hp {
 	display: flex;
 	width: 5rem;
 	height: 3rem;
 	border: solid 0.05rem black;
-	background-color: gainsboro;
+	background-color: white;
 }
 #all-cars-grid-header-component-technical-torque {
 	display: flex;
 	width: 7rem;
 	height: 3rem;
 	border: solid 0.05rem black;
-	background-color: gainsboro;
+	background-color: white;
 }
 #all-cars-grid-header-component-technical-zeroSixty {
 	display: flex;
 	width: 9rem;
 	height: 3rem;
 	border: solid 0.05rem black;
-	background-color: gainsboro;
+	background-color: white;
 }
 #all-cars-grid-header-component-technical-topSpeed {
 	display: flex;
 	width: 12rem;
 	height: 3rem;
 	border: solid 0.05rem black;
-	background-color: gainsboro;
+	background-color: white;
 }
 #all-cars-grid-sort-container {
 	padding-right: 0.5rem;
@@ -104,7 +104,7 @@
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 500; /* 700,500,400 */
 	font-variant: small-caps;
-	background-color: gainsboro;
+	background-color: white;
 	align-self: center;
 	padding-left: 0.5rem;
 	flex-grow: 3;
@@ -118,7 +118,7 @@
 	font-size: 1rem;
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 200; /* 700,500,400 */
-	background-color: gainsboro;
+	background-color: white;
 	padding: 0.5rem 0rem 0.5rem 0.5rem;
 }
 #all-cars-grid-car-data-model {
@@ -127,7 +127,7 @@
 	font-size: 1rem;
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 200; /* 700,500,400 */
-	background-color: gainsboro;
+	background-color: white;
 	padding: 0.5rem 0rem 0.5rem 0.5rem;
 	cursor: pointer;
 }
@@ -143,7 +143,7 @@
 	font-size: 1rem;
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 200; /* 700,500,400 */
-	background-color: gainsboro;
+	background-color: white;
 	padding: 0.5rem 0rem 0.5rem 0.5rem;
 }
 #all-cars-grid-car-data-year {
@@ -152,7 +152,7 @@
 	font-size: 1rem;
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 200; /* 700,500,400 */
-	background-color: gainsboro;
+	background-color: white;
 	padding: 0.5rem 0rem 0.5rem 0.5rem;
 }
 #all-cars-grid-car-data-technical-hp {
@@ -161,7 +161,7 @@
 	font-size: 1rem;
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 200; /* 700,500,400 */
-	background-color: gainsboro;
+	background-color: white;
 	padding: 0.5rem 0rem 0.5rem 0.5rem;
 }
 #all-cars-grid-car-data-technical-torque {
@@ -170,7 +170,7 @@
 	font-size: 1rem;
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 200; /* 700,500,400 */
-	background-color: gainsboro;
+	background-color: white;
 	padding: 0.5rem 0rem 0.5rem 0.5rem;
 }
 #all-cars-grid-car-data-technical-zeroSixty {
@@ -179,7 +179,7 @@
 	font-size: 1rem;
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 200; /* 700,500,400 */
-	background-color: gainsboro;
+	background-color: white;
 	padding: 0.5rem 0rem 0.5rem 0.5rem;
 }
 #all-cars-grid-car-data-technical-topSpeed {
@@ -188,6 +188,6 @@
 	font-size: 1rem;
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-weight: 200; /* 700,500,400 */
-	background-color: gainsboro;
+	background-color: white;
 	padding: 0.5rem 0rem 0.5rem 0.5rem;
 }

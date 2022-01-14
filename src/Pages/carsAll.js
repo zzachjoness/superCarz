@@ -64,7 +64,7 @@ const AllCars = () => {
 	return (
 		<div id="all-cars-background">
 			<div id="all-cars-title-container">
-				<div id="all-cars-title">All cars</div>
+				<div id="all-cars-title">All Carz</div>
 			</div>
 			<div id="all-cars-grid-body">
 				<div id="all-cars-grid-container">
