@@ -144,11 +144,11 @@ technical: {
 							</div>
 						</div>
 						<div id="car-selected-container">
-							<div id="car-selected-row">
+							<div id="car-selected-column-one">
 								{carData}
 								{carTechData}
 							</div>
-							<div id="car-selected-row">
+							<div id="car-selected-column-two">
 								{carPicture}
 								{carAbout}
 								{altCars}

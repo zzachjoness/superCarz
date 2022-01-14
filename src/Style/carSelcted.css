@@ -27,7 +27,14 @@
 	align-items: flex-start;
 	background-color: paleturquoise;
 }
-#car-selected-column {
+#car-selected-column-one {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 31rem;
+}
+#car-selected-column-two {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
