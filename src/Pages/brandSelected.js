@@ -53,8 +53,8 @@ const BrandSelected = (props) => {
 	);
 
 	const additionalBrandCars = (
-		<h3 id="brand-selected-data">
-			Additional {brand.name} Cars: {brandCars}
+		<h3 id="brand-selected-data-additional">
+			{brand.name} Cars: {brandCars}
 		</h3>
 	);
 	/* test

@@ -33,7 +33,7 @@ const BrandsAll = () => {
 			{history.action === "PUSH" ? <Spinner /> : null}
 			<div id="brand-background">
 				<div id="brand-title-container">
-					<h2 id="brand-title">Brandz</h2>
+					<h2 id="brand-title">All Brandz</h2>
 				</div>
 
 				<div id="brand-list-container">{brandsList}</div>

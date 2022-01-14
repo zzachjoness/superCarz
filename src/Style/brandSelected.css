@@ -44,6 +44,14 @@
 	font-weight: 200; /* 700,500,400 */
 	user-select: none;
 }
+#brand-selected-data-additional {
+	color: black;
+	margin: 5.4rem 0rem 0.5rem 3rem;
+	font-size: 1.3rem;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: 200; /* 700,500,400 */
+	user-select: none;
+}
 
 #brand-selected-image {
 	margin: 1rem 0rem 0rem 2rem;
